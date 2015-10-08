@@ -197,8 +197,8 @@ a {
     display: inline-block;
     vertical-align: middle;
 }
-.gold {
-    background: url('../img/medal-gold.png') no-repeat center;
+/* --------------- medal --------------- */
+.medal{
     width: 29px;
     height: 36px;
     display: inline-block;
@@ -206,26 +206,39 @@ a {
     line-height: 45px;
     font-size: 12px;
     font-weight: bold;
+}
+.medal_gold {
+    background: url('../img/medal-gold.png') no-repeat center;
     color: #C98000;
 }
-.silver {
+.medal_silver {
     background: url('../img/medal-silver.png') no-repeat center;
-    width: 29px;
-    height: 36px;
-    display: inline-block;
-    text-align: center;
-    line-height: 45px;
-    font-size: 12px;
-    font-weight: bold;
     color: #666666;
 }
+.medal_bronze {
+    background: url('../img/medal-bronze.png') no-repeat center;
+    color: #666666;
+}
+.medal_black{
+     background: url('../img/medal-none.png') no-repeat center;
+     color: #fff;
+}
 
-.last_row_ul {
+/* --------------- /medal --------------- */
+
+.tag {
     display: inline-block;
-    width: 736px;
-    min-height: 30px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 66px;
+}
+.new {
+    background: url('../img/icon-new.png') no-repeat;
+}
+.tag_span {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    vertical-align: middle;
+    margin-right: 2px;
 }
 .ex_prog_link {
     padding: 0 10px;
