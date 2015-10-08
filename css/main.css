@@ -5,11 +5,7 @@
 
 /*
     main styles
-<<<<<<< HEAD
     version: 08.10.2015
-=======
-    version: 15.01.2013
->>>>>>> content
 
     placeholder
 
@@ -18,6 +14,7 @@
     site
 
     logo
+
 */
 
 /* --------------- placeholder --------------- */
@@ -43,7 +40,6 @@
 
 /* --------------- site --------------- */
 .site {
-<<<<<<< HEAD
     position: relative;
     min-height: 100%;
     min-width: 1000px;
@@ -51,13 +47,6 @@
     z-index: 1;
     font: 15px 'Calibri', sans-serif;
     background-image: url("../img/bg-body.jpg");
-=======
-    min-height: 100%;
-    min-width: 1000px;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
->>>>>>> content
 }
 .site:after {
     content: '';
@@ -73,15 +62,9 @@
 }
 .site__header {
     position: relative;
-<<<<<<< HEAD
     height: 190px;
     border-bottom: 3px solid #bfbfbf;
     background: #e500a7;
-=======
-
-    height: 100px;
-    background: red;
->>>>>>> content
     z-index: 3;
 
 }
@@ -101,7 +84,6 @@
 }
 /* --------------- /site --------------- */
 
-<<<<<<< HEAD
 /* ----------- site__header ----------- */
 .site__header-layout{
     width: 960px;
@@ -131,12 +113,3 @@
     color: #fff;
 }
 /* ----------- /header__menu ----------- */
-=======
-/* --------------- logo --------------- */
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-/* --------------- /logo --------------- */
->>>>>>> content
