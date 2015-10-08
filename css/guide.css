@@ -88,7 +88,7 @@
     margin-left: 5px;
     line-height: 50px;
 }
-.item-logo{
+.item-icon{
     background: url('../img/icon-finger_up.png') no-repeat center;
     display: inline-block;
     width: 33px;
@@ -179,7 +179,7 @@ li {
     color: #e500a7;
 }
 a {
-    color: #666666;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
     letter-spacing: .25px;
@@ -270,6 +270,48 @@ a {
     height: 20px;
     cursor: pointer;
     position: relative;
+}
+.ex_program span {
+    z-index: 10;
+    display: none;
+    padding: 10px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    border: 1px solid #dedede;
+    width: 120px;
+}
+span.ex_program_content {
+    z-index: 10;
+    display: none;
+    padding: 10px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    border: 1px solid #dedede;
+    width: 120px;
+}
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid black;
+    margin-left: 40px;
+    margin-top: 15px;
+    display: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 /* --------------- /item --------------- */
