@@ -109,7 +109,12 @@
     margin: 0 auto;
 }
 .header__menu a{
+    display: inline-block;
+    height: 40px;
     font-size: 15px;
     color: #fff;
+}
+.header__menu a{
+    background-color: #920071;
 }
 /* ----------- /header__menu ----------- */
