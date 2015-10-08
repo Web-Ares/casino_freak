@@ -5,11 +5,7 @@
 
 /*
     main styles
-<<<<<<< HEAD
-    version: 08.10.2015
-=======
     version: 15.01.2013
->>>>>>> content
 
     placeholder
 
@@ -43,21 +39,11 @@
 
 /* --------------- site --------------- */
 .site {
-<<<<<<< HEAD
-    position: relative;
-    min-height: 100%;
-    min-width: 1000px;
-    overflow: hidden;
-    z-index: 1;
-    font: 15px 'Calibri', sans-serif;
-    background-image: url("../img/bg-body.jpg");
-=======
     min-height: 100%;
     min-width: 1000px;
     overflow: hidden;
     position: relative;
     z-index: 1;
->>>>>>> content
 }
 .site:after {
     content: '';
@@ -73,15 +59,9 @@
 }
 .site__header {
     position: relative;
-<<<<<<< HEAD
-    height: 190px;
-    border-bottom: 3px solid #bfbfbf;
-    background: #e500a7;
-=======
 
     height: 100px;
     background: red;
->>>>>>> content
     z-index: 3;
 
 }
@@ -99,39 +79,39 @@
     height: 100px;
     background: blue;
 }
+/* --------------- item --------------- */
+.item{
+    width: 758px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    margin-bottom: 11px;
+}
+.item-title{
+    color: #666666;
+    font-size: 24px;
+    font-weight: normal;
+    width: 750px;
+    margin-left: 5px;
+    line-height: 50px;
+}
+.item-logo{
+    background: url('../images/iconsBullets.png') no-repeat -7px -9px;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin-left: 7px;
+    margin-right: 10px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    float: left;
+}
+
+
+/* --------------- /item --------------- */
 /* --------------- /site --------------- */
 
-<<<<<<< HEAD
-/* ----------- site__header ----------- */
-.site__header-layout{
-    width: 960px;
-    height: 150px;
-    margin: 0 auto;
-    background: url("../img/bg-head.png") no-repeat 100% 100%;
-}
-/* ----------- /site__header ---------- */
-
-/* --------------- logo --------------- */
-.logo {
-
-}
-/* --------------- /logo --------------- */
-
-/* ----------- header__menu ------------ */
-.header__menu{
-    height: 40px;
-    background-color: #c1008d;
-}
-.header__menu-layout{
-    width: 960px;
-    margin: 0 auto;
-}
-.header__menu a{
-    font-size: 15px;
-    color: #fff;
-}
-/* ----------- /header__menu ----------- */
-=======
 /* --------------- logo --------------- */
 .logo {
     position: absolute;
@@ -139,4 +119,3 @@
     left: 0;
 }
 /* --------------- /logo --------------- */
->>>>>>> content
