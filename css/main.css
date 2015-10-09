@@ -105,16 +105,26 @@
     background-color: #c1008d;
 }
 .header__menu-layout{
+    display: table;
     width: 960px;
     margin: 0 auto;
 }
-.header__menu a{
-    display: inline-block;
-    height: 40px;
-    font-size: 15px;
-    color: #fff;
+.header__menu li{
+    display: table-cell;
 }
 .header__menu a{
+    display:block;
+    height: 40px;
+    padding: 9px 20px 0;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+.header__menu a{
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease;
+}
+.header__menu a:hover{
     background-color: #920071;
 }
 /* ----------- /header__menu ----------- */
