@@ -1,53 +1,99 @@
 @charset "utf-8";
-
+/* --------------- item --------------- */
+.content__item{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    margin-bottom: 6px;
+    padding: 7.5px;
+}
+.content__item-title{
+    color: #666666;
+    font-size: 12px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dedede;
+}
+.content__item-icon{
+    background: url('../img/icon-finger_up.png') no-repeat center;
+    background-size: contain;
+    width: 16.5px;
+    height: 16.5px;
+    margin-right: 8px;
+    float: left;
+}
+.item_guide{
+    padding-bottom: 17px;
+}
+.show-all {
+    float: right;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.show-all a{
+    color: #e500a7;
+}
 .item__table{
     display: inline-block;
     height: 33px;
     background-color: #e500a7;
     width: 100%;
 }
-.item__table__header{
+.column {
     display: inline-block;
-    padding-left: 10px;
+    color: #666666;
+    font-size: 13px;
+}
+.item__table__header{
+    padding-left: 17px;
+    margin-top: 5px;
 }
 .item__table-row{
     display:block;
     width: 100%;
     border-bottom: 1px solid #F2F2F2;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 13px;
+}
+.header-title{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 10px;
 }
 .num {
-    width: 25px;
-    min-height: 30px;
-    padding-right: 5px;
+    display: none;
+    width: 3%;
+    padding-right: 23px;
 }
-.column {
-    display: inline-block;
-    color: #666666;
-    font-size: 13px;
-}
+
 .score {
-    width: 41px;
+    width: 9%;
     padding-bottom: 10px;
 }
 .flag {
-    width: 35px;
-    padding-left: 10px;
+    width: 7%;
+
 }
 .casino {
-    width: 140px;
+    width: 26%;
+
 }
 .welcome {
-    width: 180px;
-    margin-left: 5px;
+    width: 36%;
     vertical-align: middle;
 }
 .tag {
-    width: 66px;
+    display: none;
+    width: 7%;
 }
 .software{
-    width: 93px;
+    display: none;
+    width: 11%;
 }
 .link-color {
     color: #e500a7;
@@ -75,18 +121,15 @@ a {
     text-align: center;
     color: #FFFFFF;
 }
+.btn_review{
+    display: none;
+}
 .btn_play{
     width: 56px;
-    margin-left: 3px;
+    margin-left: -1px;
 }
 /* --------------- /btn --------------- */
-.header-title{
-    display: inline-block;
-    color: #fff;
-    font-size: 14px;
-    text-align: left;
-    line-height: 33px;
-}
+
 .israel-flag {
     background: url('../img/flag-israel.png') no-repeat;
     width: 24px;
@@ -121,16 +164,11 @@ a {
     color: #666666;
 }
 .medal_black{
-     background: url('../img/medal-none.png') no-repeat center;
-     color: #fff;
+    background: url('../img/medal-none.png') no-repeat center;
+    color: #fff;
 }
 
 /* --------------- /medal --------------- */
-
-.tag {
-    display: inline-block;
-    width: 66px;
-}
 .new {
     background: url('../img/icon-new.png') no-repeat;
 }
@@ -163,6 +201,7 @@ a {
 }
 .popup-software div{
     position: absolute;
+    margin: 11px 0px 0 -31px;
     z-index: 10;
     display: none;
     padding: 10px 0px;
@@ -176,15 +215,8 @@ a {
     border: 1px solid #dedede;
     width: 217px;
 }
-
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-
 .popup-software div:after, .popup-software div:before {
     bottom: 100%;
-    left: 50%;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -195,14 +227,15 @@ li {
 .popup-software div:after {
     border-color: rgba(255, 255, 255, 0);
     border-bottom-color: #fff;
-    border-width: 5px;
-    margin-left: -30px;
+    border-width: 8px;
+    left: 35px;
+
 }
 .popup-software div:before {
     border-color: rgba(194, 225, 245, 0);
     border-bottom-color: #c2e1f5;
-    border-width: 5px;
-    margin-left: -31px;
+    border-width: 8px;
+    left: 35px;
 }
 
 /* --------------- /item --------------- */
@@ -215,3 +248,26 @@ li {
     left: 0;
 }
 /* --------------- /logo --------------- */
+@media (min-width:730px){
+    /* --------------- item__table-row --------------- */
+    .num{
+        display: inline-block;
+        width: 3%;
+    }
+    .score {width: 6%;}
+    .flag {width: 5.5%;}
+    .casino {width: 17%;}
+    .tag{
+        display: inline-block;
+        width: 8%;
+    }
+    .welcome {width: 22%;}
+    .software{
+        display: inline-block;
+        width: 13.4%;
+    }
+    .btn_review{
+        display: inline-block;
+    }
+    /* --------------- /item__table-row --------------- */
+}
