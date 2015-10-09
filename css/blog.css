@@ -44,3 +44,15 @@
     text-decoration: underline;
 }
 /* ---------blog-list-------- */
+
+/* ---------sendmail-------- */
+input.sendmail{
+    padding:5px;
+    border: 1px solid #c8c3c6;
+}
+/* ---------/sendmail-------- */
+/* --------btn-------- */
+.btn_blog{
+
+}
+/* --------/btn-------- */
