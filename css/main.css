@@ -47,14 +47,6 @@
     font: 15px 'Calibri', sans-serif;
     background-image: url("../img/bg-body.jpg");
 }
-.site:after {
-    content: '';
-    display: block;
-    clear: both;
-    width: 100%;
-
-    height: 100px;
-}
 .site__content {
     position: relative;
     z-index: 2;
@@ -65,21 +57,17 @@
     border-bottom: 3px solid #bfbfbf;
     background: #e500a7;
     z-index: 3;
-
 }
 .site__footer {
+    padding-top: 15px;
+    color: #fff;
+    background-color: #e500a7;
     z-index: 2;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100px;
 }
 .site__footer-layout {
     width: 100%;
-
-    height: 100px;
-    background: blue;
+    padding: 0 11px;
+    background: #e500a7;
 }
 /* --------------- /site --------------- */
 
@@ -114,7 +102,7 @@
 .header__menu a{
     display:block;
     height: 40px;
-    padding: 9px 20px 0;
+    padding: 11px 20px 0;
     font-size: 15px;
     color: #fff;
     text-align: center;
@@ -127,3 +115,47 @@
     background-color: #920071;
 }
 /* ----------- /header__menu ----------- */
+
+/* ----------- site__footer ----------- */
+.site__footer-layout{
+    font-size: 12px;
+    text-align: center;
+}
+.site__footer-layout a{
+    display: block;
+    color: #fff;
+}
+.footer__navigate{
+    margin-bottom: 109px;
+    text-align: left;
+}
+.footer__navigate dl{
+    margin-bottom: 22px;
+    border-bottom: 1px solid #fff;
+}
+.footer__navigate dt{
+    margin-bottom: 12px;
+    font-size: 17.5px;
+}
+.footer__navigate dd{
+    padding: 7px 0 14px;
+    border-top: 1px solid #fff;
+}
+/* ----------- /site__footer ---------- */
+
+@media (min-width: 767px) {
+    .site:after {
+        content: '';
+        display: block;
+        clear: both;
+        width: 100%;
+        height: 309px;
+    }
+    .site__footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100px;
+    }
+}
