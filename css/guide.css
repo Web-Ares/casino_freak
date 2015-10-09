@@ -1,4 +1,3 @@
-
 /* --------------- item --------------- */
 .content__item{
     width: 100%;
@@ -42,10 +41,10 @@
     width: 100%;
 }
 .column {
-     display: inline-block;
-     color: #666666;
-     font-size: 13px;
- }
+    display: inline-block;
+    color: #666666;
+    font-size: 13px;
+}
 .item__table__header{
     padding-left: 17px;
     margin-top: 5px;
@@ -59,12 +58,12 @@
     margin-bottom: 13px;
 }
 .header-title{
-     display: inline-block;
-     color: #fff;
-     font-size: 14px;
-     text-align: left;
-     line-height: 10px;
- }
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 10px;
+}
 .num {
     display: none;
     width: 3%;
@@ -164,8 +163,8 @@ a {
     color: #666666;
 }
 .medal_black{
-     background: url('../img/medal-none.png') no-repeat center;
-     color: #fff;
+    background: url('../img/medal-none.png') no-repeat center;
+    color: #fff;
 }
 
 /* --------------- /medal --------------- */
@@ -269,5 +268,5 @@ a {
     .btn_review{
         display: inline-block;
     }
-/* --------------- /item__table-row --------------- */
+    /* --------------- /item__table-row --------------- */
 }
