@@ -127,3 +127,46 @@
     background-color: #920071;
 }
 /* ----------- /header__menu ----------- */
+/* --------------- content__item --------------- */
+.content__item{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    margin-bottom: 6px;
+    padding: 7.5px;
+}
+.content__item-title{
+    color: #666666;
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 4px;
+}
+.content__item p{
+    font-size: 10px;
+}
+.content__item-icon{
+    background: url('../img/icon-finger_up.png') no-repeat center;
+    background-size: contain;
+    width: 16.5px;
+    height: 16.5px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.content__item-name{
+    display: inline-block;
+    width: 72%;
+    vertical-align: middle;
+}
+.show-all {
+    float: right;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.show-all a{
+    color: #e500a7;
+}
+/* --------------- /content__item --------------- */
