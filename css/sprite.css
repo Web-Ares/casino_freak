@@ -1,0 +1,383 @@
+.icon_flag{
+    background: url('../img/flags-sprite.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+.israel_flag {
+    background-position:  -77px -386px;
+}
+
+.israel_black {
+    background-position:  -492px -386px;
+}
+
+.australia_flag {
+    background-position:  -204px -562px;
+}
+
+.australia_black {
+    background-position:  -619px -562px;
+}
+
+.china_flag {
+    background-position:  -35px -421px;
+}
+
+.china_black {
+    background-position:  -450px -421px;
+}
+
+.japan_flag {
+    background-position:  -204px -315px;
+}
+
+.japan_black {
+    background-position:  -619px -315px;
+}
+
+.thailand_flag {
+    background-position:  0 -421px;
+}
+
+.thailand_black {
+    background-position:  -415px -421px;
+}
+
+.india_flag {
+    background-position:  0 -386px;
+}
+
+.india_black {
+    background-position:  -415px -386px;
+}
+
+.malaysia_flag {
+    background-position:  -35px -562px;
+}
+
+.malaysia_black {
+    background-position:  -450px -562px;
+}
+
+.brazil_flag {
+    background-position:  -330px -105px;
+}
+
+.brazil_black {
+    background-position:  -745px -105px;
+}
+
+.canada_flag {
+    background-position:  -248px -35px;
+}
+
+.canada_black {
+    background-position:  -663px -35px;
+}
+
+.best_flag {
+    float: left;
+    margin-top: 7px;
+    padding-left: 5px;
+}
+
+.france_flag {
+    background-position:  -290px -386px;
+}
+
+.france_black {
+    background-position:  -705px -386px;
+}
+
+.germany_flag {
+    background-position:  -248px -421px;
+}
+
+.germany_black {
+    background-position:  -663px -421px;
+}
+
+.greece_flag {
+    background-position:  -375px -351px;
+}
+
+.greece_black {
+    background-position:  -790px -351px;
+}
+
+.italy_flag {
+    background-position:  -290px -245px;
+}
+
+.italy_black {
+    background-position:  -705px -245px;
+}
+
+.netherlands_flag {
+    background-position:  -375px -421px;
+}
+
+.netherlands_black {
+    background-position:  -790px -421px;
+}
+
+.russian_federation_flag {
+    background-position:  -248px -175px;
+}
+
+.russian_federation_black {
+    background-position:  -663px -175px;
+}
+
+.south_africa_flag {
+    background-position:  -204px -140px;
+}
+
+.south_africa_black {
+    background-position:  -619px -140px;
+}
+
+.spain_flag {
+    background-position:  -122px 0;
+}
+
+.spain_black {
+    background-position:  -536px 0;
+}
+
+.ukraine_flag {
+    background-position:  -330px -351px;
+}
+
+.ukraine_black {
+    background-position:  -745px -351px; /* width:24px; *//* height:24px; */
+    
+}
+
+.united_states_flag {
+    background-position:  -121px -281px;
+}
+
+.united_states_black {
+    background-position:  -536px -281px;
+}
+
+.united_kingdom_flag {
+    background-position:  -290px -421px;
+}
+
+.united_kingdom_black {
+    background-position:  -705px -421px;
+}
+
+.argentina_flag {
+    background-position:  -77px 0;
+}
+
+.argentina_black {
+    background-position:  -491px 0;
+}
+
+.austria_flag {
+    background-position:  -248px -245px;
+}
+
+.austria_black {
+    background-position:  -663px -245px;
+}
+
+.belgium_flag {
+    background-position:  -330px -421px;
+}
+
+.belgium_black {
+    background-position:  -745px -421px;
+}
+
+.bulgaria_flag {
+    background-position:  -375px -316px;
+}
+
+.bulgaria_black {
+    background-position:  -790px -316px;
+}
+
+.chad_flag {
+    background-position:  -35px -105px;
+}
+
+.chad_black {
+    background-position:  -450px -105px;
+}
+
+.czech_republic_flag {
+    background-position:  -375px -280px;
+}
+
+.czech_republic_black {
+    background-position:  -790px -280px;
+}
+
+.denmark_flag {
+    background-position:  -375px -245px;
+}
+
+.denmark_black {
+    background-position:  -790px -245px;
+}
+
+.estonia_flag {
+    background-position:  -290px -210px;
+}
+
+.estonia_black {
+    background-position:  -705px -210px;
+}
+
+.finland_flag {
+    background-position:  -330px -386px;
+}
+
+.finland_black {
+    background-position:  -745px -386px;
+}
+
+.hungary_flag {
+    background-position:  -248px -280px;
+}
+
+.hungary_black {
+    background-position:  -663px -280px;
+}
+
+.ireland_flag {
+    background-position:  -330px -280px;
+}
+
+.ireland_black {
+    background-position:  -745px -280px;
+}
+
+.kazakhstan_flag {
+    background-position:  -77px -492px;
+}
+
+.kazakhstan_black {
+    background-position:  -492px -492px;
+}
+
+.latvia_flag {
+    background-position:  -248px -316px;
+    
+    
+}
+
+.latvia_black {
+    background-position:  -663px -316px;
+}
+
+.lithuania_flag {
+    background-position:  -330px -210px;
+}
+
+.lithuania_black {
+    background-position:  -745px -210px;
+}
+
+.luxembourg_flag {
+    background-position:  -290px -280px;
+}
+
+.luxembourg_black {
+    background-position:  -705px -280px;
+}
+
+.new_zealand_flag {
+    background-position:  -248px -527px;
+}
+
+.new_zealand_black {
+    background-position:  -663px -527px;
+}
+
+.norway_flag {
+    background-position:  -248px -457px;
+}
+
+.norway_black {
+    background-position:  -663px -457px;
+}
+
+.philippines_flag {
+    background-position:  0 -562px;
+}
+
+.philippines_black {
+    background-position:  -415px -562px;
+}
+
+.poland_flag {
+    background-position:  -375px -386px;
+}
+
+.poland_black {
+    background-position:  -790px -386px;
+}
+
+.romania_flag {
+    background-position:  -248px -351px;
+}
+
+.romania_black {
+    background-position:  -663px -351px;
+}
+
+.singapore_flag {
+    background-position:  -121px -492px;
+}
+
+.singapore_black {
+    background-position:  -536px -492px;
+}
+
+.slovakia_flag {
+    background-position:  -290px -351px;
+}
+
+.slovakia_black {
+    background-position:  -705px -351px;
+}
+
+.slovenia_flag {
+    background-position:  -330px -245px;
+}
+
+.slovenia_black {
+    background-position:  -745px -245px;
+}
+
+.sweden_flag {
+    background-position:  -330px -316px;
+}
+
+.sweden_black {
+    background-position:  -745px -316px;
+}
+
+.switzerland_flag {
+    background-position:  -290px -316px;
+}
+
+.switzerland_black {
+    background-position:  -705px -316px;
+}
+
+.uruguay_flag {
+    background-position:  -375px -35px;
+}
+
+.uruguay_black {
+    background-position:  -790px -35px;
+}
+
