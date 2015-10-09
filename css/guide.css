@@ -32,7 +32,6 @@
 /* --------------- site --------------- */
 .site {
     min-height: 100%;
-    min-width: 1000px;
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -46,6 +45,8 @@
     height: 100px;
 }
 .site__content {
+    width: 100%;
+    margin: 0 auto;
     position: relative;
     z-index: 2;
 }
@@ -72,36 +73,36 @@
     background: blue;
 }
 /* --------------- item --------------- */
-.item{
-    width: 758px;
+.content__item{
+    width: 100%;
     height: 100%;
     background-color: white;
     margin: 0 auto;
     border: 1px solid #dedede;
-    margin-bottom: 11px;
-    padding-bottom: 15px;
+    margin-bottom: 6px;
+    padding: 7.5px;
 }
-.item-title{
+.content__item-title{
     color: #666666;
-    font-size: 24px;
-    font-weight: normal;
-    width: 750px;
+    font-size: 12px;
     margin-left: 5px;
-    line-height: 50px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dedede;
 }
-.item-icon{
+.content__item-icon{
     background: url('../img/icon-finger_up.png') no-repeat center;
-    width: 33px;
-    height: 33px;
-    margin: 9px 10px 9px 7px;
+    background-size: contain;
+    width: 16.5px;
+    height: 16.5px;
+    margin-right: 8px;
     float: left;
 }
-.show_all {
+.show-all {
     float: right;
-    font-size: 14px;
+    font-size: 10px;
     padding-right: 10px;
 }
-.show_all a{
+.show-all a{
     color: #e500a7;
 }
 .item__table{
@@ -143,8 +144,9 @@
     width: 140px;
 }
 .welcome {
-    width: 190px;
+    width: 180px;
     margin-left: 5px;
+    vertical-align: middle;
 }
 .tag {
     width: 66px;
@@ -152,7 +154,7 @@
 .software{
     width: 93px;
 }
-.link_color {
+.link-color {
     color: #e500a7;
 }
 a {
@@ -190,13 +192,17 @@ a {
     text-align: left;
     line-height: 33px;
 }
-.israel_flag {
+.israel-flag {
     background: url('../img/flag-israel.png') no-repeat;
     width: 24px;
     height: 24px;
     display: inline-block;
     vertical-align: middle;
 }
+.israel-flag_light {
+    background: url('../img/flag-israel_light.png') no-repeat;
+}
+
 /* --------------- medal --------------- */
 .medal{
     width: 29px;
@@ -240,18 +246,28 @@ a {
     vertical-align: middle;
     margin-right: 2px;
 }
-.ex_prog_link {
+.content-item {
+    font-size: 14px;
     padding: 0 10px;
     display: block;
+    line-height: 20px;
+
 }
-.ex_program {
+.popup-software{
     display: inline-block;
     width: 30px;
     height: 20px;
     cursor: pointer;
     position: relative;
 }
-.ex_program span {
+.popup-software:hover div.popup-software__content{
+    display: block;
+}
+.popup-software{
+    position: relative;
+}
+.popup-software div{
+    position: absolute;
     z-index: 10;
     display: none;
     padding: 10px 0px;
@@ -263,35 +279,35 @@ a {
     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.15);
     box-shadow: 0 5px 10px rgba(0,0,0,.15);
     border: 1px solid #dedede;
-    width: 120px;
+    width: 217px;
 }
-span.ex_program_content {
-    z-index: 10;
-    display: none;
-    padding: 10px 0px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.15);
-    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.15);
-    box-shadow: 0 5px 10px rgba(0,0,0,.15);
-    border: 1px solid #dedede;
-    width: 120px;
-}
-.arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid black;
-    margin-left: 40px;
-    margin-top: 15px;
-    display: none;
-}
+
 li {
     display: list-item;
     text-align: -webkit-match-parent;
+}
+
+.popup-software div:after, .popup-software div:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.popup-software div:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 5px;
+    margin-left: -30px;
+}
+.popup-software div:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #c2e1f5;
+    border-width: 5px;
+    margin-left: -31px;
 }
 
 /* --------------- /item --------------- */
