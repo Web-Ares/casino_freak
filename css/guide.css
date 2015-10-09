@@ -79,6 +79,7 @@
     margin: 0 auto;
     border: 1px solid #dedede;
     margin-bottom: 11px;
+    padding-bottom: 15px;
 }
 .item-title{
     color: #666666;
@@ -90,17 +91,12 @@
 }
 .item-icon{
     background: url('../img/icon-finger_up.png') no-repeat center;
-    display: inline-block;
     width: 33px;
     height: 33px;
-    margin-left: 7px;
-    margin-right: 10px;
-    margin-top: 9px;
-    margin-bottom: 9px;
+    margin: 9px 10px 9px 7px;
     float: left;
 }
 .show_all {
-    display: inline-block;
     float: right;
     font-size: 14px;
     padding-right: 10px;
@@ -108,72 +104,53 @@
 .show_all a{
     color: #e500a7;
 }
-.top_casinos_ul {
+.item__table{
     display: inline-block;
     height: 33px;
     background-color: #e500a7;
-    width: 758px;
+    width: 100%;
 }
-.wrap_li {
+.item__table__header{
     display: inline-block;
     padding-left: 10px;
 }
-li {
-    list-style-type: none;
-}
-.row_ul {
-    display: inline-block;
-    width: 736px;
-    min-height: 30px;
+.item__table-row{
+    display:block;
+    width: 100%;
     border-bottom: 1px solid #F2F2F2;
     margin-top: 10px;
     margin-left: 10px;
 }
-.casino_num {
-    display: inline-block;
+.num {
     width: 25px;
     min-height: 30px;
     padding-right: 5px;
 }
 .column {
-    float: left;
+    display: inline-block;
     color: #666666;
     font-size: 13px;
-    text-align: left;
-    display: inline-block;
 }
 .score {
-    display: inline-block;
     width: 41px;
-    min-height: 30px;
     padding-bottom: 10px;
 }
 .flag {
-    display: inline-block;
     width: 35px;
-    min-height: 30px;
     padding-left: 10px;
 }
-.casino_name {
-    display: inline-block;
+.casino {
     width: 140px;
-    min-height: 30px;
 }
 .welcome {
-    display: inline-block;
     width: 190px;
-    min-height: 30px;
     margin-left: 5px;
 }
 .tag {
-    display: inline-block;
     width: 66px;
-    min-height: 30px;
 }
-.casino_software {
-    display: inline-block;
+.software{
     width: 93px;
-    min-height: 30px;
 }
 .link_color {
     color: #e500a7;
@@ -184,7 +161,8 @@ a {
     cursor: pointer;
     letter-spacing: .25px;
 }
-.review_btn {
+/* --------------- btn --------------- */
+.btn {
     cursor: pointer;
     outline: 0;
     border: 0;
@@ -200,38 +178,27 @@ a {
     text-align: center;
     color: #FFFFFF;
 }
-.play_btn {
-    cursor: pointer;
-    outline: 0;
-    border: 0;
-    height: 21px;
+.btn_play{
     width: 56px;
-    line-height: 22px;
-    background-color: #920071;
-    -moz-transition: all .15s ease-in-out;
-    -webkit-transition: all .15s ease-in-out;
-    -o-transition: all .15s ease-in-out;
-    -ms-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
     margin-left: 3px;
-    text-align: center;
-    color: #FFFFFF;
 }
-.column_name {
-    float: left;
-    color: #FFFFFF;
+/* --------------- /btn --------------- */
+.header-title{
+    display: inline-block;
+    color: #fff;
     font-size: 14px;
     text-align: left;
     line-height: 33px;
 }
-.ukraine_flag {
-    background: url('../img/flag-israel.png') no-repeat center;
+.israel_flag {
+    background: url('../img/flag-israel.png') no-repeat;
     width: 24px;
     height: 24px;
     display: inline-block;
+    vertical-align: middle;
 }
-.gold {
-    background: url('../img/medal-gold.png') no-repeat center;
+/* --------------- medal --------------- */
+.medal{
     width: 29px;
     height: 36px;
     display: inline-block;
@@ -239,26 +206,39 @@ a {
     line-height: 45px;
     font-size: 12px;
     font-weight: bold;
+}
+.medal_gold {
+    background: url('../img/medal-gold.png') no-repeat center;
     color: #C98000;
 }
-.silver {
+.medal_silver {
     background: url('../img/medal-silver.png') no-repeat center;
-    width: 29px;
-    height: 36px;
-    display: inline-block;
-    text-align: center;
-    line-height: 45px;
-    font-size: 12px;
-    font-weight: bold;
     color: #666666;
 }
+.medal_bronze {
+    background: url('../img/medal-bronze.png') no-repeat center;
+    color: #666666;
+}
+.medal_black{
+     background: url('../img/medal-none.png') no-repeat center;
+     color: #fff;
+}
 
-.last_row_ul {
+/* --------------- /medal --------------- */
+
+.tag {
     display: inline-block;
-    width: 736px;
-    min-height: 30px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 66px;
+}
+.new {
+    background: url('../img/icon-new.png') no-repeat;
+}
+.tag_span {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    vertical-align: middle;
+    margin-right: 2px;
 }
 .ex_prog_link {
     padding: 0 10px;
