@@ -62,6 +62,7 @@
 }
 .title_guide{
     border: none;
+    padding-bottom: 8px;
 }
 .item__table{
     display: inline-block;
@@ -75,7 +76,6 @@
     font-size: 13px;
 }
 .item__table-header{
-    padding-left: 17px;
     margin-top: 5px;
 }
 .item__table-row{
@@ -83,7 +83,6 @@
     width: 100%;
     border-bottom: 1px solid #F2F2F2;
     margin-top: 10px;
-    margin-left: 20px;
     margin-bottom: 13px;
 }
 .table-title{
@@ -127,28 +126,36 @@
 }
 /* --------------- medal --------------- */
 .medal{
-    width: 29px;
-    height: 36px;
     display: inline-block;
     text-align: center;
-    line-height: 45px;
-    font-size: 12px;
+    font-weight: bold;
+    width: 14.5px;
+    height: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: 23px;
+    font-size: 8px;
     font-weight: bold;
 }
+
 .medal_gold {
     background: url('../img/medal-gold.png') no-repeat center;
+    background-size: contain;
     color: #C98000;
 }
 .medal_silver {
     background: url('../img/medal-silver.png') no-repeat center;
+    background-size: contain;
     color: #666666;
 }
 .medal_bronze {
     background: url('../img/medal-bronze.png') no-repeat center;
+    background-size: contain;
     color: #666666;
 }
 .medal_black{
     background: url('../img/medal-none.png') no-repeat center;
+    background-size: contain;
     color: #fff;
 }
 
@@ -223,9 +230,114 @@
 }
 .item-icon_cub{
     background: url('../img/icon-cub.png') no-repeat center;
+    background-size: contain;
+}
+.item-icon_comments{
+    background: url('../img/coments_icon.png') no-repeat center;
+    background-size: contain;
 }
 /* --------------- /item --------------- */
 /* --------------- /site --------------- */
+
+/* --------------- Comments --------------- */
+.comments-issue{
+    color: #cb9652;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 42px;
+}
+.comments-selection{
+    font-weight: bold;
+    color: #e500a7;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.comments__scale{
+    font-size: 10px;
+    line-height: 17px;
+}
+.comments__scale-line{
+    display: inline-block;
+    width: 65px;
+    height: 9px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    border: 1px solid #dedede;
+    margin-left:10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.scale-line-yes{
+    width: 90%;
+    height: 100%;
+    background: #ffbf00;
+    border-right: 1px solid #dedede;
+}
+.scale-line-no{
+    width: 0;
+}
+.line_no{
+    margin-left:12px;
+}
+/* --------------- form --------------- */
+form {
+    font-size: 10px;
+    width: 150px;
+    overflow: hidden;
+}
+textarea{
+    background: #fff;
+    width: 100%;
+    height: 33px;
+    border: 1px solid #dedede;
+    display:block;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 300;
+    color:black;
+    padding-top: 2px;
+    overflow:hidden;
+    margin-bottom: -4px;
+}
+input {
+    width: 65%;
+    height: 17px;
+    border: 1px solid #dedede;
+    display:block;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 300;
+    color:#fff;
+    padding-right:20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+input[type=submit] {
+    cursor:pointer;
+}
+input.name {
+    color:#000;
+    border: 1px solid #dedede;
+}
+input.email {
+    color:#000;
+    border: 1px solid #dedede;
+}
+input.Subject{
+    color:#000;
+    font-size: 14px;
+    background:#fff;
+    padding-left:25px;
+    border: 1px solid #0175f1;
+}
+input:focus, textarea:focus {
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+/* --------------- /form --------------- */
+.btn_post{
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
+}
+/* --------------- /Comments --------------- */
 
 /* --------------- logo --------------- */
 .logo {
@@ -235,6 +347,47 @@
 }
 /* --------------- /logo --------------- */
 @media (min-width:730px){
+    form {
+        font-size: 14px;
+        width: 303px;
+        overflow: hidden;
+    }
+    textarea{
+        height: 66px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    input {
+        width: 65%;
+        height: 34px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+    input.email {
+        padding-left: 10px;
+    }
+    /* --------------- Comments --------------- */
+    .comments__scale{
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .comments-issue{
+        font-size: 14px;
+    }
+    .comments-selection{
+        font-size:14px;
+    }
+    .comments__scale-line{
+        width: 130px;
+        height: 18px;
+    }
+    .btn_post{
+        font-size: 14px;
+        width: 165px;
+        height: 36px;
+    }
+    /* --------------- /Comments --------------- */
     .italic{
         font-size: 14px;
     }
@@ -274,6 +427,12 @@
         display: inline-block;
         width: 3%;
     }
+    .item__table-header{
+        padding-left: 17px;
+    }
+    .item__table-row{
+        margin-left: 20px;
+    }
     .score {width: 6%;}
     .flag {width: 5.5%;}
     .casino {width: 17%;}
@@ -288,6 +447,12 @@
     }
     .btn_review{
         display: inline-block;
+    }
+    .medal{
+        width: 29px;
+        height: 36px;
+        line-height: 45px;
+        font-size: 12px;
     }
     /* --------------- /item__table-row --------------- */
 }
