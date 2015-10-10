@@ -3,6 +3,7 @@
     width: 24px;
     height: 24px;
     display: inline-block;
+    vertical-align: middle;
 }
 .israel_flag {
     background-position:  -77px -386px;
