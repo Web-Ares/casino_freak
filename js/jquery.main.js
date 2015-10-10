@@ -29,8 +29,17 @@ Shablon.prototype = {
     }
 };
 
+
 $(window).on({
     load: function () {
-        
+
     }
+});
+
+$(".read_more").click(function(){
+    $(".mobile_guide_page p").toggleClass("active");
+    return false;
+});
+$(".menu__close").click(function(){
+    $(this).removeClass('active');
 });
