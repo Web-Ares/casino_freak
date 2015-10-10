@@ -19,13 +19,13 @@
 
 /* --------------- placeholder --------------- */
 ::-webkit-input-placeholder {
-    color: #000;
+    color: #c8c3c6;
 }
 :-moz-placeholder {
-    color: #000;
+    color: #c8c3c6;
 }
 .placeholder {
-    color: #000;
+    color: #c8c3c6;
 }
 /* --------------- /placeholder --------------- */
 
@@ -158,7 +158,7 @@
 }
 .content__item-name{
     display: inline-block;
-    width: 72%;
+    width: 67%;
     vertical-align: middle;
 }
 .show-all {

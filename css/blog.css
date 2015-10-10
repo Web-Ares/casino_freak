@@ -6,6 +6,9 @@
     margin-top: 1px;
     margin-bottom: 18px;
 }
+.item_blog form{
+    height: 20px;
+}
 .icon-blog{
     background: url('../img/icon-freak.png') no-repeat center;
     background-size: contain;
@@ -13,6 +16,11 @@
 }
 .icon-email{
     background: url('../img/email-search.png') no-repeat center;
+    background-size: contain;
+    overflow: hidden;
+}
+.icon-posts{
+    background: url('../img/iconnew.png') no-repeat center;
     background-size: contain;
     overflow: hidden;
 }
@@ -50,15 +58,53 @@ input.sendmail{
     padding:5px;
     border: 1px solid #c8c3c6;
     width: 100%;
+    height: 20px;
 }
 /* ---------/sendmail-------- */
 /* --------btn-------- */
 .btn_blog{
+    position: absolute;
+    right: 11px;
+    width: 80px;
+    font-size: 10px;
+    height: 20px;
+    background-color: #e500a7;
 
 }
 /* --------/btn-------- */
+/* --------email-form-------- */
 .email-form{
     position: absolute;
-    left:0;
-    right:20px;
+    left: 9px;
+    right: 98px;
 }
+/* --------/email-form-------- */
+/* --------blog-games-------- */
+.blog-games li div{
+    display: block;
+}
+
+.blog-games li{
+    height: 100%;
+    width: 46%;
+    display: inline-block;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.blog-games li .blog-image{
+    height: 106px;
+    width: 140px;
+    float: left;
+    margin-bottom: 5px;
+}
+.blog-games li .blog-games-title{
+    font-size: 10px;
+    color: #666;
+}
+.blog-games li .blog-games-descr{
+    margin-bottom: 0px;
+}
+.blog-games li .blog-games-descr,.blog-games li .blog-games-time{
+    font-size: 10px;
+}
+/* --------/blog-games-------- */
