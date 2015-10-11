@@ -501,24 +501,3 @@ input:focus, textarea:focus {
     }
     /* --------------- /item__table-row --------------- */
 }
-/* --------------- @media min-width:730px --------------- */
-@media (min-width:730px){
-    /* --------------- content__item --------------- */
-    .content__item-icon{
-        width: 33px;
-        height: 33px;
-        margin: -4px 11px 0 18px;
-    }
-    .content__item p{
-        font-size: 20px;
-    }
-    .content__item-title{
-        font-size:24px;
-    }
-    .show-all a{
-        font-size: 14px;
-        line-height: 34px;
-    }
-    /* --------------- /content__item --------------- */
-}
-/* --------------- /@media min-width:730px --------------- */
