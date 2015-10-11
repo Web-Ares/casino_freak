@@ -14,9 +14,7 @@
     font-size: 10px;
     margin-bottom: 20px;
 }
-.item_guide p{
-    margin-top:20px
-}
+
 .mobile_guide_page p{
     display: none;
 }
@@ -25,10 +23,13 @@
 }
 .mobile_guide_page p:first-child{
     display: block;
+    margin-bottom: 10px;
 }
 .italic{
     font-size: 10px;
     font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .table-of-contents{
     margin-top: 20px;
@@ -43,14 +44,15 @@
 .present_pic{
     width: 170px;
     height: 130px;
+    margin-bottom: 16px;
 }
 .present_pic img{
   width: 100%;
   height: auto;
+
 }
 .read_more{
     display: block;
-    margin-top: 10px;
     float: none;
 }
 /* --------------- /guide_page --------------- */
@@ -64,9 +66,11 @@
 }
 .item__table{
     display: inline-block;
-    height: 33px;
+    height: 22px;
     background-color: #e500a7;
     width: 100%;
+    font-size: 10px;
+    padding-left: 5px;
 }
 .column {
     display: inline-block;
@@ -80,8 +84,8 @@
     display:block;
     width: 100%;
     border-bottom: 1px solid #F2F2F2;
-    margin-top: 10px;
-    margin-bottom: 13px;
+    margin-top: 7px;
+    padding-bottom: 7px;
 }
 .table-title{
     display: inline-block;
@@ -95,14 +99,14 @@
     width: 3%;
 }
 .score {
-    width: 9%;
+    width: 13%;
     padding-bottom: 10px;
 }
 .flag {
-    width: 7%;
+    width: 8%;
 }
 .casino {
-    width: 26%;
+    width: 22%;
 }
 .welcome {
     width: 36%;
@@ -242,7 +246,7 @@
     color: #cb9652;
     font-weight: bold;
     font-size: 10px;
-    line-height: 42px;
+    line-height: 27px;
 }
 .comments-selection{
     font-weight: bold;
@@ -335,6 +339,24 @@ input:focus, textarea:focus {
     width: 100px;
     height: 20px;
 }
+.comments-count{
+    font-size: 10px;
+    float: right;
+    font-style: italic;
+}
+.comments-login{
+    color:#e500a7;
+    font-size: 10px;
+    display: block;
+}
+.comments-time{
+    color:#dedede;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.comments{
+    margin-bottom: 40px;
+}
 /* --------------- /Comments --------------- */
 
 /* --------------- logo --------------- */
@@ -344,7 +366,12 @@ input:focus, textarea:focus {
     left: 0;
 }
 /* --------------- /logo --------------- */
+
+/* --------------- @media (min-width:730px) --------------- */
 @media (min-width:730px){
+    .mobile_guide_page p:first-child{
+        margin-bottom: 0;
+    }
     form {
         font-size: 14px;
         width: 303px;
@@ -385,9 +412,23 @@ input:focus, textarea:focus {
         width: 165px;
         height: 36px;
     }
+    .comments-count{
+        font-size: 12px;
+        line-height: 38px;
+    }
+    .comments-login{
+        font-size: 14px;
+    }
+    .comments-time{
+        font-size: 12px;
+    }
+    .item_guide p{
+        margin-bottom: 20px;
+    }
     /* --------------- /Comments --------------- */
     .italic{
         font-size: 14px;
+        display: block;
     }
     .item_guide {
         padding-left: 10px;
@@ -428,8 +469,14 @@ input:focus, textarea:focus {
     .item__table-header{
         padding-left: 17px;
     }
+    .item__table{
+        height:33px;
+       font-size: 16px;
+    }
     .item__table-row{
         margin-left: 20px;
+        margin-top: 14px;
+        padding-bottom: 14px;
     }
     .score {width: 6%;}
     .flag {width: 5.5%;}
