@@ -108,13 +108,23 @@ input.sendmail{
     color: #666;
     margin-bottom: 2px;
     line-height: 11px;
+    font-weight: normal;
 }
 .blog-games li .blog-games-descr{
     margin-bottom: -4px;
 }
-.blog-games li .blog-games-descr,.blog-games li .blog-games-time{
+.blog-games li .blog-games-time{
+    font-size: 10px;
+    color: #a4a4a4;
+}
+.blog-games li .blog-games-descr{
     font-size: 10px;
 }
+.blog-games-time:nth-child(2){
+    display: none;
+}
+
+
 /* --------/blog-games-------- */
 
 
@@ -126,5 +136,95 @@ input.sendmail{
         overflow: hidden;
     }
     /* --------/icon-blog-------- */
+
+    /* --------blog-------- */
+    .blog-title{
+        font-size: 29px;
+        font-weight: normal;
+        padding-bottom: 15px;
+        margin-bottom: 24px;
+    }
+    .blog-title-email{
+        font-size: 25px;
+        font-weight: normal;
+        padding-bottom: 15px;
+        margin-bottom: -5px;
+        border: none;
+    }
+    .blog-list-li{
+        background: url(../img/blog-arrow.png) no-repeat 0 3px;
+        padding-left: 17px;
+        width: 28%;
+    }
+    .blog-list-li a{
+        font-size: 15px;
+    }
+    .blog-games li{
+        width: 100%;
+        border-bottom: 1px solid #a4a4a4;
+    }
+    .blog-games li a{
+        height: 128px;
+        width: 170px;
+        display: inline-block;
+    }
+    .blog-descr{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .blog-games-time{
+        display: none;
+    }
+    .blog-games li .blog-games-time:nth-child(2){
+        display: inline-block;
+        font-size: 12px;
+    }
+    .blog-games li .blog-games-title{
+        font-size: 18px;
+    }
+    .blog-games li .blog-games-descr{
+        font-size: 14px;
+    }
+    /* --------/blog-------- */
+    /* --------icon-------- */
+    .icon-blog{
+        margin: -5px 8px 0 0px;
+    }
+    .icon-email{
+        margin: 1px 9px 0 2px;
+    }
+    /* --------/icon-------- */
+
+    /* --------show-blog-------- */
+    .show-all-blog{
+        display: none;
+    }
+    /* --------show-blog-------- */
+
+    /* --------sendmail-------- */
+    input.sendmail{
+        height: 40px;
+    }
+    /* --------/sendmail-------- */
+    /* --------email-form-------- */
+    .email-form{
+        right: 180px;
+    }
+    /* --------/email-form-------- */
+
+    /* ---------btn_blog------- */
+    .btn_blog{
+        width: 160px;
+        right: 9px;
+        height: 40px;
+        font-size: 15px;
+    }
+    /* --------/btn_blog-------- */
+    /* --------item-blog-------- */
+    .item_blog form{
+        height: 47px;
+    }
+    /* --------item-blog-------- */
+
 }
 /* --------/tablet-------- */
