@@ -92,7 +92,7 @@ input.sendmail{
     margin-bottom: 5px;
     vertical-align: top;
 }
-.blog-games li a{
+.blog-games li .blog-link{
     display: block;
     width: 140px;
     height: 105px;
@@ -141,8 +141,8 @@ input.sendmail{
     .blog-title{
         font-size: 29px;
         font-weight: normal;
-        padding-bottom: 15px;
-        margin-bottom: 24px;
+        padding-bottom: 20px;
+        margin-bottom: 14px;
     }
     .blog-title-email{
         font-size: 25px;
@@ -161,9 +161,10 @@ input.sendmail{
     }
     .blog-games li{
         width: 100%;
-        border-bottom: 1px solid #a4a4a4;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 11px;
     }
-    .blog-games li a{
+    .blog-games li .blog-link{
         height: 128px;
         width: 170px;
         display: inline-block;
@@ -171,6 +172,7 @@ input.sendmail{
     .blog-descr{
         display: inline-block;
         vertical-align: top;
+        margin-left: 20px;
     }
     .blog-games-time{
         display: none;
@@ -180,10 +182,15 @@ input.sendmail{
         font-size: 12px;
     }
     .blog-games li .blog-games-title{
-        font-size: 18px;
+        font-size: 21px;
+        margin-bottom: 8px;
     }
     .blog-games li .blog-games-descr{
         font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .blog-games li .blog-image {
+        margin-bottom: 10px;
     }
     /* --------/blog-------- */
     /* --------icon-------- */
@@ -208,18 +215,21 @@ input.sendmail{
     /* --------/sendmail-------- */
     /* --------email-form-------- */
     .email-form{
-        right: 180px;
+        right: 191px;
     }
     /* --------/email-form-------- */
 
-    /* ---------btn_blog------- */
+    /* ---------btn------- */
     .btn_blog{
         width: 160px;
-        right: 9px;
+        right: 20px;
         height: 40px;
         font-size: 15px;
     }
-    /* --------/btn_blog-------- */
+    .btn_read{
+        width: 90px;
+    }
+    /* --------/btn-------- */
     /* --------item-blog-------- */
     .item_blog form{
         height: 47px;
