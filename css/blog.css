@@ -45,7 +45,7 @@
     float: left;
     width: 44%;
     height: 20px;
-    background: url(../img/blog-arrow.png) no-repeat 0 5px;
+    background: url(../img/blog-arrow.png) no-repeat 0 8px;
     padding-left: 12px;
     background-size: 6px;
 }
@@ -168,7 +168,7 @@ input.sendmail{
     font-size: 12px;
     font-weight: 700;
     margin: 0 auto;
-    width: 180px;
+    width: 222px;
 }
 .pagin-navigation{
     width: 80px;
@@ -177,7 +177,7 @@ input.sendmail{
     background: -webkit-linear-gradient(top, #e340b7 0%,#d10099 80%);
     background: linear-gradient(top, #e340b7 0%,#d10099 20%);
     color: #fff;
-    padding: 8px 12px 12px 12px;
+    padding: 8px 12px 12px 11px;
     display: inline-block;
     text-align: center;
 }
@@ -187,7 +187,9 @@ input.sendmail{
     color: #fff;
     text-decoration: none;
 }
+/* --------/pagin-------- */
 
+/* --------blog-navigation-------- */
 .blog-navigation{
     background: #e5e5e5;
     color: #666;
@@ -196,7 +198,7 @@ input.sendmail{
     height: 30px;
     display: inline-block;
     text-align: center;
-    padding: 8px 12px 12px 12px;
+    padding: 8px 12px 12px 11px;
     margin: 0 2.5px;
     display: none;
 }
@@ -205,6 +207,7 @@ input.sendmail{
     background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
     color: #fff;
     text-decoration: none;
+    display: inline-block;
 }
 .blog-navigation:hover{
     background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
@@ -212,8 +215,7 @@ input.sendmail{
     color: #fff;
     text-decoration: none;
 }
-/* --------/pagin-blog-------- */
-
+/* --------/blog-navigation-------- */
 
 @media screen and (min-width: 730px){
     /* --------icon-blog-------- */
