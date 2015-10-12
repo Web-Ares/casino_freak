@@ -17,7 +17,7 @@
 
 */
 
-/* --------------- placeholder --------------- */
+/* --------- placeholder ------------ */
 ::-webkit-input-placeholder {
     color: #c8c3c6;
 }
@@ -27,18 +27,9 @@
 .placeholder {
     color: #c8c3c6;
 }
-/* --------------- /placeholder --------------- */
+/* --------- /placeholder ----------- */
 
-/* --------------- fonts --------------- */
-@font-face {
-    font-family: "Font Name";
-    src: url("../fonts/font.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-/* --------------- /fonts --------------- */
-
-/* --------------- site --------------- */
+/* -------------- site -------------- */
 .site {
     position: relative;
     min-height: 100%;
@@ -47,41 +38,23 @@
     font: 15px 'Calibri', sans-serif;
     background-image: url("../img/bg-body.jpg");
 }
-.site:after {
-    content: '';
-    display: block;
-    clear: both;
-    width: 100%;
-
-    height: 100px;
-}
 .site__content {
     position: relative;
     z-index: 2;
 }
 .site__header {
     position: relative;
-    height: 190px;
-    border-bottom: 3px solid #bfbfbf;
-    background: #e500a7;
+    height: 132px;
+    margin-bottom: 14px;
+    border-bottom: 4px solid #bfbfbf;
+    background-color: #e500a7;
     z-index: 3;
-
 }
 .site__footer {
     z-index: 2;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100px;
+    background-color: #e500a7;
 }
-.site__footer-layout {
-    width: 100%;
-
-    height: 100px;
-    background: blue;
-}
-/* --------------- /site --------------- */
+/* -------------- /site -------------- */
 
 /* --------------- btn --------------- */
 a {
@@ -133,49 +106,84 @@ a:hover {
 
 /* ----------- site__header ----------- */
 .site__header-layout{
-    width: 960px;
-    height: 150px;
+    max-width: 960px;
+    width: 100%;
+    height: 132px;
     margin: 0 auto;
-    background: url("../img/bg-head.png") no-repeat 100% 100%;
 }
-/* ----------- /site__header ---------- */
+/* ------ /site__header-layout ------- */
 
-/* --------------- logo --------------- */
-.logo {
-
+/* -------------- logo --------------- */
+.logo__name{
+    display: none;
 }
-/* --------------- /logo --------------- */
+/* -------------- /logo --------------- */
 
-/* ----------- header__menu ------------ */
+/* ---------- header__menu ------------ */
 .header__menu{
-    height: 40px;
-    background-color: #c1008d;
+   height: 40px;
+   background-color: #c1008d;
 }
 .header__menu-layout{
     display: table;
     width: 960px;
     margin: 0 auto;
 }
-.header__menu li{
-    display: table-cell;
+.header__menu li a{
+    color: #fff;
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease;
 }
-.header__menu a{
+.header__menu > ul > li{
+    display: table-cell;
+    position: relative;
+}
+.header__menu > ul > li > a{
     display:block;
     height: 40px;
     padding: 9px 20px 0;
     font-size: 15px;
-    color: #fff;
     text-align: center;
 }
-.header__menu a{
-    transition: background-color .3s ease;
-    -webkit-transition: background-color .3s ease;
-}
-.header__menu a:hover{
+.header__menu > ul > li:hover > a{
     background-color: #920071;
 }
-/* ----------- /header__menu ----------- */
-/* --------------- content__item --------------- */
+.header__menu > ul > li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.header__menu > ul ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    padding-bottom: 10px;
+    line-height: 40px;
+    background-color: #c1008d;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s ease, visibility .3s ease;
+    -webkit-transition: opacity .3s ease, visibility .3s ease;
+}
+.header__menu > ul ul li a{
+    display: block;
+    padding: 0 15px;
+}
+.header__menu > ul ul li a:hover{
+    background-color: #e500a7;
+}
+/* ---------- /header__menu ----------- */
+
+/* ------ site__content-layout -------- */
+.site__content-layout{
+    position: relative;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* ------ /site__content-layout ------- */
+
+/* ---------- content__item ----------- */
 .content__item{
     width: 100%;
     height: 100%;
@@ -188,7 +196,7 @@ a:hover {
 .content__item-title{
     color: #666666;
     font-size: 14px;
-    padding-bottom: 15px;
+    padding-bottom: 7px;
     border-bottom: 1px solid #dedede;
     margin-bottom: 4px;
 }
@@ -217,10 +225,209 @@ a:hover {
 .show-all a{
     color: #e500a7;
 }
-/* --------------- /content__item --------------- */
+/* -------- /content__item ------------ */
 
-/* --------------- @media min-width:730px --------------- */
-@media (min-width:730px){
+/* ------------ site__aside ----------- */
+.site__aside{
+    width: 220px;
+    margin-right: 10px;
+}
+.aside__search{
+    position: relative;
+    margin-bottom: 15px;
+}
+.aside__search-text{
+    width: 100%;
+    padding: 0 30px 0 10px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    line-height: 32px;
+}
+.aside__search-button{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 30px;
+    height: 31px;
+    border: none;
+    background: url("../img/icon-find.jpg") no-repeat 3px 50% #fff;
+    text-indent: -9999px;
+}
+.aside__item{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 2px #ccc;
+    background-color: #fff;
+}
+.aside__item h2{
+    display: block;
+    height: 38px;
+    padding: 6px 13px 0;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #f2f2f2;
+    color: #666;
+}
+.aside__item a{
+    display: block;
+    height: 30px;
+    margin: 0 12px;
+    padding-left: 16px;
+    border-top: 1px solid #ebebeb;
+    color: #e500a7;
+    line-height: 30px;
+    background: url("../img/icon-list.png") no-repeat 2px 50% #fff;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.aside__item a:hover{
+    opacity: .5;
+}
+.aside__item a:first-child{
+    border-top: none;
+}
+/* ----------- /site__aside ----------- */
+
+/* ----------- site__footer ----------- */
+.site__footer-layout{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 11px 10px;
+    font-size: 11.5px;
+    text-align: center;
+    background: url("../img/bg-footer.png") no-repeat 0 83%/147px 147px;
+    color: #fff;
+}
+.site__footer-layout a{
+    display: block;
+    color: #fff;
+}
+.site__footer-layout a:hover{
+    text-decoration: underline;
+}
+.footer__navigate{
+    margin-bottom: 109px;
+    text-align: left;
+}
+.footer__navigate dl{
+    margin-bottom: 22px;
+    border-bottom: 1px solid #fff;
+}
+.footer__navigate dt{
+    margin-bottom: 12px;
+    font-size: 17.5px;
+}
+.footer__navigate dd{
+    padding: 7px 0 15px;
+    border-top: 1px solid #fff;
+}
+.footer__navigate dd a {
+    height: 13px;
+    font-size: 13.5px;
+}
+.footer__menu{
+    margin-bottom: 7px;
+}
+.footer__menu > a{
+    margin-bottom: 3px;
+}
+.footer__logo{
+    margin-bottom: 4px;
+}
+.footer__logo img{
+    width: 58%;
+}
+/* ----------- /site__footer ---------- */
+@media (min-width: 321px) {
+    /* ------ site__footer-layout --------- */
+    .site__footer-layout{
+        background-position: -45px 91%;
+        padding: 26px 0 10px;
+        font-size: 14px;
+    }
+    .footer__navigate{
+        margin-bottom: 207px;
+    }
+    .footer__navigate dl{
+        margin-bottom: 33px;
+    }
+    .footer__navigate dt{
+        padding:  0 16px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .footer__navigate dd{
+        padding:  0 16px;
+        line-height: 32px;
+    }
+    .footer__navigate dd a {
+        height: auto;
+        font-size: 14px;
+    }
+    .footer__logo{
+        margin-bottom: 9px;
+    }
+    .footer__logo img{
+        width: auto;
+    }
+    .footer__menu{
+        margin-bottom: 10px;
+    }
+    .footer__menu > a {
+        margin-bottom: 6px;
+    }
+    .site__footer-layout a {
+        color: #fff;
+        display: block;
+    }
+    /* ------ /site__footer-layout -------- */
+}
+
+@media (min-width: 767px) {
+    /* --------------- site --------------- */
+    .site:after {
+        content: '';
+        display: block;
+        clear: both;
+        width: 100%;
+        height: 309px;
+    }
+    .site__header{
+        height: 193px;
+        border-bottom-width: 3px;
+    }
+    .site__footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 309px;
+    }
+    /* --------------- /site -------------- */
+
+    /* ------ site__header-layout -------- */
+    .site__header-layout{
+        height: 150px;
+        background: url("../img/bg-head.png") no-repeat 100% 100%;
+    }
+    /* ------ /site__header-layout ------- */
+
+    /* -------------- logo --------------- */
+    .logo{
+        display: inline-block;
+        margin-left: 15px;
+        margin-top: 14px;
+    }
+    .logo img{
+        display: block;
+        margin: 0 auto 5px;
+    }
+    .logo img:first-child{
+        margin-left: 91px;
+    }
+    /* -------------- /logo --------------- */
     /* --------------- content__item --------------- */
     .content__item-icon{
         width: 33px;
@@ -257,6 +464,55 @@ a:hover {
         display: inline-block;
     }
     /* --------------- /btn --------------- */
-
+    
+    /* ------ site__footer-layout --------- */
+    .site__footer-layout{
+        position: relative;
+        padding-top: 222px;
+        padding-left: 20px;
+        background-position: 0 -30px;
+        text-align: left;
+        background-size: auto;
+    }
+    .footer__logo{
+        margin-bottom: 12px;
+    }
+    .footer__menu{
+        position: absolute;
+        left: 345px;
+        bottom: -5px;
+    }
+    .footer__menu a{
+        display: inline-block;
+        height: 15px;
+        margin-left: 2px;
+        padding-left: 7px;
+        border-left: 1px solid #fff;
+        line-height: 15px;
+    }
+    .footer__navigate{
+        position: absolute;
+        top: 19px;
+        right: 7px;
+        margin-left: 52px;
+    }
+    .footer__navigate dl{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 53px;
+        font-size: 14px;
+        line-height: 34px;
+        border: none;
+    }
+    .footer__navigate dt{
+        padding: 0;
+        margin-bottom: 5px;
+        color: #fff;
+    }
+    .footer__navigate dd{
+        padding: 0;
+        border-top: none;
+        line-height: 23px;
+    }
+    /* ------ /site__footer-layout -------- */
 }
-/* --------------- /@media min-width:730px --------------- */
