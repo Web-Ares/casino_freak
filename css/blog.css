@@ -47,6 +47,7 @@
     height: 20px;
     background: url(../img/blog-arrow.png) no-repeat 0 5px;
     padding-left: 12px;
+    background-size: 6px;
 }
 .blog-list-li a{
     font-size: 10px;
@@ -100,6 +101,7 @@ input.sendmail{
 }
 .blog-games{
     padding-top: 4px;
+    text-align: center;
 }
 .blog-games li{
     height: 100%;
@@ -135,6 +137,7 @@ input.sendmail{
 .blog-games li .blog-games-descr{
     margin-bottom: 2px;
     font-size: 10px;
+    padding: 0;
 }
 .blog-games li .blog-games-time{
     font-size: 10px;
@@ -151,7 +154,58 @@ input.sendmail{
 .blog-name{
     font-size: 14px;
 }
+.blog-title-email{
+   border: none;
+}
 /* --------/blog-------- */
+
+/* --------pagin-------- */
+.pagin-blog{
+    font-family: 'Open Sans','sans-serif';
+    font-size: 12px;
+    font-weight: 700;
+}
+.pagin-navigation{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(top, #e340b7 0%,#d10099 80%);
+    background: linear-gradient(top, #e340b7 0%,#d10099 20%);
+    color: #fff;
+    padding: 8px 12px 12px 12px;
+    display: inline-block;
+    text-align: center;
+}
+.pagin-navigation:hover{
+    background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
+    background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
+    color: #fff;
+    text-decoration: none;
+}
+.blog-navigation{
+    background: #e5e5e5;
+    color: #666;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 12px 12px 11px;
+}
+.active{
+    background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
+    background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
+    color: #fff;
+    text-decoration: none;
+}
+.blog-navigation:hover{
+    background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
+    background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
+    color: #fff;
+    text-decoration: none;
+}
+/* --------/pagin-blog-------- */
+
 
 @media screen and (min-width: 730px){
     /* --------icon-blog-------- */
@@ -239,6 +293,7 @@ input.sendmail{
     }
     .blog-games{
         padding-top: 0;
+        text-align: left;
     }
     /* --------/blog-------- */
 
