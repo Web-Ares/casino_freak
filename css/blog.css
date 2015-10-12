@@ -131,6 +131,7 @@ input.sendmail{
     font-weight: normal;
     display: block;
     text-decoration: none;
+    text-align: left;
 }
 .blog-games li .blog-games-title:hover{
     color: #e500a7;
@@ -145,6 +146,7 @@ input.sendmail{
     color: #a4a4a4;
     position: absolute;
     bottom: 0;
+    display: block;
 }
 .blog-games-type{
     display: none;
