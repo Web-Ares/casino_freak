@@ -1,5 +1,10 @@
 @charset "utf-8";
-/* --------------- guide_page --------------- */
+/* --------------- guide_page__contents--------------- */
+.mobile_title{
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
 .guide_page-read{
     font-size: 10px;
     margin-left:10px;
@@ -21,7 +26,7 @@
 .active{
     display:block;
 }
-.mobile_guide_page p:first-child{
+.guide_page__contents p:first-child{
     display: block;
     margin-bottom: 10px;
 }
@@ -41,21 +46,27 @@
     list-style-position: inside;
     margin-top: 5px;
 }
+.content-item {
+    font-size: 14px;
+    padding: 0 10px;
+    display: block;
+    line-height: 20px;
+}
 .present_pic{
     width: 170px;
     height: 130px;
     margin-bottom: 16px;
 }
 .present_pic img{
-  width: 100%;
-  height: auto;
-
+    width: 100%;
+    height: auto;
 }
 .read_more{
     display: block;
     float: none;
 }
-/* --------------- /guide_page --------------- */
+/* --------------- /guide_page__contents --------------- */
+
 /* --------------- item --------------- */
 .item_guide{
     padding-bottom: 17px;
@@ -66,7 +77,7 @@
 }
 .item__table{
     display: inline-block;
-    height: 22px;
+    height: 23px;
     background-color: #e500a7;
     width: 100%;
     font-size: 10px;
@@ -75,7 +86,7 @@
 .column {
     display: inline-block;
     color: #666666;
-    font-size: 13px;
+    font-size: 10px;
 }
 .item__table-header{
     margin-top: 5px;
@@ -90,35 +101,52 @@
 .table-title{
     display: inline-block;
     color: #fff;
-    font-size: 14px;
+    font-size: 10px;
     text-align: left;
     line-height: 10px;
+}
+.item-icon_cub{
+    background: url('../img/icon-cub.png') no-repeat center;
+    background-size: contain;
+}
+.item-icon_comments{
+    background: url('../img/coments_icon.png') no-repeat center;
+    background-size: contain;
 }
 .num {
     display: none;
     width: 3%;
+    vertical-align: middle;
 }
 .score {
-    width: 13%;
-    padding-bottom: 10px;
+    width: 10%;
+    vertical-align: middle;
 }
 .flag {
     width: 8%;
+    vertical-align: middle;
+}
+.icon_flag-retina{
+    width: 12px;
+    height: 12px;
 }
 .casino {
     width: 22%;
+    vertical-align: middle;
 }
 .welcome {
-    width: 36%;
+    width: 39%;
     vertical-align: middle;
 }
 .tag {
     display: none;
     width: 7%;
+    vertical-align: middle;
 }
 .software{
     display: none;
     width: 11%;
+    vertical-align: middle;
 }
 .btn_review{
     display: none;
@@ -126,6 +154,18 @@
 .link-color {
     color: #e500a7;
 }
+.new {
+    background: url('../img/icon-new.png') no-repeat;
+}
+.tag_span {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+/* --------------- /item --------------- */
+
 /* --------------- medal --------------- */
 .medal{
     display: inline-block;
@@ -160,25 +200,9 @@
     background-size: contain;
     color: #fff;
 }
-
 /* --------------- /medal --------------- */
-.new {
-    background: url('../img/icon-new.png') no-repeat;
-}
-.tag_span {
-    display: inline-block;
-    height: 21px;
-    width: 21px;
-    vertical-align: middle;
-    margin-right: 2px;
-}
-.content-item {
-    font-size: 14px;
-    padding: 0 10px;
-    display: block;
-    line-height: 20px;
 
-}
+/* --------------- popup --------------- */
 .popup-software{
     display: inline-block;
     width: 30px;
@@ -230,16 +254,7 @@
     border-width: 8px;
     left: 35px;
 }
-.item-icon_cub{
-    background: url('../img/icon-cub.png') no-repeat center;
-    background-size: contain;
-}
-.item-icon_comments{
-    background: url('../img/coments_icon.png') no-repeat center;
-    background-size: contain;
-}
-/* --------------- /item --------------- */
-/* --------------- /site --------------- */
+/* --------------- /popup --------------- */
 
 /* --------------- Comments --------------- */
 .comments-issue{
@@ -268,6 +283,25 @@
     margin-right: 10px;
     vertical-align: middle;
 }
+.comments-count{
+    font-size: 10px;
+    float: right;
+    font-style: italic;
+}
+.comments-login{
+    color:#e500a7;
+    font-size: 10px;
+    display: block;
+}
+.comments-time{
+    color:#dedede;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.comments{
+     margin-bottom: 10px;
+ }
+/* --------------- /Comments --------------- */
 .scale-line-yes{
     width: 90%;
     height: 100%;
@@ -290,6 +324,7 @@ textarea{
     background: #fff;
     width: 100%;
     height: 33px;
+    font-size: 10px;
     border: 1px solid #dedede;
     display:block;
     font-family: 'ProximaNova', sans-serif;
@@ -302,6 +337,7 @@ textarea{
 input {
     width: 65%;
     height: 17px;
+    font-size: 10px;
     border: 1px solid #dedede;
     display:block;
     font-family: 'ProximaNova', sans-serif;
@@ -319,59 +355,20 @@ input.name {
     border: 1px solid #dedede;
 }
 input.email {
+    font-size: 10px;
     color:#000;
     border: 1px solid #dedede;
-}
-input.Subject{
-    color:#000;
-    font-size: 14px;
-    background:#fff;
-    padding-left:25px;
-    border: 1px solid #0175f1;
 }
 input:focus, textarea:focus {
     background-color: #f0f0f0;
     overflow: hidden;
 }
 /* --------------- /form --------------- */
-.btn_post{
-    font-size: 10px;
-    width: 100px;
-    height: 20px;
-}
-.comments-count{
-    font-size: 10px;
-    float: right;
-    font-style: italic;
-}
-.comments-login{
-    color:#e500a7;
-    font-size: 10px;
-    display: block;
-}
-.comments-time{
-    color:#dedede;
-    font-size: 10px;
-    margin-bottom: 5px;
-}
-.comments{
-    margin-bottom: 40px;
-}
-/* --------------- /Comments --------------- */
-
-/* --------------- logo --------------- */
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-/* --------------- /logo --------------- */
 
 /* --------------- @media (min-width:730px) --------------- */
 @media (min-width:730px){
-    .mobile_guide_page p:first-child{
-        margin-bottom: 0;
-    }
+
+    /* --------------- form --------------- */
     form {
         font-size: 14px;
         width: 303px;
@@ -382,17 +379,22 @@ input:focus, textarea:focus {
         margin-bottom: 5px;
         padding-top: 10px;
         padding-left: 10px;
+        font-size: 14px;
     }
     input {
         width: 65%;
         height: 34px;
         margin-bottom: 10px;
         padding-left: 10px;
+        font-size: 14px;
     }
     input.email {
         padding-left: 10px;
+        font-size: 14px;
     }
-    /* --------------- Comments --------------- */
+    /* --------------- /form --------------- */
+
+    /* --------------- comments --------------- */
     .comments__scale{
         font-size: 14px;
         line-height: 34px;
@@ -407,11 +409,6 @@ input:focus, textarea:focus {
         width: 130px;
         height: 18px;
     }
-    .btn_post{
-        font-size: 14px;
-        width: 165px;
-        height: 36px;
-    }
     .comments-count{
         font-size: 12px;
         line-height: 38px;
@@ -425,7 +422,12 @@ input:focus, textarea:focus {
     .item_guide p{
         margin-bottom: 20px;
     }
-    /* --------------- /Comments --------------- */
+    .comments{
+        margin-bottom: 40px;
+    }
+    /* --------------- /comments --------------- */
+
+    /* --------------- item_guide --------------- */
     .italic{
         font-size: 14px;
         display: block;
@@ -438,7 +440,7 @@ input:focus, textarea:focus {
     }
     .item_guide p{
         font-size: 14px;
-       }
+    }
     .item_guide h3{
         font-size: 18px;
     }
@@ -447,21 +449,29 @@ input:focus, textarea:focus {
     }
     .guide_page time {
         margin-top: 8px;
-     }
-    .mobile_guide_page{
+    }
+    .guide_page__contents{
         display: block;
     }
     .read_more{
         display: none;
     }
-    .mobile_guide_page p{
+    .guide_page__contents p{
         display: block;
     }
     .present_pic{
         width: 340px;
         height: 260px;
     }
+    /* --------------- /item_guide --------------- */
+
     /* --------------- item__table-row --------------- */
+    .column {
+        font-size: 13px;
+    }
+    .table-title{
+        font-size: 14px;
+    }
     .num{
         display: inline-block;
         width: 3%;
@@ -471,7 +481,7 @@ input:focus, textarea:focus {
     }
     .item__table{
         height:33px;
-       font-size: 16px;
+        font-size: 16px;
     }
     .item__table-row{
         margin-left: 20px;
@@ -490,9 +500,6 @@ input:focus, textarea:focus {
         display: inline-block;
         width: 13.4%;
     }
-    .btn_review{
-        display: inline-block;
-    }
     .medal{
         width: 29px;
         height: 36px;
@@ -500,4 +507,8 @@ input:focus, textarea:focus {
         font-size: 12px;
     }
     /* --------------- /item__table-row --------------- */
+    .btn_review{
+        display: inline-block;
+    }
+    /* --------------- @media (min-width:730px) --------------- */
 }
