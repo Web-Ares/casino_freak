@@ -20,12 +20,15 @@
 /* --------------- placeholder --------------- */
 ::-webkit-input-placeholder {
     color: #c8c3c6;
+    padding-left: 7px;
 }
 :-moz-placeholder {
     color: #c8c3c6;
+    padding-left: 7px;
 }
 .placeholder {
     color: #c8c3c6;
+    padding-left: 7px;
 }
 /* --------------- /placeholder --------------- */
 
@@ -204,6 +207,7 @@ a:hover {
     display: inline-block;
     width: 67%;
     vertical-align: middle;
+    font-weight: normal;
 }
 .show-all {
     float: right;
@@ -212,6 +216,10 @@ a:hover {
 }
 .show-all a{
     color: #e500a7;
+}
+.read_more{
+    display: block;
+    float: none;
 }
 /* --------------- /content__item --------------- */
 
@@ -232,6 +240,9 @@ a:hover {
     .content__item{
         margin-bottom: 8px;
     }
+    .content__item-name{
+        font-size: 24px;
+    }
     .show-all a{
         font-size: 14px;
         line-height: 34px;
@@ -245,5 +256,8 @@ a:hover {
         margin-left: -1px;
     }
     /* --------------- /content__item --------------- */
+    .read_more{
+        display: none;
+    }
 }
 /* --------------- /@media min-width:730px --------------- */

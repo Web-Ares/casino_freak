@@ -5,6 +5,7 @@
     text-indent: 0;
     margin-top: 1px;
     margin-bottom: 18px;
+    padding-left: 5px;
 }
 .item_blog form{
     height: 20px;
@@ -24,21 +25,25 @@
     background-size: contain;
     overflow: hidden;
 }
+/* ---------/item-------- */
 /* ---------show-all-blog-------- */
 .show-all-blog{
-    float: none;
+    float: right;
     display: block;
     margin-bottom: 18px;
+    margin-top: 2px;
+    padding-right: 1px;
 }
 /* ---------/show-all-blog-------- */
 
 /* ---------blog-list-------- */
 .blog-list{
     display: inline-block;
+    margin-top: 10px;
 }
 .blog-list-li{
     float: left;
-    width: 50%;
+    width: 44%;
     height: 20px;
     background: url(../img/blog-arrow.png) no-repeat 0 5px;
     padding-left: 12px;
@@ -51,6 +56,9 @@
     color: #e500a7;
     text-decoration: underline;
 }
+.blog-text{
+    display: none;
+}
 /* ---------blog-list-------- */
 
 /* ---------sendmail-------- */
@@ -62,6 +70,7 @@ input.sendmail{
     margin: 0;
 }
 /* ---------/sendmail-------- */
+
 /* --------btn-------- */
 .btn_blog{
     position: absolute;
@@ -69,10 +78,13 @@ input.sendmail{
     width: 80px;
     font-size: 10px;
     height: 20px;
-    background-color: #e500a7;
-
+}
+.btn_read{
+    display: none;
+    width: 90px;
 }
 /* --------/btn-------- */
+
 /* --------email-form-------- */
 .email-form{
     position: absolute;
@@ -80,7 +92,12 @@ input.sendmail{
     right: 98px;
 }
 /* --------/email-form-------- */
-/* --------blog-games-------- */
+
+/* --------blog-------- */
+.blog-descr{
+    position: relative;
+    padding-bottom: 12px;
+}
 .blog-games{
     padding-top: 4px;
 }
@@ -109,24 +126,32 @@ input.sendmail{
     margin-bottom: 2px;
     line-height: 11px;
     font-weight: normal;
+    display: block;
+    text-decoration: none;
+}
+.blog-games li .blog-games-title:hover{
+    color: #e500a7;
 }
 .blog-games li .blog-games-descr{
-    margin-bottom: -4px;
+    margin-bottom: 2px;
+    font-size: 10px;
 }
 .blog-games li .blog-games-time{
     font-size: 10px;
     color: #a4a4a4;
+    position: absolute;
+    bottom: 0;
 }
-.blog-games li .blog-games-descr{
-    font-size: 10px;
-}
-.blog-games-time:nth-child(2){
+.blog-games-type{
     display: none;
 }
-
-
-/* --------/blog-games-------- */
-
+.blog-games-text{
+    display: none;
+}
+.blog-name{
+    font-size: 14px;
+}
+/* --------/blog-------- */
 
 @media screen and (min-width: 730px){
     /* --------icon-blog-------- */
@@ -141,7 +166,7 @@ input.sendmail{
     .blog-title{
         font-size: 29px;
         font-weight: normal;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
         margin-bottom: 14px;
     }
     .blog-title-email{
@@ -150,6 +175,9 @@ input.sendmail{
         padding-bottom: 15px;
         margin-bottom: -5px;
         border: none;
+    }
+    .blog-list{
+        margin-top: 10px;
     }
     .blog-list-li{
         background: url(../img/blog-arrow.png) no-repeat 0 3px;
@@ -172,18 +200,20 @@ input.sendmail{
     .blog-descr{
         display: inline-block;
         vertical-align: top;
+        width: 500px;
         margin-left: 20px;
+        padding-bottom: 20px;
     }
-    .blog-games-time{
-        display: none;
-    }
-    .blog-games li .blog-games-time:nth-child(2){
+    .blog-games li .blog-games-time{
+        position: relative;
         display: inline-block;
         font-size: 12px;
     }
     .blog-games li .blog-games-title{
         font-size: 21px;
-        margin-bottom: 8px;
+        line-height: 23px;
+        width: 340px;
+
     }
     .blog-games li .blog-games-descr{
         font-size: 14px;
@@ -192,7 +222,26 @@ input.sendmail{
     .blog-games li .blog-image {
         margin-bottom: 10px;
     }
+    .blog-games-type{
+        display: inline-block;
+    }
+    .blog-games-text{
+        display: inline;
+    }
+    .blog-text{
+        display: block;
+    }
+    .blog-name{
+        font-size: 30px;
+    }
+    .blog-games li .blog-link{
+        padding-top: 4px;
+    }
+    .blog-games{
+        padding-top: 0;
+    }
     /* --------/blog-------- */
+
     /* --------icon-------- */
     .icon-blog{
         margin: -5px 8px 0 0px;
@@ -204,7 +253,8 @@ input.sendmail{
 
     /* --------show-blog-------- */
     .show-all-blog{
-        display: none;
+        margin-top: 7px;
+        padding: 0;
     }
     /* --------show-blog-------- */
 
@@ -213,28 +263,30 @@ input.sendmail{
         height: 40px;
     }
     /* --------/sendmail-------- */
+
     /* --------email-form-------- */
     .email-form{
-        right: 191px;
+        right: 177px;
     }
     /* --------/email-form-------- */
 
     /* ---------btn------- */
     .btn_blog{
         width: 160px;
-        right: 20px;
+        right: 7px;
         height: 40px;
         font-size: 15px;
     }
     .btn_read{
-        width: 90px;
+        display: block;
+        bottom: 0;
     }
     /* --------/btn-------- */
+
     /* --------item-blog-------- */
     .item_blog form{
         height: 47px;
     }
     /* --------item-blog-------- */
-
 }
 /* --------/tablet-------- */
