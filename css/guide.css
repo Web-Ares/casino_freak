@@ -406,6 +406,7 @@ input:focus, textarea:focus {
     background: #F2F2F2;
     text-align: center;
     padding-top: 4px;
+    padding-left: 18px;
     }
 .hover-game__bg{
     height: 100%;
@@ -474,8 +475,10 @@ input:focus, textarea:focus {
     width: 100%;
     float: left;
 }
+
 .medal_game{
-    float: left;
+    position: absolute;
+    left: 3px;
     margin-top: -2px;
 }
 .related__game:hover .hover-game {
