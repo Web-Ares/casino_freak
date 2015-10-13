@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* --------------- item_text --------------- */
+.item_text .content__item-title{
+    margin-bottom: 20px;
+}
+.item_text p{
+    margin-bottom: 15px;
+}
+.text-more{
+    display: none;
+}
+.show-all-text{
+    float: none;
+}
+/* -------------- /item_text --------------- */
+@media (min-width: 768px){
+    /* --------------- item_text --------------- */
+    .text-more{
+        display: block;
+    }
+    .show-all-text{
+        display: none;
+    }
+    /* --------------- item_text --------------- */
+}

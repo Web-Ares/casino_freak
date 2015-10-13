@@ -1,0 +1,64 @@
+.medal_single{
+    vertical-align: bottom;
+    margin-right: 18px;
+}
+.comments__scale-title{
+    display: inline-block;
+    width: 80px;
+}
+.scale_single{
+    margin-bottom: 10px;
+}
+.scale_gold{
+    width: 90%;
+}
+.scale_silver{
+    width: 20%;
+}
+.scale_bronze{
+    width: 5%;
+}
+.scale_blank{
+    width: 0;
+}
+.add-your{
+    font-size: 10px;
+    margin-top: 34px;
+}
+.add-your ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+ul.add-your__rating li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label > .add-your__rating_medal {
+    position: relative;
+    width: 29px;
+    height: 36px;
+    display: inline-block;
+    z-index: 3;
+}
+input[type="radio"]:checked + label > .add-your__rating-checked {
+    display: inline-block;
+    position: absolute;
+    content: " ";
+    width: 46px;
+    height: 46px;
+    left: 2px;
+    top: 5px;
+    background: url("../img/hover-radio-medal.png")no-repeat;
+}
+
+/* --------------- @media (min-width:730px) --------------- */
+@media (min-width:730px) {
+    .add-your {
+        font-size: 18px;
+    }
+}
+/* --------------- /@media (min-width:730px) --------------- */
