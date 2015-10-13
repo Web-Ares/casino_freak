@@ -208,7 +208,11 @@
         width: 340px;
         height: 260px;
     }
+    .contents-item {
+         font-size: 14px;
+     }
     /* --------------- /item_guide --------------- */
+
     .icon-flag {
         width: 24px;
         height:24px;
