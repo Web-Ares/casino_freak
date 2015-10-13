@@ -5,33 +5,10 @@
     background: url('../img/email-search.png') no-repeat center;
     background-size: contain;
     overflow: hidden;
+    top: 7px;
 }
 
-/* ---------blog-list-------- */
-.blog-list{
-    display: inline-block;
-    margin-top: 10px;
-}
-.blog-list-li{
-    float: left;
-    width: 44%;
-    height: 20px;
-    background: url(../img/blog-arrow.png) no-repeat 0 3px;
-    padding-left: 13px;
-    background-size: 6px;
-}
-.blog-list-li a{
-    font-size: 10px;
-    color: #747474;
-}
-.blog-list-li a:hover{
-    color: #e500a7;
-    text-decoration: underline;
-}
-.blog-text{
-    display: none;
-}
-/* ---------blog-list-------- */
+
 
 /* ---------sendmail-------- */
 input.sendmail{
@@ -105,7 +82,7 @@ input.sendmail{
 }
 /* --------/blog-navigation-------- */
 
-@media screen and (min-width: 730px){
+@media screen and (min-width: 768px){
 
 
     /* --------sendmail-------- */
@@ -116,7 +93,8 @@ input.sendmail{
 
     /* --------email-form-------- */
     .email-form{
-        right: 177px;
+        left: 9px;
+        width: 526px;
     }
     /* --------/email-form-------- */
 

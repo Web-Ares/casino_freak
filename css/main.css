@@ -335,6 +335,7 @@ a:hover {
     display: inline-block;
     width: 67%;
     vertical-align: middle;
+    font-size: 24px;
 }
 .show-all {
     float: right;
@@ -832,6 +833,29 @@ input.aside__subscribe{
 /* --------------- /icon-posts --------------- */
 
 /* --------blog-------- */
+.blog-list{
+    display: inline-block;
+    margin-top: 10px;
+}
+.blog-list-li{
+    float: left;
+    width: 44%;
+    height: 20px;
+    background: url(../img/blog-arrow.png) no-repeat 0 3px;
+    padding-left: 13px;
+    background-size: 6px;
+}
+.blog-list-li a{
+    font-size: 10px;
+    color: #747474;
+}
+.blog-list-li a:hover{
+    color: #e500a7;
+    text-decoration: underline;
+}
+.blog-text{
+    display: none;
+}
 .blog-descr{
     position: relative;
     padding-bottom: 12px;
@@ -1118,32 +1142,29 @@ input.aside__subscribe{
     /* --------item-blog-------- */
     .item_blog form{
         height: 47px;
+        position: relative;
     }
+
     /* --------item-blog-------- */
-    /* --------blog-title-------- */
-    .blog-title{
-        font-size: 29px;
-        font-weight: normal;
-        padding-bottom: 15px;
-        margin-bottom: 14px;
-    }
-    /* --------/blog-title-------- */
     /* --------blog-------- */
     .blog-title{
         font-size: 29px;
         font-weight: normal;
-        padding-bottom: 15px;
-        margin-bottom: 14px;
+        padding-bottom: 16px;
+        margin-bottom: 15px;
+        top: -9px;
     }
     .blog-title-email{
         font-size: 25px;
         font-weight: normal;
-        padding-bottom: 15px;
+        padding-bottom: 6px;
         margin-bottom: -5px;
         border: none;
+        top: -11px;
     }
     .blog-list{
         margin-top: 10px;
+        margin-left: 8px;
     }
     .blog-list-li{
         background: url(../img/blog-arrow.png) no-repeat 0 3px;
@@ -1207,6 +1228,8 @@ input.aside__subscribe{
         padding-top: 0;
         text-align: left;
         margin-bottom: 94px;
+        margin-left: 9px;
+        margin-top: -7px;
     }
     .blog-navigation{
         display: inline-block;
@@ -1216,15 +1239,18 @@ input.aside__subscribe{
         background: url('../img/icon-freak2.png') no-repeat center;
         background-size: contain;
         overflow: hidden;
+        top: 6px;
     }
     /* --------/icon-blog-------- */
 
-    /* --------icon-------- */
-    .icon-blog{
-        margin: -5px 8px 0 0px;
-    }
     .icon-email{
-        margin: 1px 9px 0 2px;
+        margin: -4px 9px 0 -1px;
+    }
+    .icon-resent{
+        background: url('../img/iconnew.png') no-repeat center;
+        background-size: contain;
+        overflow: hidden;
+        top: 11px;
     }
     /* --------/icon-------- */
     /* --------------- item_guide  --------------- */
@@ -1251,6 +1277,7 @@ input.aside__subscribe{
         margin-top: 14px;
         padding-bottom: 14px;
     }
+
     .score {
         width: 4%;
         margin-right: 13px;
