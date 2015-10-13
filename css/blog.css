@@ -89,18 +89,7 @@ input.sendmail{
 /* --------/pagin-------- */
 
 /* --------blog-navigation-------- */
-.blog-navigation{
-    background: #e5e5e5;
-    color: #666;
-    border-radius: 30px;
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
-    padding: 8px 12px 12px 11px;
-    margin: 0 2.5px;
-    display: none;
-}
+
 .active{
     background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
     background: linear-gradient(top, #fd67d4 0%,#d10099 80%);

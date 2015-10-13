@@ -301,7 +301,7 @@ a:hover {
     margin: 0 auto;
     border: 1px solid #dedede;
     margin-bottom: 6px;
-    padding: 7.5px;
+    padding: 6.5px;
 }
 .content__item-title{
     color: #666666;
@@ -312,7 +312,7 @@ a:hover {
     margin-bottom: 4px;
 
     border-bottom: 1px solid #dedede;
-    padding-left: 23px;
+    padding-left: 45px;
     padding-bottom: 7px;
     color: #666;
     font-size: 14px;
@@ -894,12 +894,69 @@ input.aside__subscribe{
 .blog-title-email{
     border: none;
 }
+.blog-navigation{
+    background: #e5e5e5;
+    color: #666;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 12px 12px 11px;
+    margin: 0 2.5px;
+    display: none;
+}
 .icon-blog{
     background: url('../img/icon-freak.png') no-repeat center;
     background-size: contain;
     overflow: hidden;
 }
 @media (min-width: 768px) {
+    /* --------------- btn --------------- */
+    .btn{
+        line-height: 22px;
+    }
+    .btn_play {
+        height: 21px;
+        width: 56px;
+        margin-left: -1px;
+    }
+    .btn_post{
+        font-size: 14px;
+        width: 165px;
+        height: 36px;
+    }
+    .btn_review{
+        display: inline-block;
+    }
+    /* --------------- /btn --------------- */
+
+    /* --------------- content__item --------------- */
+    .content__item{
+        padding: 15px 7px 30px;
+    }
+    .content__item-icon{
+        top: -2px;
+        width: 33px;
+        height: 33px;
+    }
+    .content__item p{
+        font-size: 14px;
+    }
+    .content__item-title{
+        font-size:30px;
+    }
+    .content__item{
+        margin-bottom: 8px;
+    }
+    .content__item-name{
+        font-size: 24px;
+    }
+    .show-all a{
+        font-size: 14px;
+        line-height: 34px;
+    }
+    /* --------------- /content__item --------------- */
     /* -------------- site ---------------- */
     .site{
         font-size: 15px;
@@ -1191,6 +1248,96 @@ input.aside__subscribe{
         margin: 1px 9px 0 2px;
     }
     /* --------/icon-------- */
+    /* --------------- item_guide  --------------- */
+    .column {
+        font-size: 13px;
+    }
+    .table-title{
+        font-size: 14px;
+    }
+    .num{
+        display: inline-block;
+        width: 3%;
+        margin-right: 0px;
+    }
+    .item__table-header{
+        padding-left: 5px;
+    }
+    .item__table{
+        height:33px;
+        font-size: 16px;
+    }
+    .item__table-row{
+        margin-left: 7px;
+        margin-top: 14px;
+        padding-bottom: 14px;
+    }
+    .score {
+        width: 4%;
+        margin-right: 13px;
+    }
+    .flag {width: 5.5%;}
+    .casino {width: 17%;}
+    .tag{
+        display: inline-block;
+        width: 8%;
+    }
+    .welcome {width: 22%;}
+    .software{
+        display: inline-block;
+        width: 13.4%;
+    }
+    .medal{
+        width: 29px;
+        height: 36px;
+        line-height: 45px;
+        font-size: 12px;
+    }
+    /* --------------- /item_guide  --------------- */
+    /* --------------- related guides  --------------- */
+    .hover-game__bg{
+        margin-left: -93px;
+    }
+    .medal_game{
+        position: absolute;
+        left: 8px;
+        margin-top: -10px;
+    }
+    .game_img {
+        height: 130px;
+    }
+    .hover-game {
+        height: 135px;
+    }
+    .hover-game__bg:after{
+        height: 128px;
+        width: 131px;
+        top: -29px;
+        left: -29px;
+    }
+    .hover-game:before{
+        width: 68px;
+        height: 68px;
+        margin-left: -35px;
+        margin-top: -7px;
+    }
+    .hover-game:after {
+        height: 38px;
+        width: 38px;
+        margin-left: -15px;
+        margin-top: 8px;
+    }
+    .game-name {
+        font-size: 14px;
+        height: 44px;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    .related__game{
+        height: 180px;
+        width: 186px;
+    }
+    /* --------------- /related guides  --------------- */
 }
 
 @media (min-width: 1024px) {
@@ -1321,98 +1468,7 @@ input.aside__subscribe{
     }
     /* ------ /site__content-layout -------- */
 
-    /* --------------- content__item --------------- */
-    .content__item{
-        padding: 15px 7px 30px;
-    }
-    .content__item-icon{
-        top: -2px;
-        width: 33px;
-        height: 33px;
-    }
-    .content__item p{
-        font-size: 14px;
-    }
-    .content__item-title{
-        font-size:30px;
-    }
-    .content__item{
-        margin-bottom: 8px;
-    }
-    .content__item-name{
-        font-size: 24px;
-    }
-    .show-all a{
-        font-size: 14px;
-        line-height: 34px;
-    }
-    /* --------------- /content__item --------------- */
 
-    /* --------------- btn --------------- */
-    .btn{
-        line-height: 22px;
-    }
-    .btn_play {
-        height: 21px;
-        width: 56px;
-        margin-left: -1px;
-    }
-   .btn_post{
-        font-size: 14px;
-        width: 165px;
-        height: 36px;
-    }
-    .btn_review{
-        display: inline-block;
-    }
-    /* --------------- /btn --------------- */
-
-    /* --------------- item_guide  --------------- */
-    .column {
-        font-size: 13px;
-    }
-    .table-title{
-        font-size: 14px;
-    }
-    .num{
-        display: inline-block;
-        width: 3%;
-        margin-right: 0px;
-    }
-    .item__table-header{
-        padding-left: 5px;
-    }
-    .item__table{
-        height:33px;
-        font-size: 16px;
-    }
-    .item__table-row{
-        margin-left: 7px;
-        margin-top: 14px;
-        padding-bottom: 14px;
-    }
-    .score {
-        width: 4%;
-        margin-right: 13px;
-    }
-    .flag {width: 5.5%;}
-    .casino {width: 17%;}
-    .tag{
-        display: inline-block;
-        width: 8%;
-    }
-    .welcome {width: 22%;}
-    .software{
-        display: inline-block;
-        width: 13.4%;
-    }
-    .medal{
-        width: 29px;
-        height: 36px;
-        line-height: 45px;
-        font-size: 12px;
-    }
-    /* --------------- /item_guide  --------------- */
 
     /* ------------ site__aside ----------- */
     .site__aside{
@@ -1442,24 +1498,6 @@ input.aside__subscribe{
     }
     /* ----------- /site__aside ----------- */
 
-    /* --------------- btn --------------- */
-    .btn{
-        line-height: 22px;
-    }
-    .btn_play {
-        height: 21px;
-        width: 56px;
-        margin-left: -1px;
-    }
-    .btn_post{
-        font-size: 14px;
-        width: 165px;
-        height: 36px;
-    }
-    .btn_review{
-        display: inline-block;
-    }
-    /* --------------- /btn --------------- */
 
     /* ------ site__footer-layout --------- */
     .site__footer-layout{
@@ -1512,50 +1550,6 @@ input.aside__subscribe{
     }
     /* ------ /site__footer-layout -------- */
 
-    /* --------------- related guides  --------------- */
-    .hover-game__bg{
-        margin-left: -93px;
-    }
-    .medal_game{
-        position: absolute;
-        left: 8px;
-        margin-top: -10px;
-    }
-    .game_img {
-        height: 130px;
-    }
-    .hover-game {
-        height: 135px;
-    }
-    .hover-game__bg:after{
-        height: 128px;
-        width: 131px;
-        top: -29px;
-        left: -29px;
-    }
-    .hover-game:before{
-        width: 68px;
-        height: 68px;
-        margin-left: -35px;
-        margin-top: -7px;
-    }
-    .hover-game:after {
-        height: 38px;
-        width: 38px;
-        margin-left: -15px;
-        margin-top: 8px;
-    }
-    .game-name {
-        font-size: 14px;
-        height: 44px;
-        padding-top: 13px;
-        padding-left: 20px;
-    }
-    .related__game{
-        height: 180px;
-        width: 186px;
-    }
-    /* --------------- /related guides  --------------- */
 
 
 }
