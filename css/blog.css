@@ -16,8 +16,8 @@
     float: left;
     width: 44%;
     height: 20px;
-    background: url(../img/blog-arrow.png) no-repeat 0 8px;
-    padding-left: 12px;
+    background: url(../img/blog-arrow.png) no-repeat 0 3px;
+    padding-left: 13px;
     background-size: 6px;
 }
 .blog-list-li a{
@@ -46,7 +46,7 @@ input.sendmail{
 /* --------btn-------- */
 .btn_blog{
     position: absolute;
-    right: 11px;
+    right: 23px;
     width: 80px;
     font-size: 10px;
     height: 20px;
@@ -56,8 +56,8 @@ input.sendmail{
 /* --------email-form-------- */
 .email-form{
     position: absolute;
-    left: 9px;
-    right: 98px;
+    left: 17px;
+    right: 109px;
 }
 /* --------/email-form-------- */
 
