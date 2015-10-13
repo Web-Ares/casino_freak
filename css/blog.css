@@ -1,10 +1,6 @@
 @charset "utf-8";
 
-.icon-blog{
-    background: url('../img/icon-freak.png') no-repeat center;
-    background-size: contain;
-    overflow: hidden;
-}
+
 .icon-email{
     background: url('../img/email-search.png') no-repeat center;
     background-size: contain;
@@ -121,24 +117,7 @@ input.sendmail{
 /* --------/blog-navigation-------- */
 
 @media screen and (min-width: 730px){
-    /* --------icon-blog-------- */
-    .icon-blog{
-        background: url('../img/icon-freak2.png') no-repeat center;
-        background-size: contain;
-        overflow: hidden;
-    }
-    /* --------/icon-blog-------- */
 
-
-
-    /* --------icon-------- */
-    .icon-blog{
-        margin: -5px 8px 0 0px;
-    }
-    .icon-email{
-        margin: 1px 9px 0 2px;
-    }
-    /* --------/icon-------- */
 
     /* --------sendmail-------- */
     input.sendmail{
