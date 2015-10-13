@@ -67,7 +67,7 @@
 }
 /* --------------- /guide_page__contents --------------- */
 
-/* --------------- item --------------- */
+/* --------------- item_guide --------------- */
 .item_guide{
     padding-bottom: 17px;
 }
@@ -165,7 +165,7 @@
     vertical-align: middle;
     margin-right: 2px;
 }
-/* --------------- /item --------------- */
+/* --------------- /item_guide --------------- */
 
 /* --------------- flag --------------- */
 .icon-flag{
@@ -651,7 +651,7 @@ input {
         margin-right: 0px;
     }
     .item__table-header{
-        padding-left: 17px;
+        padding-left: 5px;
     }
     .item__table{
         height:33px;

@@ -333,6 +333,319 @@ a:hover {
 }
 /* -------- /content__item ------------ */
 
+/* --------------- item_guide --------------- */
+.item_guide{
+    padding-bottom: 17px;
+}
+.title_guide{
+    border: none;
+    padding-bottom: 8px;
+}
+.item__table{
+    display: inline-block;
+    height: 23px;
+    background-color: #e500a7;
+    width: 100%;
+    font-size: 10px;
+    padding-left: 5px;
+}
+.column {
+    display: inline-block;
+    color: #666666;
+    font-size: 10px;
+}
+.item__table-header{
+    margin-top: 5px;
+}
+.item__table-row{
+    display:block;
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    margin-top: 7px;
+    padding-bottom: 7px;
+}
+.table-title{
+    display: inline-block;
+    color: #fff;
+    font-size: 10px;
+    text-align: left;
+    line-height: 10px;
+}
+.item-icon_cub{
+    background: url('../img/icon-cub.png') no-repeat center;
+    background-size: contain;
+}
+.item-icon_comments{
+    background: url('../img/coments_icon.png') no-repeat center;
+    background-size: contain;
+}
+.num {
+    display: none;
+    width: 3%;
+    vertical-align: middle;
+}
+.score {
+    width: 10%;
+    vertical-align: middle;
+    text-align: center;
+}
+.flag {
+    width: 8%;
+    vertical-align: middle;
+}
+.icon_flag-retina{
+    width: 12px;
+    height: 12px;
+}
+.casino {
+    width: 22%;
+    vertical-align: middle;
+}
+.welcome {
+    width: 39%;
+    vertical-align: middle;
+}
+.tag {
+    display: none;
+    width: 7%;
+    vertical-align: middle;
+}
+.software{
+    display: none;
+    width: 11%;
+    vertical-align: middle;
+}
+.btn_review{
+    display: none;
+}
+.link-color {
+    color: #e500a7;
+}
+.new {
+    background: url('../img/icon-new.png') no-repeat;
+}
+.tag_span {
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+/* --------------- /item_guide --------------- */
+
+/* --------------- flag --------------- */
+.icon-flag{
+    display: inline-block;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    margin-top: 4px;
+}
+.israel-flag{
+    background: url('../img/flag-israel.png') no-repeat center;
+    background-size: cover;
+}
+.israel-flag_light{
+    background: url('../img/flag-israel_light.png') no-repeat center;
+    background-size: cover;
+}
+
+/* --------------- /flag --------------- */
+
+/* --------------- medal --------------- */
+.medal{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    width: 14.5px;
+    height: 18px;
+    line-height: 23px;
+    font-size: 8px;
+}
+.medal_gold {
+    background: url('../img/medal-gold.png') no-repeat center;
+    background-size: contain;
+    color: #C98000;
+}
+.medal_silver {
+    background: url('../img/medal-silver.png') no-repeat center;
+    background-size: contain;
+    color: #666666;
+}
+.medal_bronze {
+    background: url('../img/medal-bronze.png') no-repeat center;
+    background-size: contain;
+    color: #666666;
+}
+.medal_black{
+    background: url('../img/medal-none.png') no-repeat center;
+    background-size: contain;
+    color: #fff;
+}
+/* --------------- /medal --------------- */
+
+/* --------------- popup --------------- */
+.popup-software{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.popup-software:hover div.popup-software__content{
+    display: block;
+}
+.popup-software{
+    position: relative;
+}
+.popup-software div{
+    position: absolute;
+    margin: 11px 0px 0 -31px;
+    z-index: 10;
+    display: none;
+    padding: 10px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    border: 1px solid #dedede;
+    width: 217px;
+}
+.popup-software div:after, .popup-software div:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.popup-software div:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 8px;
+    left: 35px;
+
+}
+.popup-software div:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #c2e1f5;
+    border-width: 8px;
+    left: 35px;
+}
+/* --------------- /popup --------------- */
+/* --------------- related guides  --------------- */
+.related{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+.related__game{
+    display: inline-block;
+    height: 89px;
+    width: 88px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+.game-name{
+    font-size: 10px;
+    height: 22px;
+    width: 100%;
+    display: inline-block;
+    background: #F2F2F2;
+    text-align: center;
+    padding-top: 4px;
+}
+.hover-game__bg{
+    height: 100%;
+    width: 100%;
+    margin-left: -44px;
+    position: absolute;
+    background: #e500a7;
+    z-index: 2;
+    overflow: hidden;
+}
+.hover-game__bg:after{
+    content: "";
+    height: 64px;
+    width: 65.5px;
+    top: -17px;
+    left: -21px;
+    position: absolute;
+    background: url("../img/logo_game.png") no-repeat center;
+    z-index: 3;
+    background-size: contain;
+}
+.hover-game:after{
+    content: "";
+    height: 19px;
+    width: 19px;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: 1px;
+    position: absolute;
+    background: url("../img/playHover.png") no-repeat center;
+    z-index: 3;
+    background-size: contain;
+}
+.hover-game:before{
+    content: " ";
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    margin-left: -17px;
+    top: 50%;
+    margin-top: -6px;
+    border-radius: 50%;
+    z-index: 3;
+}
+.hover-game {
+    display: none;
+    height: 67.5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+.game_link{
+    color:#666666;
+}
+.game_img {
+    height: 67.5px;
+    width: 100%;
+    float: left;
+}
+.medal_game{
+    float: left;
+    margin-top: -2px;
+}
+.related__game:hover .hover-game {
+    display: block;
+}
+.related__game:hover .game-name{
+    color: #F2F2F2;
+    background: #e500a7;
+    padding-left: 0;
+}
+.related__game:hover .medal_game{
+    display: none;
+}
+/* --------------- /related guides  --------------- */
+
 /* ------------ site__aside ----------- */
 .aside__search{
     display: none;
@@ -803,6 +1116,53 @@ input.aside__subscribe{
     }
     /* --------------- /btn --------------- */
 
+    /* --------------- item_guide  --------------- */
+    .column {
+        font-size: 13px;
+    }
+    .table-title{
+        font-size: 14px;
+    }
+    .num{
+        display: inline-block;
+        width: 3%;
+        margin-right: 0px;
+    }
+    .item__table-header{
+        padding-left: 5px;
+    }
+    .item__table{
+        height:33px;
+        font-size: 16px;
+    }
+    .item__table-row{
+        margin-left: 7px;
+        margin-top: 14px;
+        padding-bottom: 14px;
+    }
+    .score {
+        width: 4%;
+        margin-right: 13px;
+    }
+    .flag {width: 5.5%;}
+    .casino {width: 17%;}
+    .tag{
+        display: inline-block;
+        width: 8%;
+    }
+    .welcome {width: 22%;}
+    .software{
+        display: inline-block;
+        width: 13.4%;
+    }
+    .medal{
+        width: 29px;
+        height: 36px;
+        line-height: 45px;
+        font-size: 12px;
+    }
+    /* --------------- /item_guide  --------------- */
+
     /* ------------ site__aside ----------- */
     .site__aside{
         position: absolute;
@@ -900,4 +1260,49 @@ input.aside__subscribe{
         line-height: 23px;
     }
     /* ------ /site__footer-layout -------- */
+
+    /* --------------- related guides  --------------- */
+    .hover-game__bg{
+        margin-left: -93px;
+    }
+    .medal_game{
+        position: absolute;
+        left: 8px;
+        margin-top: -10px;
+    }
+    .game_img {
+        height: 130px;
+    }
+    .hover-game {
+        height: 135px;
+    }
+    .hover-game__bg:after{
+        height: 128px;
+        width: 131px;
+        top: -29px;
+        left: -29px;
+    }
+    .hover-game:before{
+        width: 68px;
+        height: 68px;
+        margin-left: -35px;
+        margin-top: -7px;
+    }
+    .hover-game:after {
+        height: 38px;
+        width: 38px;
+        margin-left: -15px;
+        margin-top: 8px;
+    }
+    .game-name {
+        font-size: 14px;
+        height: 44px;
+        padding-top: 13px;
+        padding-left: 20px;
+    }
+    .related__game{
+        height: 180px;
+        width: 186px;
+    }
+    /* --------------- /related guides  --------------- */
 }
