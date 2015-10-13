@@ -233,6 +233,8 @@ a:hover {
     display: block;
     float: none;
 }
+
+/* --------------- /content__item --------------- */
 /* ---------item-------- */
 .item_blog p{
     text-align: left;
@@ -245,8 +247,6 @@ a:hover {
     height: 20px;
 }
 /* ---------/item-------- */
-
-/* --------------- /content__item --------------- */
 
 /* --------------- icon-posts --------------- */
 .icon-posts{
