@@ -84,6 +84,7 @@
     height: 100px;
     background: blue;
 }
+
 /* --------------- /site --------------- */
 
 /* --------------- btn --------------- */
@@ -126,6 +127,10 @@ a:hover {
 }
 .btn:hover{
     background-color: #e500a7;
+}
+.btn_read{
+    display: none;
+    width: 90px;
 }
 /* ----------- /btn ----------- */
 
@@ -217,11 +222,107 @@ a:hover {
 .show-all a{
     color: #e500a7;
 }
+.show-all-blog{
+    float: right;
+    display: block;
+    margin-bottom: 18px;
+    margin-top: 2px;
+    padding-right: 1px;
+}
 .read_more{
     display: block;
     float: none;
 }
+/* ---------item-------- */
+.item_blog p{
+    text-align: left;
+    text-indent: 0;
+    margin-top: 1px;
+    margin-bottom: 18px;
+    padding-left: 5px;
+}
+.item_blog form{
+    height: 20px;
+}
+/* ---------/item-------- */
+
 /* --------------- /content__item --------------- */
+
+/* --------------- icon-posts --------------- */
+.icon-posts{
+    background: url('../img/iconnew.png') no-repeat center;
+    background-size: contain;
+    overflow: hidden;
+}
+/* --------------- /icon-posts --------------- */
+
+/* --------blog-------- */
+.blog-descr{
+    position: relative;
+    padding-bottom: 12px;
+}
+.blog-games{
+    padding-top: 4px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.blog-games li{
+    height: 100%;
+    width: 140px;
+    display: inline-block;
+    margin-left: 1px;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+.blog-games li .blog-link{
+    display: block;
+    width: 140px;
+    height: 105px;
+    margin-bottom: 5px;
+}
+.blog-games li .blog-image{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+.blog-games li .blog-games-title{
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 2px;
+    line-height: 11px;
+    font-weight: normal;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+}
+.blog-games li .blog-games-title:hover{
+    color: #e500a7;
+}
+.blog-games li .blog-games-descr{
+    margin-bottom: 2px;
+    font-size: 10px;
+    padding: 0;
+}
+.blog-games li .blog-games-time{
+    font-size: 10px;
+    color: #a4a4a4;
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+.blog-games-type{
+    display: none;
+}
+.blog-games-text{
+    display: none;
+}
+.blog-name{
+    font-size: 14px;
+}
+.blog-title-email{
+    border: none;
+}
+/* --------/blog-------- */
 
 /* --------------- @media min-width:730px --------------- */
 @media (min-width:730px){
@@ -255,9 +356,117 @@ a:hover {
         width: 56px;
         margin-left: -1px;
     }
+    .btn_read{
+        display: block;
+        bottom: 0;
+    }
     /* --------------- /content__item --------------- */
     .read_more{
         display: none;
     }
+    /* --------show-blog-------- */
+    .show-all-blog{
+        margin-top: 7px;
+        padding: 0;
+    }
+    /* --------show-blog-------- */
+
+    /* --------item-blog-------- */
+    .item_blog form{
+        height: 47px;
+    }
+    /* --------item-blog-------- */
+    /* --------blog-title-------- */
+    .blog-title{
+        font-size: 29px;
+        font-weight: normal;
+        padding-bottom: 15px;
+        margin-bottom: 14px;
+    }
+    /* --------/blog-title-------- */
+    /* --------blog-------- */
+    .blog-title{
+        font-size: 29px;
+        font-weight: normal;
+        padding-bottom: 15px;
+        margin-bottom: 14px;
+    }
+    .blog-title-email{
+        font-size: 25px;
+        font-weight: normal;
+        padding-bottom: 15px;
+        margin-bottom: -5px;
+        border: none;
+    }
+    .blog-list{
+        margin-top: 10px;
+    }
+    .blog-list-li{
+        background: url(../img/blog-arrow.png) no-repeat 0 3px;
+        padding-left: 17px;
+        width: 28%;
+    }
+    .blog-list-li a{
+        font-size: 15px;
+    }
+    .blog-games li{
+        width: 100%;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 11px;
+    }
+    .blog-games li .blog-link{
+        height: 128px;
+        width: 170px;
+        display: inline-block;
+    }
+    .blog-descr{
+        display: inline-block;
+        vertical-align: top;
+        width: 500px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    .blog-games li .blog-games-time{
+        position: relative;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .blog-games li .blog-games-title{
+        font-size: 21px;
+        line-height: 23px;
+        width: 340px;
+
+    }
+    .blog-games li .blog-games-descr{
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .blog-games li .blog-image {
+        margin-bottom: 10px;
+    }
+    .blog-games-type{
+        display: inline-block;
+    }
+    .blog-games-text{
+        display: inline;
+    }
+    .blog-text{
+        display: block;
+    }
+    .blog-name{
+        font-size: 30px;
+    }
+    .blog-games li .blog-link{
+        padding-top: 4px;
+    }
+    .blog-games{
+        padding-top: 0;
+        text-align: left;
+        margin-bottom: 94px;
+    }
+    .blog-navigation{
+        display: inline-block;
+    }
+    /* --------/blog-------- */
 }
 /* --------------- /@media min-width:730px --------------- */
