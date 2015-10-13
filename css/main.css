@@ -805,6 +805,9 @@ input.aside__subscribe{
 
     /* ------------ site__aside ----------- */
     .site__aside{
+        position: absolute;
+        top: 0;
+        left: 10px;
         width: 220px;
         margin-right: 10px;
         overflow: hidden;
