@@ -1,14 +1,5 @@
 @charset "utf-8";
-/* ---------item-------- */
-.item_blog p{
-    text-align: left;
-    text-indent: 0;
-    margin-top: 1px;
-    margin-bottom: 18px;
-}
-.item_blog form{
-    height: 20px;
-}
+
 .icon-blog{
     background: url('../img/icon-freak.png') no-repeat center;
     background-size: contain;
@@ -19,29 +10,19 @@
     background-size: contain;
     overflow: hidden;
 }
-.icon-posts{
-    background: url('../img/iconnew.png') no-repeat center;
-    background-size: contain;
-    overflow: hidden;
-}
-/* ---------show-all-blog-------- */
-.show-all-blog{
-    float: none;
-    display: block;
-    margin-bottom: 18px;
-}
-/* ---------/show-all-blog-------- */
 
 /* ---------blog-list-------- */
 .blog-list{
     display: inline-block;
+    margin-top: 10px;
 }
 .blog-list-li{
     float: left;
-    width: 50%;
+    width: 44%;
     height: 20px;
-    background: url(../img/blog-arrow.png) no-repeat 0 5px;
+    background: url(../img/blog-arrow.png) no-repeat 0 8px;
     padding-left: 12px;
+    background-size: 6px;
 }
 .blog-list-li a{
     font-size: 10px;
@@ -50,6 +31,9 @@
 .blog-list-li a:hover{
     color: #e500a7;
     text-decoration: underline;
+}
+.blog-text{
+    display: none;
 }
 /* ---------blog-list-------- */
 
@@ -62,6 +46,7 @@ input.sendmail{
     margin: 0;
 }
 /* ---------/sendmail-------- */
+
 /* --------btn-------- */
 .btn_blog{
     position: absolute;
@@ -69,10 +54,9 @@ input.sendmail{
     width: 80px;
     font-size: 10px;
     height: 20px;
-    background-color: #e500a7;
-
 }
 /* --------/btn-------- */
+
 /* --------email-form-------- */
 .email-form{
     position: absolute;
@@ -80,43 +64,61 @@ input.sendmail{
     right: 98px;
 }
 /* --------/email-form-------- */
-/* --------blog-games-------- */
-.blog-games{
-    padding-top: 4px;
-}
-.blog-games li{
-    height: 100%;
-    width: 140px;
-    display: inline-block;
-    margin-left: 1px;
-    margin-bottom: 5px;
-    vertical-align: top;
-}
-.blog-games li a{
-    display: block;
-    width: 140px;
-    height: 105px;
-    margin-bottom: 5px;
-}
-.blog-games li .blog-image{
-    width: 100%;
-    height: 100%;
-    margin-bottom: 5px;
-}
-.blog-games li .blog-games-title{
-    font-size: 10px;
-    color: #666;
-    margin-bottom: 2px;
-    line-height: 11px;
-}
-.blog-games li .blog-games-descr{
-    margin-bottom: -4px;
-}
-.blog-games li .blog-games-descr,.blog-games li .blog-games-time{
-    font-size: 10px;
-}
-/* --------/blog-games-------- */
 
+/* --------pagin-------- */
+.pagin-blog{
+    font-family: 'Open Sans','sans-serif';
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 222px;
+}
+.pagin-navigation{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(top, #e340b7 0%,#d10099 80%);
+    background: linear-gradient(top, #e340b7 0%,#d10099 20%);
+    color: #fff;
+    padding: 8px 12px 12px 11px;
+    display: inline-block;
+    text-align: center;
+}
+.pagin-navigation:hover{
+    background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
+    background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
+    color: #fff;
+    text-decoration: none;
+}
+/* --------/pagin-------- */
+
+/* --------blog-navigation-------- */
+.blog-navigation{
+    background: #e5e5e5;
+    color: #666;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 12px 12px 11px;
+    margin: 0 2.5px;
+    display: none;
+}
+.active{
+    background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
+    background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.blog-navigation:hover{
+    background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
+    background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
+    color: #fff;
+    text-decoration: none;
+}
+/* --------/blog-navigation-------- */
 
 @media screen and (min-width: 730px){
     /* --------icon-blog-------- */
@@ -126,5 +128,45 @@ input.sendmail{
         overflow: hidden;
     }
     /* --------/icon-blog-------- */
+
+
+
+    /* --------icon-------- */
+    .icon-blog{
+        margin: -5px 8px 0 0px;
+    }
+    .icon-email{
+        margin: 1px 9px 0 2px;
+    }
+    /* --------/icon-------- */
+
+    /* --------sendmail-------- */
+    input.sendmail{
+        height: 40px;
+    }
+    /* --------/sendmail-------- */
+
+    /* --------email-form-------- */
+    .email-form{
+        right: 177px;
+    }
+    /* --------/email-form-------- */
+
+    /* ---------btn------- */
+    .btn_blog{
+        width: 160px;
+        right: 7px;
+        height: 40px;
+        font-size: 15px;
+    }
+    /* --------/btn-------- */
+
+    /* --------pagin-------- */
+    .pagin-blog{
+        width: 358px;
+        margin: 0 auto;
+        padding-bottom: 42px;
+    }
+    /* --------/pagin-------- */
 }
 /* --------/tablet-------- */
