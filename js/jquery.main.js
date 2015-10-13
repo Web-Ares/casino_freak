@@ -26,12 +26,12 @@
 
                         _windowWidth = $(window).width();
 
-                        if(_windowWidth<=749){
+                        if(_windowWidth<=1034){
                             _obj.slideUp(300);
                             _head.removeClass('mobile-menu');
                             _openBtn.removeClass('close-menu');
                         } else {
-                            _obj.slideDown(300);
+                            _obj.css('display','block');
                         }
 
                     }
@@ -113,16 +113,3 @@
     };
 
 })();
-$(window).on({
-    load: function () {
-
-    }
-});
-
-$(".read_more").click(function(){
-    $(".mobile_guide_page p").toggleClass("active");
-    return false;
-});
-$(".menu__close").click(function(){
-    $(this).removeClass('active');
-});

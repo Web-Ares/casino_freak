@@ -37,6 +37,7 @@
     z-index: 1;
     font: 10px 'Calibri', sans-serif;
     background-image: url("../img/bg-body.jpg");
+    min-width: 320px;
 }
 .site__content {
     position: relative;
@@ -296,23 +297,26 @@ a:hover {
     padding: 7.5px;
 }
 .content__item-title{
-    color: #666666;
-    font-size: 14px;
-    padding-bottom: 7px;
-    border-bottom: 1px solid #dedede;
+    position: relative;
     margin-bottom: 4px;
+    border-bottom: 1px solid #dedede;
+    padding-left: 23px;
+    padding-bottom: 7px;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
 }
 .content__item p{
     font-size: 10px;
 }
 .content__item-icon{
+    position: absolute;
+    left: 0;
+    top: 1px;
     background: url('../img/icon-finger_up.png') no-repeat center;
     background-size: contain;
     width: 16.5px;
     height: 16.5px;
-    margin-right: 6px;
-    display: inline-block;
-    vertical-align: middle;
 }
 .content__item-name{
     display: inline-block;
@@ -465,7 +469,7 @@ input.aside__subscribe{
     width: 58%;
 }
 /* ----------- /site__footer ---------- */
-@media (min-width: 321px) {
+@media (min-width: 768px) {
     /* -------------- site ---------------- */
     .site{
         font-size: 15px;
@@ -630,7 +634,7 @@ input.aside__subscribe{
     /* ------ /site__footer-layout -------- */
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1024px) {
     /* --------------- site --------------- */
     .site:after {
         content: '';
@@ -662,7 +666,7 @@ input.aside__subscribe{
     }
     /* ------ /site__header-layout ------- */
 
-    /* ---------- /header__menu ---------- */
+    /* ----------- header__menu ---------- */
     .header__menu{
         display: block;
         position: static;
@@ -750,17 +754,28 @@ input.aside__subscribe{
         margin-left: 91px;
     }
     /* -------------- /logo --------------- */
-    
+
+    /* ------ site__content-layout -------- */
+    .site__content-wrap{
+        float: right;
+        margin-left: 230px;
+    }
+    /* ------ /site__content-layout -------- */
+
     /* --------------- content__item --------------- */
+    .content__item{
+        padding: 15px 30px 30px;
+    }
     .content__item-icon{
+        top: -2px;
         width: 33px;
         height: 33px;
-        margin: -5px 11px 0 0px;
     }
     .content__item p{
         font-size: 14px;
     }
     .content__item-title{
+        padding-left: 45px;
         font-size:24px;
     }
     .show-all a{
@@ -792,6 +807,7 @@ input.aside__subscribe{
     .site__aside{
         width: 220px;
         margin-right: 10px;
+        overflow: hidden;
     }
     .aside__item{
         width: 100%;
@@ -811,23 +827,6 @@ input.aside__subscribe{
         line-height: 21px;
     }
     /* ----------- /site__aside ----------- */
-    /* --------------- content__item --------------- */
-    .content__item-icon{
-        width: 33px;
-        height: 33px;
-        margin: -5px 11px 0 0px;
-    }
-    .content__item p{
-        font-size: 14px;
-    }
-    .content__item-title{
-        font-size:24px;
-    }
-    .show-all a{
-        font-size: 14px;
-        line-height: 34px;
-    }
-    /* --------------- /content__item --------------- */
 
     /* --------------- btn --------------- */
     .btn{
@@ -847,7 +846,7 @@ input.aside__subscribe{
         display: inline-block;
     }
     /* --------------- /btn --------------- */
-    
+
     /* ------ site__footer-layout --------- */
     .site__footer-layout{
         position: relative;
