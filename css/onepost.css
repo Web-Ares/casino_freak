@@ -11,14 +11,22 @@
     display: inline-block;
     font-size: 10px;
     margin-bottom: 15px;
+    padding: 0 8px;
 }
 .onepost-item p{
     text-align: left;
     margin-bottom: 15px;
+    padding: 0 8px;
 }
 .onepost-title{
     font-size: 10px;
     margin-bottom: 15px;
+    padding: 0 8px;
+}
+.onepost-read-more{
+    display: block;
+    float: none;
+    padding: 0 8px;
 }
 .onepost-tag{
     border-top: 1px solid #c8c3c6;
@@ -30,7 +38,7 @@
 .onepost-tag a{
     background-color: #d9d9d9;
     color: #8a8a8a;
-    padding: 4px 18px;
+    padding: 2px 17px;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 8px;
@@ -62,12 +70,14 @@
     height: 15px;
     display: inline-block;
 }
-
+.onepost-item .onepost-text{
+    padding: 0;
+}
 /* ---------/onepost-------- */
 /* ---------btn-------- */
 .btn_onepost{
     font-size: 10px;
-    width: 72px;
+    width: 68px;
     height: 15px;
     padding: 0;
     margin-bottom: 8px;
