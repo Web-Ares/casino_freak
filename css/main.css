@@ -335,7 +335,7 @@ a:hover {
     display: inline-block;
     width: 67%;
     vertical-align: middle;
-    font-size: 24px;
+    font-size: 14px;
 }
 .show-all {
     float: right;
@@ -954,7 +954,9 @@ input.aside__subscribe{
     .content__item-icon_table{
         left: 18px;
     }
-
+    .content__item-name{
+        font-size: 24px;
+    }
     .content__item p{
         font-size: 14px;
     }
