@@ -86,7 +86,7 @@
 }
 .comments__scale-line{
     display: inline-block;
-    width: 65px;
+    width: 59px;
     height: 9px;
     box-shadow: 0 5px 10px rgba(0,0,0,.15);
     border: 1px solid #dedede;
@@ -154,16 +154,16 @@
     font-family: 'ProximaNova', sans-serif;
     font-weight: 300;
     color:#fff;
-    padding-right:20px;
+    padding-top: initial;
     margin-bottom: 5px;
     margin-top: 5px;
 }
 .comments__form>input[type=submit] {
     cursor: pointer;
     font-size: 10px;
-    width: 100px;
-    height: 20px;
-    margin-top: 11px;
+    width: 111px;
+    height: 18px;
+    margin-top: 9px;
 }
 .comments__form>input.name {
     color:#000;
