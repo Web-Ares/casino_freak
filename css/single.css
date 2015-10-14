@@ -98,10 +98,62 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     display: none;
 }
 .dragons{
+    position: relative;
     border-bottom: 1px solid #dedede;
     margin-bottom: 6px;
     padding-bottom: 6px;
 }
+.dungeons-rating{
+    display: inline-block;
+    vertical-align: middle;
+    width: 202px;
+    height: 20.5px;
+    background: url("../img/votes-meda-blankl.jpg") repeat-x;
+    background-size: contain;
+}
+.dungeons-rating>div{
+    width: 84%;
+    height: 100%;
+    background: url("../img/votes-medal.jpg") repeat-x;
+    background-size: contain;
+}
+.mobile-btn>.btn{
+    width: 26.5px;
+    height: 13px;
+    float: right;
+}
+button img{
+    position: absolute;
+    width: 8.5px;
+    height: 8.5px;
+    top: 2px;
+    margin-left: -4px;
+}
+.mobile-btn>button{
+    margin-left: 4px;
+}
+.dungeons-rating-number{
+    display: block;
+    font-size: 10px;
+    color:#c98000;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+.mobile-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.single-main-pic{
+    position: relative;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.single-main-pic img{
+    width: 100%;
+}
+
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px) {
     input[type="radio"] + label > .add-your__rating_medal {
@@ -153,35 +205,28 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
         margin-bottom: 15px;
     }
     .dungeons-rating{
-        display: inline-block;
-        vertical-align: middle;
         width: 398px;
         height: 41px;
-        background: url("../img/votes-meda-blankl.jpg") repeat-x;
-    }
-    .dungeons-rating>div{
-        width: 86.5%;
-        height: 100%;
-        background: url("../img/votes-medal.jpg") repeat-x;
     }
     .dungeons-rating-number{
         display: inline-block;
         font-size: 14px;
-        color:#c98000;
-        vertical-align: middle;
         margin-left: 20px;
     }
-    .dragons>.btn{
+    .mobile-btn>.btn{
         width: 53px;
         height: 26px;
-        float: right;
         margin-top: 7px;
     }
-    .dragons>button{
+    .mobile-btn>button{
         margin-left: 10px;
     }
     button img{
-        margin-top: 4px;
+        width: 17px;
+        height: 17px;
+        top: 11.5px;
+        margin-left: -8px;
     }
-}
+
+   }
 /* --------------- /@media (min-width:768px) --------------- */
