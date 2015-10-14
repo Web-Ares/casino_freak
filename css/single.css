@@ -1,13 +1,16 @@
 .medal_single{
     vertical-align: bottom;
-    margin-right: 18px;
 }
 .comments__scale-title{
     display: inline-block;
-    width: 80px;
+    width: 56px;
 }
 .scale_single{
     margin-bottom: 10px;
+}
+.scale_single-line{
+    margin-left: 1px;
+    margin-right: 1px;
 }
 .scale_gold{
     width: 90%;
@@ -23,7 +26,7 @@
 }
 .add-your{
     font-size: 10px;
-    margin-top: 34px;
+    margin-top: 15px;
 }
 .add-your ul{
     display: inline-block;
@@ -32,15 +35,13 @@
 ul.add-your__rating li {
     position: relative;
     display: inline-block;
-    padding: 10px;
+    margin-left: 6px;
 }
 input[type="radio"] {
     display: none;
 }
 input[type="radio"] + label > .add-your__rating_medal {
     position: relative;
-    width: 29px;
-    height: 36px;
     display: inline-block;
     z-index: 3;
 }
@@ -48,17 +49,139 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     display: inline-block;
     position: absolute;
     content: " ";
-    width: 46px;
-    height: 46px;
-    left: 2px;
-    top: 5px;
+    width: 23px;
+    height: 23px;
+    left: -4px;
+    top: -3px;
     background: url("../img/hover-radio-medal.png")no-repeat;
+    background-size: contain;
 }
 
-/* --------------- @media (min-width:730px) --------------- */
-@media (min-width:730px) {
+.dungeons{
+    font-size: 10px;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+}
+.dungeons__characteristics{
+    font-size: 10px;
+    font-weight: 700;
+}
+.dungeons__characteristics li{
+    margin-bottom: 7px;
+}
+.dungeons__characteristics-red{
+    padding-left: 2px;
+    color:#e500a7;
+    font-weight: 400;
+}
+.dungeons__characteristics-black{
+    padding-left: 2px;
+    font-weight: 400;
+}
+.review-stats{
+    width: 63%;
+    display: inline-block;
+    vertical-align: top;
+}
+.review-stats p{
+    margin-bottom: 15px;
+}
+.votes{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.dungeons>.read_more{
+    display: none;
+}
+.dungeons>p{
+    display: none;
+}
+.dragons{
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+/* --------------- @media (min-width:768px) --------------- */
+@media (min-width:768px) {
+    input[type="radio"] + label > .add-your__rating_medal {
+       width: 29px;
+       height: 36px;
+        margin-left: 11px;
+    }
+    input[type="radio"]:checked + label > .add-your__rating-checked {
+        width: 46px;
+        height: 46px;
+        left: 2px;
+        top: -5px;
+    }
     .add-your {
         font-size: 18px;
+        margin-top: 21px;
+        margin-bottom: 11px;
+    }
+    .dungeons{
+        font-size: 16px;
+        width: 50%;
+        float: right;
+    }
+    .review-stats{
+        width: 50%;
+    }
+    .review-stats p {
+        display: none;
+    }
+    .dungeons__characteristics{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .comments__scale-title {
+        width: 90px;
+    }
+    .medal_single {
+        margin-right: 13px;
+    }
+    .dungeons__characteristics li {
+        width: 45%;
+        display: inline-block;
+}
+    .dungeons>.read_more{
+        display: block;
+    }
+    .dungeons>p {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .dungeons-rating{
+        display: inline-block;
+        vertical-align: middle;
+        width: 398px;
+        height: 41px;
+        background: url("../img/votes-meda-blankl.jpg") repeat-x;
+    }
+    .dungeons-rating>div{
+        width: 86.5%;
+        height: 100%;
+        background: url("../img/votes-medal.jpg") repeat-x;
+    }
+    .dungeons-rating-number{
+        display: inline-block;
+        font-size: 14px;
+        color:#c98000;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+    .dragons>.btn{
+        width: 53px;
+        height: 26px;
+        float: right;
+        margin-top: 7px;
+    }
+    .dragons>button{
+        margin-left: 10px;
+    }
+    button img{
+        margin-top: 4px;
     }
 }
-/* --------------- /@media (min-width:730px) --------------- */
+/* --------------- /@media (min-width:768px) --------------- */
