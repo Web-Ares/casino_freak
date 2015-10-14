@@ -216,9 +216,6 @@
         width: 340px;
         height: 260px;
     }
-    .contents-item {
-         font-size: 14px;
-     }
     .mobile-none{
         display: block;
     }
@@ -247,6 +244,11 @@
         margin-bottom: 10px;
         padding-left: 10px;
         font-size: 14px;
+    }
+    .comments__form>input[type=submit] {
+        font-size: 14px;
+        width: 200px;
+        height: 40px;
     }
     .comments__form>input.email {
         padding-left: 10px;
@@ -277,13 +279,23 @@
         font-size: 14px;
     }
     .comments-time{
-        font-size: 12px;
+        font-size: 12px;}
+    .contents-item {
+        font-size: 14px;
+        height: 20px;
+        padding-left: 17px;
+        margin-top: 1px;
+        background-size: 11px;
     }
     .item_guide p{
         margin-bottom: 20px;
     }
     .comments{
         margin-bottom: 40px;
+    }
+    .guide_comments{
+        padding-bottom: 13px;
+        margin-bottom: 14px;
     }
     /* --------------- /comments --------------- */
 
