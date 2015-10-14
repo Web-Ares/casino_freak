@@ -26,7 +26,7 @@
 .active{
     display:block;
 }
-.guide_page__contents p:first-child{
+.guide_page__contents p{
     display: block;
     margin-bottom: 10px;
     line-height: 12px;
@@ -193,6 +193,9 @@
     }
     .item_guide p{
         font-size: 14px;
+    }
+    .guide_page__contents p{
+        line-height: 17px;
     }
     .item_guide h3{
         font-size: 18px;
