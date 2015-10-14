@@ -1,10 +1,5 @@
 @charset "utf-8";
 /* --------------- guide_page__contents--------------- */
-.mobile_title {
-    display: inline-block;
-    width: 80%;
-    vertical-align: top;
-}
 .guide_page-read{
     font-size: 10px;
     margin-left:10px;
@@ -301,7 +296,6 @@
         margin-bottom: 14px;
     }
     /* --------------- /comments --------------- */
-
     .btn_review{
         display: inline-block;
     }

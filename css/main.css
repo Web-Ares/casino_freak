@@ -479,6 +479,7 @@ a:hover {
     vertical-align: middle;
     margin-right: 2px;
 }
+
 /* --------------- /item_guide --------------- */
 
 /* --------------- flag --------------- */
@@ -1419,6 +1420,9 @@ input.aside__subscribe{
         width: 24px;
         height:24px;
     }
+    .mobile_title {
+        width: 84%;
+     }
     /* --------------- /item_guide  --------------- */
     /* --------------- related guides  --------------- */
     .hover-game__bg{
