@@ -80,6 +80,9 @@
     letter-spacing: -0.4px;
     line-height: 11px;
 }
+.onepost-table{
+    display: none;
+}
 /* ---------/onepost-------- */
 /* ---------btn-------- */
 .btn_onepost{
@@ -99,3 +102,105 @@
     margin-bottom: 10px;
 }
 /*------ /autor-name-------*/
+
+/* --------------- @media (min-width:768px) --------------- */
+@media (min-width:768px) {
+    /*---- onepost----*/
+    .icon-onepost {
+        top: 6px;
+        left: 11px;
+    }
+    .onepost-time {
+        font-size: 12px;
+        margin-left: 6px;
+        margin-bottom: 34px;
+    }
+    .onepost-time>span{
+        color: #e500a7;
+        font-weight: bold;
+    }
+    .onepost-item p {
+        padding-left: 15px;
+        margin-bottom: 17px;
+    }
+    .onepost-title {
+        font-size: 23px;
+        margin-left: 8px;
+        margin-bottom: 15px;
+    }
+    .btn_onepost .onepost-table{
+        display: block;
+    }
+    .onepost-table{
+        display: block;
+    }
+    .onepost-read-more {
+        display: none;
+    }
+    .onepost-tag {
+        padding: 13px 0;
+        margin-bottom: 35px;
+        padding-top: 49px;
+        padding-bottom: 44px;
+        margin-top: 30px;
+        margin-left: 3px;
+    }
+    .onepost-tag a {
+        font-size: 14px;
+        margin-left: 14px;
+        margin-right: -10px;
+    }
+    .onepost__wrap{
+        overflow: hidden;
+    }
+    .onepost-link {
+        width: 168px;
+        height: 168px;
+        float: left;
+    }
+    .onepost-autor{
+        margin: 0 38px;
+        margin-top: 20px;
+        margin-bottom: 19px;
+    }
+    .onepost-contact {
+        margin-left: 33px;
+        margin-top: -8px;
+    }
+    .onepost-tw {
+        width: 196px;
+        height: 30px;
+    }
+    .onepost-item .onepost-text {
+        padding: 0 4px;
+        padding-left: 36px;
+        letter-spacing: 0;
+        line-height: 17px;
+    }
+    .onepost-text>span{
+        color: #e500a7;
+        font-weight: bold;
+    }
+
+    /*---- /onepost----*/
+    /*----btn_onepost -----*/
+    .btn_onepost {
+        font-size: 12px;
+        width: 163px;
+        height: 35px;
+        padding: 0;
+        margin-left: 16px;
+        margin-bottom: 1px;
+    }
+    .btn_onepost>span{
+        display: none;
+    }
+    /*----/btn_onepost -----*/
+
+    /*----autor-name -----*/
+    .autor-name {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    /*----/autor-name -----*/
+}

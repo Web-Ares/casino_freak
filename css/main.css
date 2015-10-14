@@ -1032,6 +1032,7 @@ input.aside__subscribe{
     /* --------------- content__item --------------- */
     .content__item{
         padding: 15px 7px 30px;
+        width: 730px;
     }
     .content__item_table{
         padding: 15px 0 20px;
@@ -1336,6 +1337,7 @@ input.aside__subscribe{
     }
     .blog-name{
         font-size: 30px;
+        width: 100%;
     }
     .blog-games li .blog-link{
         padding-top: 4px;
@@ -1369,6 +1371,11 @@ input.aside__subscribe{
         top: 6px;
     }
     /* --------/icon-------- */
+    /* --------onepost-item-------- */
+    .onepost-item{
+        margin-bottom: 5px;
+    }
+    /* --------onepost-item-------- */
     /* --------------- item_guide  --------------- */
     .column {
         font-size: 13px;
