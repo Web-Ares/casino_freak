@@ -8,6 +8,23 @@
         });
     } );
 
+    $(window).on({
+        'resize':function(){
+            if($(window).width() > 1024) {
+                siteHeight()
+            }
+        },
+        'load':function(){
+            if($(window).width() > 1024) {
+                siteHeight()
+            }
+        }
+    });
+    function siteHeight(){
+        var elemHeight = $('.site__aside').outerHeight();
+        $('.site__content-wrap').css({'min-height': elemHeight});
+    }
+
     var mobileMenu = function (obj) {
         //private properties
         var _obj = obj,
@@ -77,12 +94,10 @@
 
                 _window.on({
                     resize: function () {
-
                         if(_windowWidth<=749){
                             $('.header__menu li').removeClass('active');
                             $('.header__menu li ul').css('display','none');
                         }
-
                     }
                 });
 
