@@ -175,10 +175,14 @@ a:hover {
     margin-right: 50px;
     z-index: 9;
 }
-.header__search-text{
+.header__search-text,
+.header__search input[type=search]{
+    -webkit-appearance: none;
     width: 100%;
     padding: 0 30px 0 10px;
     border: 1px solid #dedede;
+    -webkit-border-radius: 0;
+    -webkit-box-shadow: none;
     background-color: #fff;
     line-height: 25px;
 }
