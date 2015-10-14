@@ -347,6 +347,11 @@ a:hover {
 .content__item-icon_table {
     left: 9px;
 }
+.mobile_title {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
 /* -------- /content__item ------------ */
 .show-all-blog{
     float: right;
@@ -382,11 +387,12 @@ a:hover {
     padding-left: 32px;
     padding-bottom: 0px;
 }
-.item__table{
-    display:block;
+.item__table {
+    display: inline-block;
     width: 100%;
     font-size: 10px;
     padding-left: 5px;
+    vertical-align: middle;
 }
 .column {
     display: inline-block;
@@ -394,7 +400,6 @@ a:hover {
     font-size: 10px;
 }
 .item__table-header{
-    margin-top: 5px;
     height: 16px;
     background-color: #e500a7;
 }
