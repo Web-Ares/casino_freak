@@ -27,6 +27,7 @@
     display: block;
     float: none;
     padding: 0 8px;
+    margin-bottom: 2px;
 }
 .onepost-tag{
     border-top: 1px solid #c8c3c6;
@@ -96,6 +97,5 @@
     display: block;
     font-size: 14px;
     margin-bottom: 10px;
-    margin-bottom: 2px;
 }
 /*------ /autor-name-------*/
