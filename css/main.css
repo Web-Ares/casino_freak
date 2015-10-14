@@ -418,7 +418,7 @@ a:hover {
     color: #fff;
     font-size: 10px;
     text-align: left;
-    line-height: 10px;
+    line-height: 16px;
 }
 .item-icon_cub{
     background: url('../img/icon-cub.png') no-repeat center;
