@@ -347,6 +347,11 @@ a:hover {
 .content__item-icon_table {
     left: 9px;
 }
+.mobile_title {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top;
+}
 /* -------- /content__item ------------ */
 .show-all-blog{
     float: right;
@@ -395,7 +400,6 @@ a:hover {
     font-size: 10px;
 }
 .item__table-header{
-    margin-top: 5px;
     height: 16px;
     background-color: #e500a7;
 }
