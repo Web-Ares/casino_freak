@@ -48,7 +48,8 @@
 
 }
 .onepost-contact{
-
+    display: inline-block;
+    vertical-align: top;
 }
 .onepost-image{
     width: 100%;
@@ -75,6 +76,7 @@
 
 /*------ autor-name-------*/
 .autor-name{
-    display: inline-block;
+    display: block;
+    font-size: 14px;
 }
 /*------ /autor-name-------*/
