@@ -175,8 +175,7 @@ a:hover {
     margin-right: 50px;
     z-index: 9;
 }
-.header__search-text,
-.header__search input[type=search]{
+.header__search-text{
     -webkit-appearance: none;
     width: 100%;
     padding: 0 30px 0 10px;
@@ -714,6 +713,7 @@ input.aside__subscribe-email{
     border: 1px solid #dedede;
     background-color: #fff;
     line-height: 32px;
+    -webkit-appearance: none;
 }
 input.aside__search-text{
     padding-right: 30px;
