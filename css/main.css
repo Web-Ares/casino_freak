@@ -593,21 +593,21 @@ a:hover {
 }
 .related__game{
     display: inline-block;
-    height: 89px;
-    width: 88px;
-    margin-bottom: 10px;
-    margin-left: 4px;
+    height: 126px;
+    width: 140px;
+    margin-left: 2px;
+    margin-bottom: 8px;
     position: relative;
     vertical-align: middle;
 }
 .game-name{
     font-size: 10px;
-    height: 22px;
+    height: 25px;
     width: 100%;
     display: inline-block;
     background: #F2F2F2;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 5px;
 }
 .hover-game__bg{
     height: 100%;
@@ -620,8 +620,8 @@ a:hover {
 }
 .hover-game__bg:after{
     content: "";
-    height: 64px;
-    width: 65.5px;
+    height: 94px;
+    width: 94px;
     top: -22px;
     left: -22px;
     position: absolute;
@@ -657,7 +657,7 @@ a:hover {
 }
 .hover-game {
     display: none;
-    height: 67.5px;
+    height: 105px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -672,7 +672,7 @@ a:hover {
     color:#666666;
 }
 .game_img {
-    height: 67.5px;
+    height: 105px;
     width: 100%;
     float: left;
 }
@@ -1455,6 +1455,7 @@ input.aside__subscribe{
         padding-left: 0px;
     }
     .related__game{
+        margin-left: 4px;
         height: 172px;
         width: 171px;
     }
