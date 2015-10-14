@@ -15,9 +15,9 @@
     margin-top: 3px;
 }
 .item_guide h3{
-    margin-top: 20px;
+    margin-top: 9px;
     font-size: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
 }
 
 .guide_page__contents p{
@@ -29,22 +29,27 @@
 .guide_page__contents p:first-child{
     display: block;
     margin-bottom: 10px;
+    line-height: 12px;
+}
+.mobile-none{
+    display: none;
 }
 .italic{
     font-size: 10px;
     font-style: italic;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    display: block;
+    margin-bottom: 11px;
+    margin-top: 4px;
 }
 .table-of-contents{
-    margin-top: 20px;
+    margin-top: 8px;
 }
 .contents-item{
     font-size: 10px;
-    display: list-item;
-    list-style-image: url("../img/blog-arrow.png");
-    list-style-position: inside;
-    margin-top: 5px;
+    height: 18px;
+    background: url(../img/blog-arrow.png) no-repeat 0 3px;
+    padding-left: 13px;
+    background-size: 6px;
 }
 .content-item {
     font-size: 14px;
@@ -55,7 +60,7 @@
 .present_pic{
     width: 170px;
     height: 130px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 .present_pic img{
     width: 100%;
@@ -160,6 +165,9 @@
 }
 .comments__form>input[type=submit] {
     cursor:pointer;
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
 }
 .comments__form>input.name {
     color:#000;
@@ -211,6 +219,9 @@
     .contents-item {
          font-size: 14px;
      }
+    .mobile-none{
+        display: block;
+    }
     /* --------------- /item_guide --------------- */
 
     .icon-flag {

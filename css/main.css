@@ -311,12 +311,7 @@ a:hover {
     border-bottom: 1px solid #dedede;
     position: relative;
     margin-bottom: 4px;
-
-    border-bottom: 1px solid #dedede;
-    padding-left: 23px;
-    padding-bottom: 7px;
-    color: #666;
-    font-size: 14px;
+    padding-left: 27px;
     font-weight: normal;
 }
 .content__item p{
@@ -374,7 +369,7 @@ a:hover {
 
 /* --------------- item_guide --------------- */
 .item_guide{
-    padding-bottom: 17px;
+    padding-bottom: 9px;
 }
 .title_guide{
     border: none;
@@ -580,7 +575,6 @@ a:hover {
 .related{
     position: relative;
     width: 100%;
-    display: inline-block;
     margin-top: 10px;
     margin-left: -2px;
     text-align: center;
