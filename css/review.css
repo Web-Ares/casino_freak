@@ -31,6 +31,67 @@
     background-color: #920071;
 }
 .rev-trapeze:before{
+
+}
+.comments{
+    position: relative;
+    margin-left: 50px;
+}
+
+/* --------------- comments --------------- */
+.comments:before{
+    content: " ";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -46px;
+    top: 16px;
+    border: 1px solid #f3f3f3;
+    border-radius: 50%;
+}
+.comments:after{
+    content: " ";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: -44px;
+    top: 18px;
+    background: #f2f2f2;
+    border-radius: 50%;
+}
+.medal_comments{
+    position: absolute;
+    left: -37px;
+    top: 23px;
+    z-index: 3;
+}
+/* --------------- /comments --------------- */
+
+/* --------------- @media (min-width:768px) --------------- */
+@media (min-width:768px) {
+
+    /* --------------- comments --------------- */
+    .comments:before{
+        width: 60px;
+        height: 60px;
+        left: -73px;
+        top: 13px;
+    }
+    .comments:after{
+        width: 56px;
+        height: 56px;
+        left: -70px;
+        top: 16px;
+    }
+    .medal_comments{
+        left: -56px;
+        top: 26px;
+    }
+    .comments{
+        margin-left: 80px;
+    }
+    /* --------------- /comments --------------- */
+}
     content: "";
     position: absolute;
     left: -4px;
