@@ -594,6 +594,7 @@ a:hover {
     text-align: center;
 }
 .related{
+    width: 287px;
     display: inline-block;
     position: relative;
     margin-left: -2px;
@@ -1032,6 +1033,10 @@ input.aside__subscribe{
 }
 
 /*----- /from-blog-games ------*/
+@media (min-width: 511px){
+    .related{
+        width: 432px;}
+}
 
 @media (min-width: 768px) {
     /* --------------- content__item --------------- */
@@ -1480,6 +1485,7 @@ input.aside__subscribe{
         width: 171px;
     }
     .related {
+        width: 713px;
     }
     /* --------------- /related guides  --------------- */
 
