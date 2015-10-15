@@ -1,9 +1,11 @@
 @charset "utf-8";
 /*----- rev-figure-------*/
-.rev-figure{
+.rev-figure-reedem{
     position: relative;
-    width: 100%;
-    height: 100%;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: -6px;
+    top: 2px;
 }
 .rev-elipse{
     position: relative;
@@ -12,14 +14,27 @@
     border-radius: 58px;
     background-color: #ea00b6;
     z-index: 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    line-height: 10px;
 }
-.rev-figure:after{
+.rev-figure-reedem span{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: -1.0px;
+    line-height: 6px;
+}
+.rev-figure-reedem:after{
     content: "";
     position: absolute;
-    width: 19px;
-    height: 14px;
-    background: url("../img/scisors.png") no-repeat;
-    top: 17px;
+    width: 10px;
+    height: 7px;
+    background: url("../img/scisorsmob.png") no-repeat;
+    top: 37px;
+    left: 3px;
     z-index: 5;
 }
 .rev-trapeze{
@@ -30,9 +45,7 @@
     margin-top: -21px;
     background-color: #920071;
 }
-.rev-trapeze:before{
 
-}
 .rev-trapeze:after{
     content: "";
     position: absolute;
@@ -56,7 +69,14 @@
     background-color: #38c9ff;
     margin-left: -3px;
     border-top: 1px dashed #fff;
+    font-size: 10px;
+    letter-spacing: -0.7px;
+    line-height: 9px;
+    text-align: center;
+    padding-top: 2px;
+    color: #fff;
     z-index: 3;
+    margin-bottom: 4px;
 }
 .rev-square:before{
     content: "";
@@ -74,8 +94,99 @@
     border: 11.5px solid transparent;
     border-right: 4px solid #fff;
 }
+.icon-sun{
+    background: url('../img/revsun.png') no-repeat center;
+    background-size: contain;
+}
 /*----- /rev-figure-------*/
+.rev-deposit{
+    width: 100%;
+    border: 2px solid #f7a6e5;
+    margin-bottom: 5px;
+}
+.rev-figure-number{
+    position: relative;
+    display: inline-block;
+    top: -5px;
+    margin-left: 5px;
+    vertical-align: top;
+    color: #e500a7;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.rev-figure-number span{
+    font-size: 10px;
+    font-weight: lighter;
+    display: block;
+}
+.rev-square-deposit{
+    height: 50px;
+    width: 55px;
+    background-color: #FFFFFF;
+    border: 1.7px solid #E500F3;
+    position: relative;
+    padding-top: 15px;
+}
+.rev-square-deposit:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    border: 3px solid transparent;
+    border-bottom: 0.24px solid #8d006d;
+    border-left: 3px solid #8d006d;
+    right: -6px;
+}
+.rev-square-deposit:after{
+    content: "";
+    position: absolute;
+    bottom: -29px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url('../img/borderdeposit.jpg') no-repeat center;
+    background-size: 100% 11px;
+}
+.rev-descript-list{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+/*----- bonus-list --------*/
+.bonus-list{
+    font-size: 10px;
+    color: #000;
+    width: 144px;
+    line-height: 12px;
+}
+.bonus-list span{
+    font-weight: bolder;
+}
+.bonus-list .blackbox{
+    background: url(../img/blackcheack.png) no-repeat 0 3px;
+    padding-left: 13px;
+    background-size: 9px;
+}
+.bonus-list .magentbox{
+    background: url(../img/viollentcheack.png) no-repeat 0 3px;
+    padding-left: 13px;
+    background-size: 9px;
+    color: #E500F3;
+    font-weight: lighter;
+}
+/*----- /bonus-list --------*/
 
+/*------play-now-------*/
+.rev-figure-reedem  .play-now{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: none;
+    margin-left: 8px;
+}
+/*------/play-now-------*/
 .comments{
     position: relative;
     margin-left: 50px;
