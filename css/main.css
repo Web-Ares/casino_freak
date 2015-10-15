@@ -838,7 +838,52 @@ input.aside__subscribe{
     width: 58%;
 }
 /* ----------- /site__footer ---------- */
-
+/* --------------- Comments --------------- */
+.comments-issue{
+    color: #cb9652;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 27px;
+}
+.comments-selection{
+    font-weight: bold;
+    color: #e500a7;
+    font-size: 10px;
+    margin-left: 20px;
+}
+.comments__scale{
+    font-size: 10px;
+    line-height: 17px;
+}
+.comments__scale-line{
+    display: inline-block;
+    width: 59px;
+    height: 9px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.15);
+    border: 1px solid #dedede;
+    margin-left:10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.comments-count{
+    font-size: 10px;
+    float: right;
+    font-style: italic;
+}
+.comments-login{
+    color:#e500a7;
+    font-size: 10px;
+    display: block;
+}
+.comments-time{
+    color:#dedede;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.comments{
+    margin-bottom: 10px;
+}
+/* --------------- /Comments --------------- */
 
 /* --------------- icon-posts --------------- */
 .icon-posts{
@@ -1037,7 +1082,10 @@ input.aside__subscribe{
     .related{
         width: 432px;}
 }
-
+@media (min-width: 619px){
+    .related{
+        width: 575px;}
+}
 @media (min-width: 768px) {
     /* --------------- content__item --------------- */
     .content__item{
@@ -1536,6 +1584,48 @@ input.aside__subscribe{
         top: 4px;
     }
     /* --------------- /from-blog--------------- */
+    /* --------------- comments --------------- */
+    .comments__scale{
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .comments-issue{
+        font-size: 14px;
+    }
+    .comments-selection{
+        font-size:14px;
+    }
+    .comments__scale-line{
+        width: 130px;
+        height: 18px;
+    }
+    .comments-count{
+        font-size: 12px;
+        line-height: 38px;
+    }
+    .comments-login{
+        font-size: 14px;
+    }
+    .comments-time{
+        font-size: 12px;}
+    .contents-item {
+        font-size: 14px;
+        height: 20px;
+        padding-left: 17px;
+        margin-top: 1px;
+        background-size: 11px;
+    }
+    .item_guide p{
+        margin-bottom: 20px;
+    }
+    .comments{
+        margin-bottom: 40px;
+    }
+    .guide_comments{
+        padding-bottom: 13px;
+        margin-bottom: 14px;
+    }
+    /* --------------- /comments --------------- */
 
 }
 
