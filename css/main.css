@@ -330,6 +330,15 @@ a:hover {
     width: 16.5px;
     height: 16.5px;
 }
+.item-icon__comments{
+    position: absolute;
+    left: 1px;
+    top: -1px;
+    background: url('../img/coments_icon.png') no-repeat center;
+    background-size: contain;
+    width: 16.5px;
+    height: 16.5px;
+}
 .content__item-name{
     display: inline-block;
     width: 67%;
