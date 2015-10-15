@@ -4,6 +4,8 @@
     position: relative;
     display: inline-block;
     font-weight: bold;
+    margin-left: -6px;
+    top: 2px;
 }
 .rev-elipse{
     position: relative;
@@ -22,6 +24,8 @@
     font-size: 10px;
     text-transform: uppercase;
     font-weight: lighter;
+    letter-spacing: -1.0px;
+    line-height: 6px;
 }
 .rev-figure-reedem:after{
     content: "";
@@ -72,6 +76,7 @@
     padding-top: 2px;
     color: #fff;
     z-index: 3;
+    margin-bottom: 4px;
 }
 .rev-square:before{
     content: "";
@@ -97,6 +102,7 @@
 .rev-deposit{
     width: 100%;
     border: 2px solid #f7a6e5;
+    margin-bottom: 5px;
 }
 .rev-figure-number{
     position: relative;
@@ -145,24 +151,42 @@
     display: inline-block;
     position: relative;
     vertical-align: top;
+    margin-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 2px;
 }
 /*----- bonus-list --------*/
 .bonus-list{
     font-size: 10px;
     color: #000;
-    width: 138px;
+    width: 144px;
     line-height: 12px;
 }
 .bonus-list span{
     font-weight: bolder;
 }
 .bonus-list .blackbox{
-    background: ;
+    background: url(../img/blackcheack.png) no-repeat 0 3px;
+    padding-left: 13px;
+    background-size: 9px;
+}
+.bonus-list .magentbox{
+    background: url(../img/viollentcheack.png) no-repeat 0 3px;
+    padding-left: 13px;
+    background-size: 9px;
+    color: #E500F3;
+    font-weight: lighter;
 }
 /*----- /bonus-list --------*/
-/*----- rev-deposit --------*/
 
-/*----- /rev-deposit --------*/
+/*------play-now-------*/
+.rev-figure-reedem  .play-now{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: none;
+    margin-left: 8px;
+}
+/*------/play-now-------*/
 .comments{
     position: relative;
     margin-left: 50px;
