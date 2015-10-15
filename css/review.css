@@ -1,0 +1,21 @@
+@charset "utf-8";
+.rev-figure{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.rev-elipse{
+    width: 58px;
+    border-radius: 58px;
+    background-color: #ea00b6;
+}
+.rev-elipse :before{
+
+}
+.rev-trapeze{
+    width: 31px;
+    height: 3.5px;
+}
+.rev-trapeze:before{
+
+}
