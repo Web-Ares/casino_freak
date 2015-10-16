@@ -307,6 +307,7 @@ a:hover {
     margin-bottom: 6px;
     padding: 6.5px;
     overflow: hidden;
+    line-height: 20px;
 }
 .content__item-title{
     color: #666666;
@@ -363,7 +364,7 @@ a:hover {
     color: #e500a7;
 }
 .content__item_table{
-    padding: 7px 0 4px;
+    padding: 7px 0 0px;
 }
 .content__item-icon_table {
     left: 9px;
@@ -420,7 +421,7 @@ a:hover {
     font-size: 10px;
 }
 .item__table-header{
-    height: 16px;
+    height: 23px;
     background-color: #e500a7;
 }
 .item__table-row{
@@ -430,7 +431,7 @@ a:hover {
     margin-top: 7px;
     padding-bottom: 7px;
 }
-.item__table-row:last-child{
+.item__table-row>li:last-child{
     border: none;
 }
 .table-title{
@@ -489,6 +490,9 @@ a:hover {
 }
 .link-color {
     color: #e500a7;
+}
+.link-color:hover{
+    text-decoration:underline;
 }
 .new {
     background: url('../img/icon-new.png') no-repeat;
@@ -566,14 +570,14 @@ a:hover {
     display: block;
 }
 .popup-software{
-    position: relative;
+    position: absolute;
 }
 .popup-software div{
     position: absolute;
     margin: 11px 0px 0 -31px;
     z-index: 10;
     display: none;
-    padding: 10px 0px;
+    padding: 10px 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -635,6 +639,8 @@ a:hover {
     background: #F2F2F2;
     text-align: center;
     padding-top: 5px;
+    webkit-transition: color .4s ease-in-out;
+    transition: color .4s ease-in-out;
 }
 .hover-game__bg{
     height: 100%;
@@ -683,17 +689,15 @@ a:hover {
     z-index: 3;
 }
 .hover-game {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
     height: 105px;
     width: 100%;
     position: absolute;
     top: 0;
     left: 10px;
-    -moz-transition: all .15s ease-in-out;
-    -webkit-transition: all .15s ease-in-out;
-    -o-transition: all .15s ease-in-out;
-    -ms-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
+    webkit-transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+    transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
 }
 .game_link{
     color:#666666;
@@ -707,7 +711,11 @@ a:hover {
    margin-top: -2px;
 }
 .related__game:hover .hover-game {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    }
+.mobile-none{
+    display: none;
 }
 .related__game:hover .game-name{
     color: #F2F2F2;
@@ -1111,7 +1119,7 @@ input.aside__subscribe{
         width: 730px;
     }
     .content__item_table{
-        padding: 15px 0 20px;
+        padding: 15px 0 0px;
     }
     .item_guide{
         padding: 12px 9px 15px;
@@ -1471,21 +1479,22 @@ input.aside__subscribe{
         margin-right: 0px;
     }
     .item__table-header{
-        height: 36px;
+        height: 33px;
         padding-left: 17px;
         padding-top: 7px;
     }
     .item__table{
        font-size: 16px;
     }
-    .item__table-row{
+   .item__table-row {
         margin-left: 15px;
-        margin-top: 17px;
-        padding-bottom: 6px;
+        margin-top: 12px;
+        padding-bottom: 11px;
+        width: 96%;
     }
 
     .score {
-        width: 4%;
+        width: 5%;
         margin-right: 13px;
     }
     .flag {width: 5.5%;}
@@ -1494,10 +1503,10 @@ input.aside__subscribe{
         display: inline-block;
         width: 8.5%;
     }
-    .welcome {width: 22%;}
+    .welcome {width: 23%;}
     .software{
         display: inline-block;
-        width: 13.4%;
+        width: 14.4%;
     }
     .medal{
         width: 29px;
@@ -1530,20 +1539,20 @@ input.aside__subscribe{
     .hover-game__bg:after{
         height: 128px;
         width: 131px;
-        top: -41px;
-        left: -41px;
+        top: -33px;
+        left: -56px;
     }
     .hover-game:before{
         width: 68px;
         height: 68px;
         margin-left: -42px;
-        margin-top: -7px;
+        margin-top: -18px;
     }
     .hover-game:after {
         height: 38px;
         width: 38px;
-        margin-left: -23px;
-        margin-top: 8px;
+        margin-left: -25px;
+        margin-top: -2px;
     }
     .game-name {
         font-size: 14px;
@@ -1559,11 +1568,22 @@ input.aside__subscribe{
     .related {
         width: 713px;
     }
+    .related__game:hover .game-name {
+        color: #F2F2F2;
+        font-size: 20px;
+        font-weight: normal;
+        background: #e500a7;
+        padding-left: 0;
+        padding-top: 3px;
+    }
+    .mobile-none{
+        display: block;
+    }
     /* --------------- /related guides  --------------- */
 
     /* --------------- btn --------------- */
     .btn{
-        line-height: 22px;
+        line-height: 20px;
     }
     .btn_play {
         height: 21px;

@@ -108,8 +108,8 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
 .dungeons-rating{
     display: inline-block;
     vertical-align: middle;
-    width: 202px;
-    height: 20.5px;
+    width: 195px;
+    height: 18.5px;
     background: url("../img/votes-meda-blankl.jpg") repeat-x;
     background-size: contain;
 }
@@ -209,7 +209,7 @@ button img{
         margin-bottom: 15px;
     }
     .dungeons-rating{
-        width: 363px;
+        width: 380px;
         height: 37px;
     }
     .dungeons-rating-number{

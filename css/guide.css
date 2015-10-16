@@ -227,8 +227,9 @@
     }
         /* --------------- comments_form --------------- */
     .comments__form {
+        margin-left: 8px;
         font-size: 14px;
-        width: 303px;
+        width: 334px;
         overflow: hidden;
     }
     .comments__form-message{
@@ -246,10 +247,12 @@
         font-size: 14px;
     }
     .comments__form>input[type=submit] {
-        font-size: 14px;
-        width: 200px;
-        height: 40px;
+        font-size: 13px;
+        width: 167px;
+        height: 38px;
+        margin-top: 16px;
     }
+
     .comments__form>input.email {
         padding-left: 10px;
         font-size: 14px;
@@ -268,7 +271,7 @@
         font-size:14px;
     }
     .comments__scale-line{
-        width: 130px;
+        width: 115px;
         height: 18px;
     }
     .comments-count{
@@ -297,6 +300,10 @@
         font-size: 30px;
         padding-bottom: 15px;
         margin-bottom: 17px;
+
+    }
+    .item_guide .guide_comments{
+        font-size: 24px;
     }
     /* --------------- /comments --------------- */
     .btn_review{
