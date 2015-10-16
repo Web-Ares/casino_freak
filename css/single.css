@@ -1,59 +1,4 @@
-/* --------------- latest --------------- */
-.majestic {
-    position: relative;
-    width: 100%;
-    border-bottom: 1px solid #dedede;
-    padding-bottom: 13px;
-}
-.majestic .dragons {
-    position: relative;
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 13px;
-    width: 70%;
-    margin-top: 4px;
-}
-.majestic .dungeons-rating-number {
-    margin-top: 4px;
-}
-.majestic__slots {
-    width: 62px;
-    display: inline-block;
-    vertical-align: middle;
-}
-.majestic__slots-logo img{
-    display: block;
-    margin: 0 auto;
-    width: 56.5px;
-    height: 31.5px;
-}
-.latest__player p{
-    margin-bottom: 5px;
-}
-.latest__player h3{
-    margin-bottom: 5px;
-}
-.latest .votes{
-    margin-top: 12px;
-}
-.latest .add-your {
-    margin-top: 15px;
-}
-.all_reviews{
-    display: none;
-}
-.btn_play-now{
-    height: 15px;
-    width: 58px;
-    font-size: 10px;
-    line-height: 14px;
-    margin-top: 10px;
-    margin-left: 3px;
-}
-/* --------------- /latest --------------- */
+/* --------------- single --------------- */
 .medal_single{
     vertical-align: bottom;
     margin-right: 3px;
@@ -211,7 +156,7 @@ button img{
 .single-main-pic img{
     width: 100%;
 }
-
+/* --------------- /single --------------- */
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px) {
     input[type="radio"] + label > .add-your__rating_medal {
@@ -225,6 +170,7 @@ button img{
         left: 2px;
         top: -5px;
     }
+    /* --------------- dragons --------------- */
     .add-your {
         font-size: 18px;
         margin-top: 39px;
@@ -305,6 +251,8 @@ button img{
     ul.add-your__rating li {
         margin-left: 2px;
     }
+    /* --------------- /dragons --------------- */
+
     /* --------------- latest --------------- */
     .latest__player{
         width: 45.5%;
