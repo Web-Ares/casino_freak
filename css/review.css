@@ -222,7 +222,30 @@
     top: 23px;
     z-index: 3;
 }
-/* --------------- /comments --------------- */
+
+/* --------------- detail-list --------------- */
+.detail{
+    position: relative;
+    display: inline-block;
+}
+.detail-list{
+    font-size: 10px;
+    color: #000;
+    width: 100%;
+
+}
+
+.detail-list li{
+    display: table-row;
+}
+
+.detail-list .list-text{
+    display: table-cell;
+}
+
+/* --------------- /detail-list --------------- */
+
+
 
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px) {
