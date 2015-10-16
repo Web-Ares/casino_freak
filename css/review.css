@@ -236,6 +236,7 @@
     padding-bottom: 13px;
     margin-bottom: 10px;
     border-bottom: 1px solid #dedede;
+    width: 277px;
 }
 .detail-list{
     font-size: 10px;
@@ -262,6 +263,9 @@
     display: table-cell;
     font-weight: normal;
     width: 58%;
+}
+.detail-list li .magentbox{
+    color: #e500a7;
 }
 .icon-bank{
     position: absolute;
@@ -499,6 +503,7 @@
         display: block;
         font-weight: normal;
         width: 100%;
+        padding-bottom: 1px;
     }
     .detail-list{
         font-size: 14px;
@@ -508,6 +513,7 @@
     }
     .detail{
         border-bottom: none;
+        width: 216px;
     }
     .detail:after{
         content: "";
@@ -515,7 +521,7 @@
         width: 1px;
         top: -66px;
         left: -12px;
-        height: 345px;
+        height: 326px;
         background-color: #dedede;
     }
     /*-------- /detail--------*/
@@ -533,7 +539,7 @@
         padding-left: 4px;
         padding-top: 12px;
         position: relative;
-
+        padding-bottom: 67px;
     }
     .item-wrap:first-child .detail:after{
         display: none;
