@@ -5,7 +5,6 @@
     background: url('../img/email-search.png') no-repeat center;
     background-size: contain;
     overflow: hidden;
-    top: 7px;
 }
 
 /* ---------sendmail-------- */
@@ -51,7 +50,7 @@ input.sendmail{
     background: -webkit-linear-gradient(top, #e340b7 0%,#d10099 80%);
     background: linear-gradient(top, #e340b7 0%,#d10099 20%);
     color: #fff;
-    padding: 8px 12px 12px 11px;
+    padding: 5px 12px 12px 11px;
     display: inline-block;
     text-align: center;
 }
