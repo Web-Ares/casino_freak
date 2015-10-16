@@ -125,7 +125,7 @@ a:hover {
     padding-bottom: 0;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 13px;
+    margin-left: 21px;
     width: 70%;
     margin-top: 4px;
 }
@@ -175,7 +175,7 @@ a:hover {
 }
 .comments__scale-title{
     display: inline-block;
-    width: 56px;
+    width: 60px;
 }
 .scale_single{
     margin-bottom: 5px;
