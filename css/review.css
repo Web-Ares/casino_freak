@@ -223,18 +223,26 @@
     z-index: 3;
 }
 
-/* --------------- detail-list --------------- */
+/* --------------- detail --------------- */
+.item-detail{
+    padding-top: 7px;
+}
+.item-wrap{
+    display: block;
+}
 .detail{
     position: relative;
-    display: inline-block;
+    display: block;
+    padding-bottom: 13px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+    width: 277px;
 }
 .detail-list{
     font-size: 10px;
     color: #000;
     width: 100%;
-
 }
-
 .detail-list li{
     display: table-row;
     font-weight: bold;
@@ -243,10 +251,53 @@
 .detail-list .list-text{
     display: table-cell;
     font-weight: normal;
-    width: 70%;
+    width: 58%;
+}
+.detail-list .list-bank{
+    display: table-cell;
+    font-weight: normal;
+    width: 39%;
+
+}
+.detail-list .list-sup {
+    display: table-cell;
+    font-weight: normal;
+    width: 58%;
+}
+.detail-list li .magentbox{
+    color: #e500a7;
+}
+.icon-bank{
+    position: absolute;
+    left: 1px;
+    top: -1px;
+    background: url('../img/icon_s.png') no-repeat center;
+    background-size: contain;
+    width: 16.5px;
+    height: 16.5px;
 }
 
-/* --------------- /detail-list --------------- */
+.icon-detail{
+    position: absolute;
+    left: 1px;
+    top: -1px;
+    background: url('../img/icon_i.png') no-repeat center;
+    background-size: contain;
+    width: 16.5px;
+    height: 16.5px;
+}
+
+.icon-sup{
+    position: absolute;
+    left: 1px;
+    top: -1px;
+    background: url('../img/icon-quetion.png') no-repeat center;
+    background-size: contain;
+    width: 16.5px;
+    height: 16.5px;
+}
+
+/* --------------- /detail --------------- */
 
 
 
@@ -406,6 +457,10 @@
         display: inline-block;
         font-size: 18px;
     }
+    .rev-title{
+        border-bottom: none;
+        top: 2px;
+    }
     .play-now a{
         font-size: 18px;
     }
@@ -433,6 +488,73 @@
         padding-left: 22px;
     }
     /*-------- /bonus-list--------*/
+    /*-------- item-wrap--------*/
+    .item-wrap{
+        display: inline-block;
+        width: 238px;
+        margin-left: -4px;
+        padding: 0 17px;
+
+    }
+    /*-------- /item-wrap--------*/
+
+    /*-------- detail--------*/
+    .detail-list .list-text, .detail-list .list-bank, .detail-list .list-sup {
+        display: block;
+        font-weight: normal;
+        width: 100%;
+        padding-bottom: 1px;
+    }
+    .detail-list{
+        font-size: 14px;
+    }
+    .detail-list li {
+        padding-bottom: 2px;
+    }
+    .detail{
+        border-bottom: none;
+        width: 216px;
+    }
+    .detail:after{
+        content: "";
+        position: absolute;
+        width: 1px;
+        top: -66px;
+        left: -12px;
+        height: 326px;
+        background-color: #dedede;
+    }
+    /*-------- /detail--------*/
+    /*-------- icon--------*/
+
+    .icon-detail, .icon-bank, .icon-sup{
+        width: 33px;
+        height: 33px;
+        top: -5px;
+        left: 1px;
+    }
+    /*-------- /icon--------*/
+    /*------item-----*/
+    .item-detail {
+        padding-left: 4px;
+        padding-top: 12px;
+        position: relative;
+        padding-bottom: 67px;
+    }
+    .item-wrap:first-child .detail:after{
+        display: none;
+    }
+    .item-detail:after{
+        content: "";
+        position: absolute;
+        width: 696px;
+        height: 1px;
+        background-color: #dedede;
+        left: 17px;
+        top: 58px;
+    }
+    /*------/item-----*/
+
 
 
 }
