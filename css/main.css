@@ -47,9 +47,9 @@
 }
 .site__header {
     position: relative;
-    height: 72px;
-    margin-bottom: 7.5px;
-    border-bottom: 4px solid #bfbfbf;
+    height: 69px;
+    margin-bottom: 5.5px;
+    border-bottom: 2px solid #bfbfbf;
     background-color: #e500a7;
     z-index: 3;
 }
@@ -173,7 +173,7 @@ a:hover {
 .header__search{
     position: relative;
     margin-left: 63px;
-    margin-right: 50px;
+    margin-right: 55px;
     z-index: 9;
 }
 .header__search-text{
@@ -190,8 +190,8 @@ a:hover {
     position: absolute;
     top: 1px;
     right: 1px;
-    width: 30px;
-    height: 25px;
+    width: 27px;
+    height: 22px;
     border: none;
     background: url("../img/icon-find.jpg") no-repeat 3px 50%/15px 15px #fff;
     text-indent: -9999px;
@@ -311,7 +311,7 @@ a:hover {
     line-height: 20px;
 }
 .content__item-title{
-    color: #666666;
+    color: #666;
     font-size: 14px;
     padding-bottom: 7px;
     border-bottom: 1px solid #dedede;
@@ -376,18 +376,7 @@ a:hover {
     vertical-align: top;
 }
 /* -------- /content__item ------------ */
-.show-all-blog{
-    float: right;
-    display: block;
-    margin-top: 2px;
-    padding-right: 1px;
-}
-.read_more{
-    display: block;
-    float: none;
-}
 
-/* --------------- /content__item --------------- */
 /* ---------item-------- */
 .item_blog p{
     text-align: left;
@@ -398,6 +387,16 @@ a:hover {
 }
 .item_blog form{
     height: 20px;
+}
+.show-all-blog{
+    float: right;
+    display: block;
+    margin-top: 2px;
+    padding-right: 1px;
+}
+.read_more{
+    display: block;
+    float: none;
 }
 /* ---------/item-------- */
 
@@ -1186,6 +1185,7 @@ input.aside__subscribe{
         margin-bottom: 21px;
     }
     /* --------------- /content__item --------------- */
+
     /* -------------- site ---------------- */
     .site{
         font-size: 15px;
