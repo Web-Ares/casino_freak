@@ -106,9 +106,12 @@ input.sendmail{
 
     /* --------pagin-------- */
     .pagin-blog{
+        position: absolute;
+        left: 50%;
         width: 358px;
-        margin: 0 auto;
+        margin-left: -171px;
         padding-bottom: 42px;
+        bottom: 7px;
     }
     /* --------/pagin-------- */
 }
