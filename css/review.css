@@ -237,10 +237,13 @@
 
 .detail-list li{
     display: table-row;
+    font-weight: bold;
 }
 
 .detail-list .list-text{
     display: table-cell;
+    font-weight: normal;
+    width: 70%;
 }
 
 /* --------------- /detail-list --------------- */
