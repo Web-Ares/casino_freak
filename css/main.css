@@ -1024,7 +1024,7 @@ input.aside__subscribe{
     height: 30px;
     display: inline-block;
     text-align: center;
-    padding: 8px 12px 12px 12px;
+    padding: 5px 12px 12px 12px;
     margin: 0 2.5px;
     display: none;
 }
@@ -1377,9 +1377,8 @@ input.aside__subscribe{
     .blog-title{
         font-size: 29px;
         font-weight: normal;
-        padding-bottom: 16px;
-        margin-bottom: 15px;
-        top: -9px;
+        padding-bottom: 24px;
+        margin-bottom: 23px;
     }
     .blog-resent{
         top: -2px;
@@ -1388,10 +1387,9 @@ input.aside__subscribe{
     .blog-title-email{
         font-size: 25px;
         font-weight: normal;
-        padding-bottom: 6px;
-        margin-bottom: -5px;
         border: none;
-        top: -11px;
+        margin-bottom: 17px;
+
     }
     .blog-list{
         margin-top: 10px;
@@ -1478,19 +1476,14 @@ input.aside__subscribe{
         background: url('../img/icon-freak2.png') no-repeat center;
         background-size: contain;
         overflow: hidden;
-        top: 6px;
     }
     /* --------/icon-blog-------- */
 
-    .icon-email{
-        margin: -4px 9px 0 -1px;
-    }
-    .icon-resent{
+       .icon-resent{
         background: url('../img/iconnew.png') no-repeat center;
         background-size: contain;
         overflow: hidden;
-        top: 6px;
-    }
+           }
     /* --------/icon-------- */
     /* --------onepost-item-------- */
     .onepost-item{
