@@ -158,6 +158,20 @@
 .rev-title{
    margin-bottom: 9px;
 }
+.item-wrap:after{
+    content: '';
+    background-color: #dedede;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*------show-rev-----*/
+.show-rev{
+    display: none;
+}
+/*------/show-rev-----*/
 /*----- bonus-list --------*/
 .bonus-list{
     font-size: 10px;
@@ -229,13 +243,13 @@
 }
 .item-wrap{
     display: block;
+    position: relative;
 }
 .detail{
     position: relative;
     display: block;
     padding-bottom: 13px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #dedede;
     width: 277px;
 }
 .detail-list{
@@ -296,8 +310,14 @@
     width: 16.5px;
     height: 16.5px;
 }
-
 /* --------------- /detail --------------- */
+/* --------------- content-review-wrap --------------- */
+.content-review-wrap{
+    position: relative;
+    width: 100%;
+}
+/* --------------- /content-review-wrap --------------- */
+
 
 
 
@@ -329,6 +349,21 @@
     }
 
     /* --------------- /comments --------------- */
+    /* --------------- review --------------- */
+    .review_blog{
+        position: absolute;
+        top: -12px;
+        right: 5px;
+        background: none;
+        border: none;
+        width: 49%;
+        margin-right: 7px;
+    }
+    .review_guide{
+        padding-right: 50%;
+        width: 100%;
+    }
+    /* --------------- /review --------------- */
     /*--- rev-deposit------*/
     .rev-deposit {
         width: 700px;
@@ -461,6 +496,24 @@
         border-bottom: none;
         top: 2px;
     }
+    .review{
+        width: 100%;
+    }
+    .review_blog .from-blog-games li p,.review_blog .from-blog-games li span {
+        display: none;
+    }
+    .review_blog .from-blog-games li .from-blog-descr{
+        padding-bottom: 0;
+    }
+    .review_blog .from-blog-games li{
+        width: 166px;
+    }
+    .review_guide .related__game{
+        margin-bottom: 38px;
+    }
+    .item-wrap:after{
+        display: none;
+    }
     .play-now a{
         font-size: 18px;
     }
@@ -555,7 +608,20 @@
     }
     /*------/item-----*/
 
-
+    /*------show-rev-----*/
+    .show-rev{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: -2px;
+    }
+    /*------/show-rev-----*/
+    /*------content-review-wrap-----*/
+    .content-review-wrap {
+        width: 730px;
+        margin: 0 auto;
+    }
+    /*------/content-review-wrap-----*/
 
 }
 
