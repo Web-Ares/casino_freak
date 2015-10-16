@@ -1,5 +1,82 @@
 @charset "utf-8";
 /*----- rev-figure-------*/
+.item_guide {
+    padding-bottom: 4px;}
+.rev-figure{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.rev-elipse{
+    position: relative;
+    width: 58px;
+    height: 58px;
+    border-radius: 58px;
+    background-color: #ea00b6;
+    z-index: 2;
+}
+.rev-figure:after{
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 14px;
+    background: url("../img/scisors.png") no-repeat;
+    top: 17px;
+    z-index: 5;
+}
+.rev-trapeze{
+    position: relative;
+    width: 56px;
+    height: 4px;
+    margin-left: 1px;
+    margin-top: -21px;
+    background-color: #920071;
+}
+.rev-trapeze:before{
+
+}
+.rev-trapeze:after{
+    content: "";
+    position: absolute;
+    left: -4px;
+    bottom: 0px;
+    border: 4px solid transparent;
+    border-bottom: 4px solid #920071;
+}
+.rev-trapeze:after{
+    content: "";
+    position: absolute;
+    right: -4px;
+    bottom: 0px;
+    border: 4px solid transparent;
+    border-bottom: 4px solid #920071;
+}
+.rev-square{
+    position: relative;
+    width: 64px;
+    height: 21px;
+    background-color: #38c9ff;
+    margin-left: -3px;
+    border-top: 1px dashed #fff;
+    z-index: 3;
+}
+.rev-square:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 11.5px solid transparent;
+    border-left: 4px solid #FFFFFF;
+}
+.rev-square:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 11.5px solid transparent;
+    border-right: 4px solid #fff;
+}
+/*----- rev-figure-------*/
 .rev-figure-reedem{
     position: relative;
     display: inline-block;
@@ -7,6 +84,9 @@
     margin-left: -4px;
     top: 2px;
 }
+.item_guide {
+    padding-bottom: 4px;}
+
 .rev-elipse{
     position: relative;
     width: 58px;
@@ -156,7 +236,7 @@
     padding-bottom: 2px;
 }
 .rev-title{
-   margin-bottom: 9px;
+    margin-bottom: 9px;
 }
 /*----- bonus-list --------*/
 .bonus-list{
@@ -190,19 +270,77 @@
     margin-left: 8px;
 }
 /*------/play-now-------*/
+/*----- /rev-figure-------*/
+
+/* --------------- latest --------------- */
+.majestic {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 13px;
+}
+.majestic .dragons {
+    position: relative;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+    width: 70%;
+    margin-top: 4px;
+}
+.majestic .dungeons-rating-number {
+    margin-top: 4px;
+}
+.majestic__slots {
+    width: 62px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.majestic__slots-logo img{
+    display: block;
+    margin: 0 auto;
+    width: 56.5px;
+    height: 31.5px;
+}
+.latest__player p{
+    margin-bottom: 5px;
+}
+.latest__player h3{
+    margin-bottom: 5px;
+}
+.latest .votes{
+    margin-top: 12px;
+}
+.latest .add-your {
+     margin-top: 15px;
+}
+.all_reviews{
+    display: none;
+}
+.btn_play-now{
+    height: 15px;
+    width: 58px;
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+/* --------------- /latest --------------- */
+
+/* --------------- comments --------------- */
 .comments{
     position: relative;
     margin-left: 50px;
 }
-
-/* --------------- comments --------------- */
 .comments:before{
     content: " ";
     position: absolute;
     width: 30px;
     height: 30px;
-    left: -46px;
-    top: 16px;
+    left: -44px;
+    top: 23px;
     border: 1px solid #f3f3f3;
     border-radius: 50%;
 }
@@ -211,46 +349,114 @@
     position: absolute;
     width: 28px;
     height: 28px;
-    left: -44px;
-    top: 18px;
+    left: -42px;
+    top: 25px;
     background: #f2f2f2;
     border-radius: 50%;
 }
 .medal_comments{
     position: absolute;
-    left: -37px;
-    top: 23px;
+    left: -35px;
+    top: 30px;
     z-index: 3;
+}
+.comments .read_more{
+    display: inline-block;
 }
 /* --------------- /comments --------------- */
 
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px) {
+    /* --------------- latest --------------- */
+    .latest__player{
+        width: 45.5%;
+        float:right;
+    }
+    .latest h3{
+        margin-bottom: 17px;
+        margin-top: 0;
+    }
+    .latest .votes{
+        margin-left: 10px;
+    }
+    .latest .add-your {
+        margin-top: 31px;
+        margin-left: 10px;
+    }
+    .majestic{
+        margin-bottom: 15px;
+        padding-bottom: 20px;
+    }
+
+    .latest__player p {
+        margin-bottom: 17px;
+        display: block;
+    }
+    .latest__player:last-child{
+        margin-bottom: 14px;
+    }
+    .all_reviews{
+        display: block;
+        float: none;
+    }
+    .majestic__slots {
+        width: 139px;
+        margin-left: 40px;
+    }
+    .majestic__slots-logo img {
+        width: 113px;
+        height: 63px;
+    }
+    .btn_play-now {
+        height: 31px;
+        width: 170px;
+        font-size: 14px;
+        margin-left: -16px;
+        margin-top: 18px;
+    }
+    .majestic .dungeons-rating{
+        margin-bottom: 10px;
+    }
+    .majestic .dragons {
+        vertical-align: top;
+        padding-left: 56px;
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    .majestic .dungeons-rating-number {
+        font-weight: 700;
+        display: inline-block;
+        font-size: 14px;
+        margin-left: 11px;
+        margin-top: 0px;
+        vertical-align: top;
+        padding-top: 9px;
+    }
+    /* --------------- /latest --------------- */
 
     /* --------------- comments --------------- */
-    .comments:before {
+    .comments:before{
         width: 60px;
         height: 60px;
         left: -73px;
         top: 13px;
     }
-
-    .comments:after {
+    .comments:after{
         width: 56px;
         height: 56px;
         left: -70px;
         top: 16px;
     }
-
-    .medal_comments {
+    .medal_comments{
         left: -56px;
         top: 26px;
     }
-
-    .comments {
+    .comments{
         margin-left: 80px;
     }
-
+    .comments .read_more{
+        display: none;
+    }
     /* --------------- /comments --------------- */
     /*--- rev-deposit------*/
     .rev-deposit {
@@ -262,8 +468,8 @@
 
     .rev-title {
         margin-bottom: 17px;
-       padding-bottom: 17px;
-        }
+        padding-bottom: 17px;
+    }
     .rev-figure-number {
         top: -6px;
         margin-left: 33px;
@@ -407,7 +613,4 @@
         padding-left: 22px;
     }
     /*-------- /bonus-list--------*/
-
-
 }
-
