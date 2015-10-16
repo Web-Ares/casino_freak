@@ -22,10 +22,10 @@
 .active{
     display:block;
 }
-.guide_page__contents p{
+.guide_page__contents p:first-child{
     display: block;
     margin-bottom: 10px;
-    line-height: 12px;
+    line-height: 17px;
 }
 .mobile-none{
     display: none;
@@ -124,7 +124,7 @@
     width: 0;
 }
 .line_no{
-    margin-left:12px;
+    margin-left:14px;
 }
 /* --------------- form --------------- */
 .comments__form {

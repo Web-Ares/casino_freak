@@ -216,7 +216,7 @@
     width: 30px;
     height: 30px;
     left: -46px;
-    top: 16px;
+    top: 44px;
     border: 1px solid #f3f3f3;
     border-radius: 50%;
 }
@@ -226,14 +226,14 @@
     width: 28px;
     height: 28px;
     left: -44px;
-    top: 18px;
+    top: 46px;
     background: #f2f2f2;
     border-radius: 50%;
 }
 .medal_comments{
     position: absolute;
     left: -37px;
-    top: 23px;
+    top: 50px;
     z-index: 3;
 }
 /* --------------- detail --------------- */
