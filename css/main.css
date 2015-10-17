@@ -540,6 +540,7 @@ button img{
 }
 .content__item p{
     font-size: 10px;
+    text-align: justify;
 }
 .content__item-icon{
     position: absolute;
