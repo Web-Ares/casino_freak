@@ -18,6 +18,7 @@
 
 .guide_page__contents p{
     display: none;
+    text-align: justify;
 }
 .active{
     display:block;
@@ -184,8 +185,8 @@
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px){
     .comments-box{
-        padding-left: 11px;
-        padding-right: 11px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     /* --------------- item_guide --------------- */
     .italic{
@@ -232,7 +233,7 @@
     }
         /* --------------- comments_form --------------- */
     .comments__form {
-        margin-left: 8px;
+        margin-left: 5px;
         font-size: 14px;
         width: 334px;
         overflow: hidden;
@@ -298,11 +299,12 @@
     }
     .item_guide p{
         margin-bottom: 20px;
+        text-align: justify;
     }
     .comments{
         margin-bottom: 40px;
-        padding-left: 11px;
-        padding-right: 11px;
+        padding-left:5px;
+        padding-right:5px;
     }
 
     /* --------------- /comments --------------- */
