@@ -328,19 +328,19 @@
         width: 60px;
         height: 60px;
         left: -73px;
-        top: 13px;
+        top: 31px;
     }
 
     .comments:after {
         width: 56px;
         height: 56px;
         left: -70px;
-        top: 16px;
+        top: 34px;
     }
 
     .medal_comments {
         left: -56px;
-        top: 26px;
+        top: 45px;
     }
 
     .comments {

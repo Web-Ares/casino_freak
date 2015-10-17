@@ -183,6 +183,10 @@
 
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px){
+    .comments-box{
+        padding-left: 11px;
+        padding-right: 11px;
+    }
     /* --------------- item_guide --------------- */
     .italic{
         font-size: 14px;
@@ -202,6 +206,7 @@
     }
     .guide_page time {
         margin-top: 8px;
+        padding-right: 11px;
     }
     .guide_page__contents{
         display: block;
@@ -277,6 +282,7 @@
     .comments-count{
         font-size: 12px;
         line-height: 38px;
+        padding-right: 11px;
     }
     .comments-login{
         font-size: 14px;

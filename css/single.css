@@ -277,6 +277,7 @@ button img{
     .latest__player p {
         margin-bottom: 17px;
         display: block;
+        padding-right: 11px;
     }
     .latest__player:last-child{
         margin-bottom: 14px;
