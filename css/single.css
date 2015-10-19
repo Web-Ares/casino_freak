@@ -334,6 +334,7 @@ button img{
         position: absolute;
         font-size: 14px;
         right: 90px;
+        margin-top: -1px;
     }
     .title_single{
         width: 62%;
