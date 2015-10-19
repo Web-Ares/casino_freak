@@ -522,7 +522,6 @@ button img{
 /* ---------- content__item ----------- */
 .content__item{
     width: 100%;
-    height: 100%;
     background-color: white;
     margin: 0 auto;
     border: 1px solid #dedede;
@@ -1496,6 +1495,44 @@ input.aside__subscribe:hover{
         height: 112px;
     }
     /* -------------- /logo --------------- */
+
+    /* -------------- scrool -------------- */
+    .scrool{
+        position: absolute;
+        left: 50%;
+        margin-left: 500px;
+        width: 79px;
+        height: 79px;
+        background: url("../img/icon-scroll.png") no-repeat center;
+        cursor: pointer;
+    }
+    .scrool:before,
+    .scrool:after{
+        display: none;
+        content: '';
+        position: absolute;
+        left: 50%;
+        margin-left: -13px;
+        width: 26px;
+        height: 24px;
+        background: url("../img/icon-scroll.png") no-repeat -27px -107px;
+    }
+    .scrool-to-top{
+        bottom: 80px;
+    }
+    .scrool-to-top:after{
+        display: block;
+        top: -27px;
+        background-position: -27px 0;
+    }
+    .scrool-to-bottom{
+        top: 204px;
+    }
+    .scrool-to-bottom:after{
+        display: block;
+        bottom: -27px;
+    }
+    /* ------------- /scrool -------------- */
 
     /* ---------- header__menu ------------ */
     .header__menu{
