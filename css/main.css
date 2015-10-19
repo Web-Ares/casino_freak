@@ -683,7 +683,7 @@ button img{
     vertical-align: middle;
 }
 .score {
-    width: 9%;
+    width: 8%;
     vertical-align: middle;
     text-align: center;
 }
@@ -701,7 +701,7 @@ button img{
     vertical-align: middle;
 }
 .welcome {
-    width: 38%;
+    width: 37%;
     vertical-align: middle;
 }
 .tag {
@@ -1903,8 +1903,6 @@ input.aside__subscribe:hover{
      }
     /* --------------- /item_guide  --------------- */
     /* --------------- related guides  --------------- */
-    .hover-game__bg{
-        }
     .medal_game{
         position: absolute;
         left: 9px;
@@ -1923,11 +1921,20 @@ input.aside__subscribe:hover{
         left: -56px;
     }
     .hover-game:before{
+        opacity: 1;
+        transition: opacity .3s ease;
         width: 68px;
         height: 68px;
         margin-left: -42px;
         margin-top: -18px;
     }
+    .hover-game:hover:after{
+        opacity: .5;
+    }
+    .hover-game:hover .game-name{
+        opacity: .5;
+    }
+
     .hover-game:after {
         height: 38px;
         width: 38px;
@@ -1954,6 +1961,7 @@ input.aside__subscribe:hover{
         margin-left: 5px;
     }
     .related__game:hover .game-name {
+        opacity: 1;
         color: #F2F2F2;
         font-size: 20px;
         font-weight: normal;

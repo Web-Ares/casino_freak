@@ -19,6 +19,7 @@
 .guide_page__contents p{
     display: none;
     text-align: justify;
+    margin-bottom: 17px;
 }
 .active{
     display:block;
@@ -39,7 +40,8 @@
     margin-top: 4px;
 }
 .table-of-contents{
-    margin-top: 8px;
+    margin-top: 13px;
+    margin-bottom: 22px;
 }
 .contents-item{
     font-size: 10px;
@@ -57,6 +59,7 @@
 .present_pic{
     width: 170px;
     height: 130px;
+    margin-top: 18px;
     margin-bottom: 10px;
 }
 .present_pic img{
@@ -192,7 +195,7 @@
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px){
     .comments-box{
-        padding-left: 5px;
+        padding-left: 10px;
         padding-right: 5px;
     }
     /* --------------- item_guide --------------- */
@@ -206,8 +209,12 @@
     .guide_page__contents p{
         line-height: 17px;
     }
+    .guide_page__contents p:last-child{
+        margin-bottom: 7px;
+    }
     .item_guide h3{
         font-size: 18px;
+        letter-spacing: .5px;
     }
     .guide_page-read{
         font-size: 14px;
@@ -278,6 +285,10 @@
         font-size: 14px;
         line-height: 34px;
     }
+    .guide-comments_scale{
+        line-height: 24px;
+
+    }
     .comments-issue{
         font-size: 14px;
     }
@@ -300,21 +311,24 @@
         font-size: 12px;}
     .contents-item {
         font-size: 14px;
-        height: 20px;
         padding-left: 17px;
-        margin-top: 1px;
+        margin-top: 2px;
         background-size: 11px;
     }
     .comments p{
-        margin-bottom: 3px;
-        text-align: justify;
-        line-height: 19px;
+        margin-bottom: 11px;
+        text-align: left;
+        line-height: 17px;
+        margin-top: -3px;
     }
     .comments{
         margin-bottom: 40px;
         margin-top: -6px;
         padding-left: 12px;
         padding-right: 5px;
+    }
+    .item_guide .comments:last-child{
+        margin-bottom: 11px;
     }
 
     /* --------------- /comments --------------- */
