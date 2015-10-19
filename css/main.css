@@ -1288,8 +1288,9 @@ input.aside__subscribe{
     padding-bottom: 12px;
 }
 .from-blog-descr p {
-  padding: 0;
-    margin-bottom: 3px;
+    padding: 0;
+    margin-bottom: 5px;
+    line-height: 15px;
 }
 .from-blog-games-text {
     display: none;
@@ -2291,8 +2292,6 @@ input.aside__subscribe{
         line-height: 23px;
     }
     /* ------ /site__footer-layout -------- */
-
-
 
 }
 
