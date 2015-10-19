@@ -78,6 +78,12 @@
     width: 98px;
     height: 15px;
     display: inline-block;
+    opacity: 1;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.onepost-tw:hover{
+    opacity: .5;
 }
 .onepost-item .onepost-text{
     padding: 0 4px;
@@ -184,13 +190,9 @@
     .onepost-tw {
         width: 196px;
         height: 30px;
-        opacity: 1;
-        transition: opacity .3s ease;
-        -webkit-transition: opacity .3s ease;
+
     }
-    .onepost-tw:hover{
-        opacity: .5;
-    }
+
     .onepost-item .onepost-text {
         padding: 0 4px;
         padding-left: 36px;
