@@ -574,7 +574,6 @@ button img{
 }
 .content__item-name{
     display: inline-block;
-    width: 67%;
     vertical-align: middle;
     font-size: 14px;
 }
@@ -1630,7 +1629,8 @@ input.aside__subscribe:hover{
         font-weight: normal;
         padding-bottom: 18px;
         margin-bottom: 20px;
-        padding-top: 7px;
+        padding-top: 0px;
+        padding-bottom: 24px;
     }
     .blog-resent{
         top: -2px;
