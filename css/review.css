@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /*----- rev-figure-------*/
 .rev-figure-reedem{
     position: relative;
@@ -204,12 +205,12 @@
     margin-left: 8px;
 }
 /*------/play-now-------*/
-.comments{
-    position: relative;
-    margin-left: 50px;
-}
 
 /* --------------- comments --------------- */
+.comments{
+  position: relative;
+  margin-left: 50px;
+}
 .comments:before{
     content: " ";
     position: absolute;
@@ -613,6 +614,9 @@
         position: absolute;
         top: 0;
         right: -2px;
+    }
+    .review-flag{
+        margin-top: 0;
     }
     /*------/show-rev-----*/
     /*------content-review-wrap-----*/
