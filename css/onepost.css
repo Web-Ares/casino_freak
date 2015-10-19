@@ -44,7 +44,7 @@
     text-transform: uppercase;
     margin-right: 1px;
     display: inline-block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     font-size: 10px;
     line-height: 17px;
 }
@@ -102,6 +102,10 @@
     padding: 0;
     margin-left: 4px;
     margin-bottom: 8px;
+    background-color: #e500a7;
+}
+.btn_onepost:hover{
+    background-color: #920071;
 }
 /* ---------/btn-------- */
 
@@ -141,6 +145,7 @@
     }
     .btn_onepost .onepost-table{
         display: block;
+        line-height: 48px;
     }
     .onepost-table{
         display: block;
