@@ -82,6 +82,9 @@
     font-size: 10px;
     margin-left: 4px;
 }
+.comments-selection:hover{
+    text-decoration: underline;
+}
 .comments__scale{
     font-size: 10px;
     line-height: 17px;
@@ -105,6 +108,9 @@
     color:#e500a7;
     font-size: 10px;
     display: block;
+}
+.comments-login:hover{
+    text-decoration: underline;
 }
 .comments-time{
     color:#dedede;
