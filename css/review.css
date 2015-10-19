@@ -352,7 +352,7 @@
     /* --------------- review --------------- */
     .review_blog{
         position: absolute;
-        top: -12px;
+        top: 1px;
         right: 5px;
         background: none;
         border: none;
@@ -362,6 +362,9 @@
     .review_guide{
         padding-right: 50%;
         width: 100%;
+    }
+    .review_blog .from-blog-games{
+        margin-top: -5px;
     }
     /* --------------- /review --------------- */
     /*--- rev-deposit------*/
