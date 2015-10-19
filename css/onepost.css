@@ -46,7 +46,7 @@
     display: inline-block;
     margin-bottom: 4px;
     font-size: 10px;
-    line-height: 17px;
+    height: 17px;
 }
 .onepost-tag a:hover{
     background-color: #eaeaea;
