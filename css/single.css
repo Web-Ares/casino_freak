@@ -1,11 +1,11 @@
 /* --------------- single --------------- */
 .medal_single{
     vertical-align: bottom;
-    margin-right: 3px;
+    margin-right: 0px;
 }
 .comments__scale-title{
     display: inline-block;
-    width: 65px;
+    width: 62px;
 }
 .scale_single{
     margin-bottom: 5px;
@@ -174,7 +174,7 @@ button img{
     /* --------------- dragons --------------- */
     .add-your {
         font-size: 18px;
-        margin-top: 39px;
+        margin-top: 44px;
         margin-bottom: 3px;
         margin-left: 10px;
     }
@@ -182,8 +182,9 @@ button img{
         font-size: 16px;
         width: 50%;
         float: right;
-        margin-top: 18px;
-        padding-left: 15px;
+        margin-top: 22px;
+        padding-left: 21px;
+        line-height: 19px;
     }
     .review-stats{
         width: 50%;
@@ -193,7 +194,7 @@ button img{
     }
     .dungeons__characteristics{
         font-size: 16px;
-        margin-bottom: 10px;
+        margin-bottom:20px;
     }
     .comments__scale-title {
         width: 90px;
@@ -323,6 +324,19 @@ button img{
         padding-top: 9px;
     }
     /* --------------- /latest --------------- */
-
+    .single_comments{
+        padding-bottom: 26px;
+        margin-bottom: 22px;
+        padding-top: 4px;
+        font-size: 30px;
+    }
+    .casinos-quantity{
+        position: absolute;
+        font-size: 14px;
+        right: 90px;
+    }
+    .title_single{
+        width: 62%;
+    }
    }
 /* --------------- /@media (min-width:768px) --------------- */
