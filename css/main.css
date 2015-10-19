@@ -1230,9 +1230,10 @@ input.aside__subscribe:hover{
     color: #e500a7;
 }
 .blog-games li .blog-games-descr{
-    margin-bottom: 2px;
+    margin-bottom: 6px;
     font-size: 10px;
     padding: 0;
+    line-height: 13px;
 }
 .blog-games li .blog-games-time{
     font-size: 10px;
@@ -1696,6 +1697,7 @@ input.aside__subscribe:hover{
     }
     .blog-games-text{
         display: inline;
+        line-height: 16px;
     }
     .blog-text{
         display: block;
