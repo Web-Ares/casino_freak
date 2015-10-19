@@ -642,13 +642,16 @@ button img{
 .item__table-header{
     height: 23px;
     background-color: #e500a7;
+    padding-left: 6px;
 }
 .item__table-row{
     display:block;
     width: 100%;
     border-bottom: 1px solid #F2F2F2;
-    margin-top: 7px;
-    padding-bottom: 7px;
+    margin-top: 6px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    line-height: 12px;
 }
 .item__table li:last-child{
     border: none;
@@ -674,12 +677,12 @@ button img{
     vertical-align: middle;
 }
 .score {
-    width: 10%;
+    width: 12%;
     vertical-align: middle;
     text-align: center;
 }
 .flag {
-    width: 8%;
+    width: 7%;
     vertical-align: middle;
 }
 .icon_flag-retina{
@@ -687,11 +690,11 @@ button img{
     height: 12px;
 }
 .casino {
-    width: 22%;
+    width: 26%;
     vertical-align: middle;
 }
 .welcome {
-    width: 39%;
+    width: 38%;
     vertical-align: middle;
 }
 .tag {
@@ -1739,7 +1742,7 @@ input.aside__subscribe{
     }
     .item__table-header{
         height: 33px;
-        padding-left: 17px;
+        padding-left: 13px;
         padding-top: 7px;
         margin-bottom: 9px;
     }
@@ -1747,10 +1750,10 @@ input.aside__subscribe{
        font-size: 16px;
     }
    .item__table-row {
-       margin-left: 15px;
+       padding-left: 15px;
        margin-top: 9px;
        padding-bottom: 12px;
-       width: 96%;
+       width: 100%;
     }
 
     .score {
@@ -1763,7 +1766,7 @@ input.aside__subscribe{
         display: inline-block;
         width: 8.5%;
     }
-    .welcome {width: 23%;}
+    .welcome {width: 22%;}
     .software{
         display: inline-block;
         width: 14.4%;
