@@ -252,6 +252,9 @@ a:hover {
     background-color: #920071;
     color: #fff;
 }
+.header__menu li.active a{
+    cursor: default;
+}
 .header__menu li.active > a{
     border-bottom: 1px solid #dd00a1;
 }
@@ -757,6 +760,11 @@ input.aside__search-text{
     border: none;
     background: url("../img/icon-find.jpg") no-repeat 3px 50%/17px 17px #fff;
     text-indent: -9999px;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+.aside__search-button:hover{
+    opacity: .5;
 }
 .aside__item{
     margin-bottom: 15px;
@@ -816,6 +824,11 @@ input.aside__subscribe{
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     -webkit-box-shadow: none;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+}
+input.aside__subscribe:hover{
+    opacity: .7;
 }
 /* ----------- /site__aside ----------- */
 
@@ -1287,7 +1300,7 @@ input.aside__subscribe{
         display: inline-block;
         vertical-align: top;
         width: 49.5%;
-        margin-bottom: 6px;
+        margin-bottom: 12px;
     }
     .aside__item > div{
         height: 120px;
@@ -1742,6 +1755,7 @@ input.aside__subscribe{
 
     /* ------ site__header-layout -------- */
     .site__header-layout{
+        width: 960px;
         height: 150px;
         background: url("../img/bg-head.png") no-repeat 97% 100%;
     }
@@ -1905,16 +1919,18 @@ input.aside__subscribe{
     .footer__navigate{
         position: absolute;
         top: 19px;
-        right: 7px;
+        right: 4px;
         margin-left: 52px;
     }
     .footer__navigate dl{
         display: inline-block;
+        height: 135px;
         vertical-align: top;
-        margin-left: 53px;
+        margin-left: 43px;
         font-size: 14px;
         line-height: 34px;
         border: none;
+        overflow: hidden;
     }
     .footer__navigate dt{
         padding: 0;
