@@ -24,6 +24,8 @@ input.sendmail{
     width: 80px;
     font-size: 10px;
     height: 20px;
+    line-height: 22px;
+    padding: 0;
 }
 /* --------/btn-------- */
 
@@ -38,7 +40,7 @@ input.sendmail{
 /* --------pagin-------- */
 .pagin-blog{
     font-family: 'Open Sans','sans-serif';
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     margin: 0 auto;
     width: 222px;
@@ -55,7 +57,7 @@ input.sendmail{
     text-align: center;
 }
 .pagin-navigation:hover{
-    background: -webkit-linear-gradient(top, #fd67d4 0%,#d10099 20%);
+    background: -webkit-linear-gradient(top, #920071 0%,#d10099 50%);
     background: linear-gradient(top, #fd67d4 0%,#d10099 80%);
     color: #fff;
     text-decoration: none;
@@ -108,7 +110,7 @@ input.sendmail{
     .pagin-blog{
         position: absolute;
         left: 50%;
-        width: 358px;
+        width: 361px;
         margin-left: -171px;
         padding-bottom: 42px;
         bottom: 7px;
