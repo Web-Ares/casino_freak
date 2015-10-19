@@ -273,7 +273,6 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     position: relative;
     border-bottom: 1px solid #dedede;
     margin-bottom: 6px;
-    padding-bottom: 6px;
 }
 .dungeons-rating{
     display: inline-block;
@@ -1156,13 +1155,13 @@ input.aside__subscribe:hover{
 }
 .comments__scale-line{
     display: inline-block;
-    width: 59px;
+    width: 66px;
     height: 9px;
-    box-shadow: 0 5px 10px rgba(0,0,0,.15);
     border: 1px solid #dedede;
-    margin-left:10px;
-    margin-right: 10px;
+    margin-left: 3px;
+    margin-right: 4px;
     vertical-align: middle;
+    box-shadow: 0px 0px 5px 0px #dedede inset;
 }
 .comments-count{
     font-size: 10px;
@@ -1401,7 +1400,7 @@ input.aside__subscribe:hover{
         width: 730px;
     }
     .content__item_table{
-        padding: 15px 0 0px;
+        padding: 19px 0 0px;
     }
     .item_guide{
         padding: 13px 9px 5px;
