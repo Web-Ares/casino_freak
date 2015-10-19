@@ -39,13 +39,17 @@
 }
 .onepost-tag a{
     background-color: #d9d9d9;
-    color: #8a8a8a;
-    padding: 2px 17px;
+    color: #787878;
+    padding: 0 17px;
     text-transform: uppercase;
     margin-right: 1px;
     display: inline-block;
     margin-bottom: 8px;
     font-size: 10px;
+    line-height: 17px;
+}
+.onepost-tag a:hover{
+    background-color: #eaeaea;
 }
 .onepost-autor{
     margin: 0 16px;
@@ -78,7 +82,7 @@
 .onepost-item .onepost-text{
     padding: 0 4px;
     letter-spacing: -0.4px;
-    line-height: 11px;
+    line-height: 20px;
 }
 .onepost-table{
     display: none;
@@ -107,13 +111,13 @@
 @media (min-width:768px) {
     /*---- onepost----*/
     .icon-onepost {
-        top: 6px;
         left: 11px;
     }
     .onepost-time {
         font-size: 12px;
         margin-left: 6px;
-        margin-bottom: 34px;
+        margin-bottom: 31px;
+
     }
     .onepost-time>span{
         color: #e500a7;
@@ -121,18 +125,26 @@
     }
     .onepost-item p {
         padding-left: 15px;
-        margin-bottom: 17px;
+        line-height: 17px;
+        margin-bottom: 20px;
     }
     .onepost-title {
         font-size: 23px;
         margin-left: 8px;
-        margin-bottom: 15px;
+        margin-bottom: 21px;
     }
     .btn_onepost .onepost-table{
         display: block;
     }
     .onepost-table{
         display: block;
+        margin-top: -5px;
+    }
+    .onepost-table p{
+        margin-bottom: 20px;
+    }
+    .onepost-table .onepost-title{
+        margin-top: 39px;
     }
     .onepost-read-more {
         display: none;
@@ -149,7 +161,9 @@
         font-size: 14px;
         margin-left: 14px;
         margin-right: -10px;
+        padding: 1px 18px;
     }
+
     .onepost__wrap{
         overflow: hidden;
     }
@@ -160,16 +174,22 @@
     }
     .onepost-autor{
         margin: 0 38px;
-        margin-top: 20px;
+        margin-top: 29px;
         margin-bottom: 19px;
     }
     .onepost-contact {
-        margin-left: 33px;
-        margin-top: -8px;
+        margin-left: 35px;
+        margin-top: -3px;
     }
     .onepost-tw {
         width: 196px;
         height: 30px;
+        opacity: 1;
+        transition: opacity .3s ease;
+        -webkit-transition: opacity .3s ease;
+    }
+    .onepost-tw:hover{
+        opacity: .5;
     }
     .onepost-item .onepost-text {
         padding: 0 4px;
@@ -177,7 +197,7 @@
         letter-spacing: 0;
         line-height: 17px;
     }
-    .onepost-text>span{
+    .onepost-text>a{
         color: #e500a7;
         font-weight: bold;
     }
@@ -200,7 +220,7 @@
     /*----autor-name -----*/
     .autor-name {
         font-size: 24px;
-        margin-bottom: 16px;
+        margin-bottom: 19px;
     }
     /*----/autor-name -----*/
 }
