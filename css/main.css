@@ -523,9 +523,8 @@ button img{
 .content__item{
     width: 100%;
     background-color: white;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     border: 1px solid #dedede;
-    margin-bottom: 6px;
     padding: 6.5px;
     overflow: hidden;
     line-height: 20px;
@@ -1504,11 +1503,16 @@ input.aside__subscribe:hover{
     .scrool{
         position: absolute;
         left: 50%;
-        margin-left: 500px;
+        margin-left: 400px;
         width: 79px;
         height: 79px;
         background: url("../img/icon-scroll.png") no-repeat center;
         cursor: pointer;
+        transition: opacity .3s ease;
+        -webkit-transition: opacity .3s ease;
+    }
+    .scrool:hover{
+        opacity: .7
     }
     .scrool:before,
     .scrool:after{
@@ -2259,6 +2263,12 @@ input.aside__subscribe:hover{
         margin-left: 91px;
     }
     /* -------------- /logo --------------- */
+
+    /* ------------- scrool --------------- */
+    .scrool{
+        margin-left: 500px;
+    }
+    /* ------------ /scrool --------------- */
 
     /* ------ site__content-layout -------- */
     .site__content-wrap{
