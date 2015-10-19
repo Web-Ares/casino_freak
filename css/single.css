@@ -82,9 +82,10 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     font-weight: 400;
 }
 .review-stats{
-    width: 63%;
+    width: 62%;
     display: inline-block;
     vertical-align: top;
+    margin-left: 2px;
 }
 .review-stats p{
     margin-bottom: 8px;
@@ -94,6 +95,10 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
 .votes{
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-left: 0;
+}
+.review-stats .comments__scale-line {
+     width: 56px;
 }
 .dungeons>.read_more{
     display: none;
@@ -104,8 +109,7 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
 .dragons{
     position: relative;
     border-bottom: 1px solid #dedede;
-    margin-bottom: 6px;
-    padding-bottom: 6px;
+
 }
 .dungeons-rating{
     display: inline-block;
@@ -145,14 +149,15 @@ button img{
 }
 .mobile-btn {
     position: absolute;
-    right: 11px;
-    top: 3px;
+    right: 14px;
+    top: 1px;
 }
 .single-main-pic{
     position: relative;
     width: 100%;
     margin-top: 3px;
-    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 2px;
 }
 .single-main-pic img{
     width: 100%;
@@ -172,22 +177,32 @@ button img{
         top: -5px;
     }
     /* --------------- dragons --------------- */
+    .single-main-pic {
+        margin-bottom: 12px;
+    }
     .add-your {
         font-size: 18px;
-        margin-top: 44px;
+        margin-top: 41px;
         margin-bottom: 3px;
-        margin-left: 10px;
+        margin-left: 4px;
     }
     .dungeons{
         font-size: 16px;
         width: 50%;
         float: right;
-        margin-top: 22px;
+        margin-top: 35px;
         padding-left: 21px;
         line-height: 19px;
     }
     .review-stats{
-        width: 50%;
+        width: 49%;
+        margin-top: 16px;
+    }
+    .review-stats .comments__form {
+        margin-left: 4px;
+    }
+    .review-stats .comments__form>input[type=submit] {
+       margin-top: 17px;
     }
     .review-stats p {
         display: none;
@@ -198,6 +213,10 @@ button img{
     }
     .comments__scale-title {
         width: 90px;
+        font-size: 16px;
+    }
+    .review-stats .comments__scale-line {
+        width: 115px;
     }
     .medal_single {
         margin-right: 13px;
@@ -213,6 +232,7 @@ button img{
         display: block;
         margin-bottom: 15px;
         padding-right: 11px;
+        line-height: 17px;
     }
     .dungeons-rating{
         width: 380px;
@@ -227,7 +247,7 @@ button img{
     .mobile-btn>.btn{
         width: 53px;
         height: 26px;
-        margin-top: 7px;
+        margin-top: -3px;
     }
     .mobile-btn>button{
         margin-left: 10px;
@@ -235,17 +255,16 @@ button img{
     button img{
         width: 17px;
         height: 17px;
-        top: 11.5px;
+        top: 2px;
         margin-left: -8px;
-    }
+       }
     .single-main-pic {
-        margin-bottom: 9px;
-        padding-left: 11px;
-        padding-right: 11px;
+        margin-bottom: 10px;
+        padding-left: 9px;
+        padding-right: 13px;
     }
     .dragons {
-        margin-bottom: 17px;
-        padding-bottom: 19px;
+        margin-bottom: 3px;
     }
     .scale_single {
         margin-bottom: 8px;
@@ -265,7 +284,7 @@ button img{
         margin-top: 0;
     }
     .votes{
-        margin-left: 10px;
+        margin-left: 4px;
     }
     .latest .add-your {
         margin-top: 31px;
@@ -275,7 +294,6 @@ button img{
         margin-bottom: 15px;
         padding-bottom: 20px;
     }
-
     .latest__player p {
         margin-bottom: 17px;
         display: block;
@@ -337,7 +355,13 @@ button img{
         margin-top: -1px;
     }
     .title_single{
-        width: 62%;
+        width: 70%;
+    }
+    .item-icon_cub {
+        top: -2px;
+    }
+    .all_single {
+        margin-top: -4px;
     }
    }
 /* --------------- /@media (min-width:768px) --------------- */
