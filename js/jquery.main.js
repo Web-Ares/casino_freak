@@ -10,12 +10,14 @@
 
     $(window).on({
         'resize':function(){
-            if($(window).width() > 1024) {
+            if($(window).width() > 1006) {
                 siteHeight()
+            } else {
+                $('.site__content-wrap').css('min-height','auto')
             }
         },
         'load':function(){
-            if($(window).width() > 1024) {
+            if($(window).width() > 1006) {
                 siteHeight()
             }
         }
@@ -24,6 +26,14 @@
         var elemHeight = $('.site__aside').outerHeight();
         $('.site__content-wrap').css({'min-height': elemHeight});
     }
+
+    $(".scrool-to-bottom").click( function(){
+        $("html, body").animate({ scrollTop: $(document).height() }, 600);
+    })
+
+    $(".scrool-to-top").click( function(){
+        $("html, body").animate({ scrollTop: 0 }, 500);
+    })
 
     var mobileMenu = function (obj) {
         //private properties
@@ -43,7 +53,7 @@
 
                         _windowWidth = $(window).width();
 
-                        if(_windowWidth<=1034){
+                        if(_windowWidth<=1006){
                             _obj.slideUp(300);
                             _head.removeClass('mobile-menu');
                             _openBtn.removeClass('close-menu');
