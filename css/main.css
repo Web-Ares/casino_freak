@@ -1388,7 +1388,9 @@ input.aside__subscribe:hover{
     .item-from{
         padding-bottom: 0px;
     }
-
+    .item_list{
+        padding-bottom: 21px;
+    }
     .content__item-icon{
         top: -5px;
         left: 10px;
@@ -1427,7 +1429,8 @@ input.aside__subscribe:hover{
         padding-right: 18px;
     }
     .item_blog p{
-        margin-bottom: 9px;
+        margin-bottom: 12px;
+        padding: 0 11px;
     }
     /* --------------- /content__item --------------- */
 
@@ -1688,7 +1691,7 @@ input.aside__subscribe:hover{
         font-size: 29px;
         font-weight: normal;
         padding-bottom: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 22px;
         padding-top: 0px;
         padding-bottom: 24px;
     }
@@ -1762,11 +1765,11 @@ input.aside__subscribe:hover{
     .blog-text{
         display: block;
         margin-top: -2px;
-        margin-bottom: 21px;
+        margin-bottom: 15px;
     }
     .blog-text p {
         font-size: 14px;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
     .blog-name{
         font-size: 30px;
