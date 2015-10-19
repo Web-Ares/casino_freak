@@ -48,7 +48,7 @@
 .site__header {
     position: relative;
     height: 69px;
-    margin-bottom: 5.5px;
+    margin-bottom: 10px;
     border-bottom: 2px solid #bfbfbf;
     background-color: #e500a7;
     z-index: 3;
@@ -1069,7 +1069,7 @@ input.aside__subscribe-email{
 }
 input.aside__subscribe{
     width: 125px;
-    line-height: 21px;
+    font: normal 12px/21px "Calibri", serif;
     border: none;
     color: #fff;
     background-color: #920071;
@@ -1641,6 +1641,7 @@ input.aside__subscribe:hover{
         display: inline-block;
         vertical-align: middle;
         width: 180px;
+        font-size: 18px;
         line-height: 30px;
         margin-bottom: 15px;
     }
@@ -1648,7 +1649,10 @@ input.aside__subscribe:hover{
 
     /* ------ site__footer-layout --------- */
     .site__footer-layout{
-        background-position: -45px 91%;
+        width: 730px;
+        margin: 0 auto;
+        background-position: 10px 90%;
+        background-size: auto;
         padding: 26px 0 10px;
         font-size: 14px;
     }
@@ -1656,7 +1660,9 @@ input.aside__subscribe:hover{
         margin-bottom: 207px;
     }
     .footer__navigate dl{
+        height: auto;
         margin-bottom: 33px;
+        border-bottom-color: #f06ecd;
     }
     .footer__navigate dt{
         padding:  0 25px;
@@ -1666,6 +1672,7 @@ input.aside__subscribe:hover{
     .footer__navigate dd{
         padding:  0 25px;
         line-height: 32px;
+        border-top-color: #f06ecd;
     }
     .footer__navigate dd a {
         height: auto;
@@ -1737,7 +1744,6 @@ input.aside__subscribe:hover{
         border: none;
         margin-bottom: 17px;
         padding-bottom: 0;
-
     }
     .blog-list{
         margin-top: 10px;
@@ -1756,7 +1762,6 @@ input.aside__subscribe:hover{
         border-bottom: 1px solid #dedede;
         margin-bottom: 11px;
     }
-
     .blog-games li .blog-link{
         height: 128px;
         width: 170px;
@@ -1778,7 +1783,6 @@ input.aside__subscribe:hover{
         font-size: 21px;
         line-height: 23px;
         width: 340px;
-
     }
     .blog-games li .blog-games-descr{
         font-size: 14px;
@@ -1902,6 +1906,7 @@ input.aside__subscribe:hover{
         padding-top: 4px;
      }
     /* --------------- /item_guide  --------------- */
+
     /* --------------- related guides  --------------- */
     .medal_game{
         position: absolute;
@@ -1992,6 +1997,7 @@ input.aside__subscribe:hover{
         display: inline-block;
     }
     /* --------------- /btn --------------- */
+
     /* --------------- from-blog--------------- */
     .from-blog-link{
         height: 128px;
@@ -2022,10 +2028,8 @@ input.aside__subscribe:hover{
      {
         font-size: 12px;
     }
-    .from-icon-resent{
-
-    }
     /* --------------- /from-blog--------------- */
+
     /* --------------- comments --------------- */
     .comments__scale{
         font-size: 14px;
@@ -2063,8 +2067,8 @@ input.aside__subscribe:hover{
     .comments{
         margin-bottom: 40px;
     }
-
     /* --------------- /comments --------------- */
+
     /* --------------- dragons --------------- */
     .add-your {
         font-size: 18px;
@@ -2381,6 +2385,7 @@ input.aside__subscribe:hover{
     }
     input.aside__subscribe{
         width: 100%;
+        font-size: 14px;
         line-height: 21px;
     }
     .aside-subscribe{
