@@ -2007,7 +2007,11 @@ input.aside__subscribe:hover{
     .from-blog-descr {
         padding-bottom: 20px;
     }
-    .from-blog-games-time {
+    .from-blog-descr p{
+        padding: 0;
+    }
+    .from-blog-games-tim
+     {
         font-size: 12px;
     }
     .from-icon-resent{
