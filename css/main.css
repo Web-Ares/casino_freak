@@ -958,6 +958,7 @@ button img{
 input.aside__search-text,
 input.aside__subscribe-email{
     width: 100%;
+    height: 33px;
     padding: 0 10px;
     border: 1px solid #dedede;
     background-color: #fff;
@@ -1566,6 +1567,7 @@ input.aside__subscribe:hover{
     }
     .aside-subscribe{
         width: 100%;
+        height: 158px;
     }
     .aside-subscribe h2{
         width: 220px;
@@ -2305,6 +2307,9 @@ input.aside__subscribe:hover{
     input.aside__subscribe{
         width: 100%;
         line-height: 21px;
+    }
+    .aside-subscribe{
+        height: 240px;
     }
     /* ----------- /site__aside ----------- */
 
