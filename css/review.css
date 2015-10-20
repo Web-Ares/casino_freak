@@ -207,6 +207,9 @@
 /*------/play-now-------*/
 
 /* --------------- comments --------------- */
+.show-all_none{
+    display: none;
+}
 .comments{
   position: relative;
   margin-left: 50px;
@@ -331,23 +334,22 @@
         left: -73px;
         top: 31px;
     }
-
     .comments:after {
         width: 56px;
         height: 56px;
         left: -70px;
         top: 34px;
     }
-
     .medal_comments {
         left: -56px;
         top: 45px;
     }
-
     .comments {
         margin-left: 80px;
     }
-
+    .show-all_none{
+        display: inline-block;
+    }
     /* --------------- /comments --------------- */
     /* --------------- review --------------- */
     .review_blog{
@@ -512,7 +514,7 @@
         width: 166px;
     }
     .review_guide .related__game{
-        margin-bottom: 38px;
+        margin-bottom: 41px;
     }
     .item-wrap:after{
         display: none;
