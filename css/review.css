@@ -240,6 +240,8 @@
     top: 15px;
     z-index: 3;
 }
+/* --------------- /comments --------------- */
+
 /* --------------- detail --------------- */
 .item-detail{
     padding-top: 7px;
@@ -264,7 +266,6 @@
     display: table-row;
     font-weight: bold;
 }
-
 .detail-list .list-text{
     display: table-cell;
     font-weight: normal;
@@ -293,7 +294,6 @@
     width: 16.5px;
     height: 16.5px;
 }
-
 .icon-detail{
     position: absolute;
     left: 1px;
@@ -303,7 +303,6 @@
     width: 16.5px;
     height: 16.5px;
 }
-
 .icon-sup{
     position: absolute;
     left: 1px;
@@ -314,6 +313,7 @@
     height: 16.5px;
 }
 /* --------------- /detail --------------- */
+
 /* --------------- content-review-wrap --------------- */
 .content-review-wrap{
     position: relative;
@@ -376,7 +376,6 @@
         margin: 5px auto;
         margin-bottom: 14px;
     }
-
     .rev-title {
         margin-bottom: 17px;
        padding-bottom: 17px;
@@ -483,7 +482,6 @@
         padding-top: 9px;
         padding-bottom: 7px;
     }
-
     .rev-figure-reedem .play-now {
         font-weight: bold;
         text-transform: none;

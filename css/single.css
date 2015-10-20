@@ -26,6 +26,39 @@
 .scale_blank{
     width: 0;
 }
+.mobile-btn>.btn{
+    width: 26.5px;
+    height: 13px;
+    float: right;
+}
+button img{
+    position: absolute;
+    width: 8.5px;
+    height: 8.5px;
+    top: 2px;
+    margin-left: -4px;
+}
+.mobile-btn>button{
+    margin-left: 4px;
+}
+.mobile-btn {
+    position: absolute;
+    right: 4px;
+    top: 1px;
+}
+.single-main-pic{
+    position: relative;
+    width: 100%;
+    margin-top: 3px;
+    padding-right: 4px;
+    padding-left: 2px;
+}
+.single-main-pic img{
+    width: 100%;
+}
+/* --------------- /single --------------- */
+
+/* --------------- add-your --------------- */
 .add-your{
     font-size: 10px;
     margin-top: 12px;
@@ -58,7 +91,9 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     background: url("../img/hover-radio-medal.png")no-repeat;
     background-size: contain;
 }
+/* --------------- /add-your --------------- */
 
+/* --------------- dungeons --------------- */
 .dungeons{
     font-size: 10px;
     width: 35%;
@@ -81,6 +116,9 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     padding-left: 2px;
     font-weight: 400;
 }
+/* --------------- /dungeons --------------- */
+
+/* --------------- review --------------- */
 .review-stats{
     width: 62%;
     display: inline-block;
@@ -100,6 +138,9 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
 .review-stats .comments__scale-line {
     width: 56px;
 }
+/* --------------- /review --------------- */
+
+/* --------------- dungeons --------------- */
 .dungeons>.read_more{
     display: none;
 }
@@ -125,21 +166,6 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     background: url("../img/votes-medal.jpg") repeat-x;
     background-size: contain;
 }
-.mobile-btn>.btn{
-    width: 26.5px;
-    height: 13px;
-    float: right;
-}
-button img{
-    position: absolute;
-    width: 8.5px;
-    height: 8.5px;
-    top: 2px;
-    margin-left: -4px;
-}
-.mobile-btn>button{
-    margin-left: 4px;
-}
 .dungeons-rating-number{
     display: block;
     font-size: 10px;
@@ -147,22 +173,8 @@ button img{
     vertical-align: middle;
     margin-top: 2px;
 }
-.mobile-btn {
-    position: absolute;
-    right: 4px;
-    top: 1px;
-}
-.single-main-pic{
-    position: relative;
-    width: 100%;
-    margin-top: 3px;
-    padding-right: 4px;
-    padding-left: 2px;
-}
-.single-main-pic img{
-    width: 100%;
-}
-/* --------------- /single --------------- */
+/* --------------- /dungeons --------------- */
+
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px) {
     input[type="radio"] + label > .add-your__rating_medal {

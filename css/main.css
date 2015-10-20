@@ -152,12 +152,11 @@ a:hover {
 }
 .latest .votes {
     margin-top: -3px;
-    margin-left: 5px;
 }
 
 .latest .add-your {
     margin-top: 14px;
-    margin-left: 5px;
+
 }
 .all_reviews{
     display: none;
@@ -890,6 +889,7 @@ button img{
     background: #e500a7;
     z-index: 2;
     overflow: hidden;
+    cursor: default;
 }
 .hover-game__bg:after{
     content: "";
