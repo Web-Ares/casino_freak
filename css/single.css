@@ -98,7 +98,7 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     margin-left: 0;
 }
 .review-stats .comments__scale-line {
-     width: 56px;
+    width: 56px;
 }
 .dungeons>.read_more{
     display: none;
@@ -149,7 +149,7 @@ button img{
 }
 .mobile-btn {
     position: absolute;
-    right: 14px;
+    right: 4px;
     top: 1px;
 }
 .single-main-pic{
@@ -166,8 +166,8 @@ button img{
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px) {
     input[type="radio"] + label > .add-your__rating_medal {
-       width: 29px;
-       height: 36px;
+        width: 29px;
+        height: 36px;
         margin-left: 11px;
     }
     input[type="radio"]:checked + label > .add-your__rating-checked {
@@ -202,7 +202,7 @@ button img{
         margin-left: 4px;
     }
     .review-stats .comments__form>input[type=submit] {
-       margin-top: 17px;
+        margin-top: 17px;
     }
     .review-stats p {
         display: none;
@@ -224,7 +224,7 @@ button img{
     .dungeons__characteristics li {
         width: 49%;
         display: inline-block;
-}
+    }
     .dungeons>.read_more{
         display: block;
     }
@@ -252,12 +252,17 @@ button img{
     .mobile-btn>button{
         margin-left: 10px;
     }
+    .mobile-btn {
+        position: absolute;
+        right: 13px;
+        top: 1px;
+    }
     button img{
         width: 17px;
         height: 17px;
         top: 2px;
         margin-left: -8px;
-       }
+    }
     .single-main-pic {
         margin-bottom: 10px;
         padding-left: 9px;
@@ -363,5 +368,5 @@ button img{
     .all_single {
         margin-top: -4px;
     }
-   }
+}
 /* --------------- /@media (min-width:768px) --------------- */

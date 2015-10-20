@@ -93,6 +93,7 @@ a:hover {
 .btn_play{
     width: 40px;
     height: 17px;
+    line-height: 17px;
 }
 .btn_post{
     font-size: 10px;
@@ -652,13 +653,15 @@ button img{
 .item__table-row{
     display:block;
     width: 100%;
-    border-bottom: 1px solid #F2F2F2;
     margin-top: 6px;
     padding-bottom: 2px;
     padding-left: 6px;
     line-height: 12px;
 }
-.item__table li:last-child{
+.item__table>li{
+    border-bottom: 1px solid #F2F2F2;
+}
+.item__table>li:last-child{
     border: none;
 }
 .table-title{
