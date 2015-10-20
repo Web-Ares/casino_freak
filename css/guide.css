@@ -73,6 +73,10 @@
 /* --------------- /guide_page__contents --------------- */
 
 /* --------------- Comments --------------- */
+.comments_title {
+    padding-bottom: 3px;
+    margin-bottom: -4px;
+}
 .comments-issue{
     color: #cb9652;
     font-weight: bold;
@@ -175,7 +179,7 @@
     width: 111px;
     height: 18px;
     margin-top: 9px;
-    line-height: 10px;
+    line-height: 18px;
     background-color:#e500a7;
 }
 .comments__form>input[type=submit]:hover {
@@ -198,8 +202,12 @@
 
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px){
+    .item_guide-related{
+        margin-bottom: 14px;
+        padding-bottom: 23px;
+    }
     .comments-box{
-        padding-left: 10px;
+        padding-left: 8px;
         padding-right: 5px;
     }
     /* --------------- item_guide --------------- */
@@ -285,6 +293,10 @@
     /* --------------- /comments_form --------------- */
 
     /* --------------- comments --------------- */
+    .comments_title {
+        margin-bottom: 10px;
+        padding-bottom: 23px;
+    }
     .comments__scale{
         font-size: 14px;
         line-height: 34px;
