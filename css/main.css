@@ -552,6 +552,10 @@ button img{
     width: 16.5px;
     height: 16.5px;
 }
+.item-icon_freak{
+    background: url('../img/icon-freak.png') no-repeat center;
+    background-size: contain;
+}
 .item-icon__comments{
     position: absolute;
     left: 1px;
