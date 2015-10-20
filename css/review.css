@@ -687,9 +687,9 @@
         content: "";
         position: absolute;
         width: 1px;
-        top: -66px;
+        top: -70px;
         left: -12px;
-        height: 326px;
+        height: 335px;
         background-color: #dedede;
     }
     /*-------- /detail--------*/
@@ -727,7 +727,7 @@
     .show-rev{
         display: inline-block;
         position: absolute;
-        top: 0;
+        top: -10px;
         right: -2px;
     }
     .review-flag{

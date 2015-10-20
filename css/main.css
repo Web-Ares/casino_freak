@@ -1755,6 +1755,9 @@ input.aside__subscribe:hover{
         padding-top: 0;
         padding-bottom: 24px;
     }
+    .review-title{
+        padding-bottom: 17px;
+    }
     .blog-resent{
         top: 3px;
         margin-bottom: 17px;
