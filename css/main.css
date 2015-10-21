@@ -120,22 +120,17 @@ a:hover {
     padding-bottom: 7px;
 }
 .majestic .dragons {
+    vertical-align: middle;
     position: relative;
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 0;
     display: inline-block;
-    vertical-align: middle;
     margin-left: 21px;
-    width: 74%;
-    margin-top: 9px;
+    width: 70%;
 }
 .majestic .dungeons-rating-number {
     margin-top: 4px;
-}
-.majestic .dragons {
-    vertical-align: top;
-    padding-left: 70px;
 }
 .majestic__slots {
     width: 62px;
@@ -157,7 +152,6 @@ a:hover {
 .latest .votes {
     margin-top: -3px;
 }
-
 .latest .add-your {
     margin-top: 14px;
 
@@ -2187,7 +2181,7 @@ input.aside__subscribe:hover{
     ul.add-your__rating li {
         margin-left: 2px;
     }
-    /* --------------- /dragons --------------- */
+     /* --------------- /dragons --------------- */
 
     /* --------------- latest --------------- */
     .latest__player{
@@ -2242,11 +2236,12 @@ input.aside__subscribe:hover{
     }
     .majestic .dragons {
         vertical-align: top;
-        padding-left: 56px;
-        margin-top: 2px;
+        padding-left: 68px;
+        margin-top: -4px;
         font-size: 18px;
         margin-left: 0px;
-    }
+        width: 74%;
+      }
     .majestic .dungeons-rating-number {
         font-weight: 700;
         display: inline-block;
