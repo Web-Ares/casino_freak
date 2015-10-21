@@ -1458,8 +1458,9 @@ input.aside__subscribe:hover{
         width: 33px;
         height: 33px;
     }
-    .content__item-icon_table{
+    .content__item-icon_table {
         left: 18px;
+        top: -9px;
     }
     .content__item-name{
         font-size: 24px;
@@ -1478,7 +1479,7 @@ input.aside__subscribe:hover{
     .guide_comments {
         padding-bottom: 18px;
         margin-bottom: 21px;
-        padding-top: 4px;
+        padding-top: 2px;
     }
     .show-all a{
         font-size: 14px;
@@ -1930,8 +1931,7 @@ input.aside__subscribe:hover{
     }
     .mobile_title {
         width: 84%;
-        padding-top: 4px;
-     }
+            }
     /* --------------- /item_guide  --------------- */
     /* --------------- related guides  --------------- */
     .medal_game{

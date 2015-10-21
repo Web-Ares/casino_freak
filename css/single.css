@@ -375,7 +375,7 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
         width: 70%;
     }
     .item-icon_cub {
-        top: -2px;
+        top: -5px;
     }
     .all_single {
         margin-top: -4px;
