@@ -127,11 +127,15 @@ a:hover {
     display: inline-block;
     vertical-align: middle;
     margin-left: 21px;
-    width: 70%;
+    width: 74%;
     margin-top: 9px;
 }
 .majestic .dungeons-rating-number {
     margin-top: 4px;
+}
+.majestic .dragons {
+    vertical-align: top;
+    padding-left: 70px;
 }
 .majestic__slots {
     width: 62px;
@@ -1458,6 +1462,12 @@ input.aside__subscribe:hover{
         width: 33px;
         height: 33px;
     }
+    .item-icon__arrow {
+        position: absolute;
+        top: 0px;}
+    .item-icon__comments {
+        top:-4px;
+    }
     .content__item-icon_table {
         left: 18px;
         top: -9px;
@@ -1477,7 +1487,7 @@ input.aside__subscribe:hover{
         margin-bottom: 12px;
     }
     .guide_comments {
-        padding-bottom: 18px;
+        padding-bottom: 20px;
         margin-bottom: 21px;
         padding-top: 2px;
     }

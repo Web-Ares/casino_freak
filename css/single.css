@@ -189,9 +189,6 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
         top: -5px;
     }
     /* --------------- dragons --------------- */
-    .single-main-pic {
-        margin-bottom: 12px;
-    }
     .add-your {
         font-size: 18px;
         margin-top: 41px;
@@ -289,7 +286,7 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     ul.add-your__rating li {
         margin-left: 2px;
     }
-    /* --------------- /dragons --------------- */
+       /* --------------- /dragons --------------- */
 
     /* --------------- latest --------------- */
     .latest__player{
@@ -362,7 +359,7 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     .single_comments{
         padding-bottom: 26px;
         margin-bottom: 22px;
-        padding-top: 4px;
+        padding-top: 7px;
         font-size: 30px;
     }
     .casinos-quantity{
@@ -375,7 +372,10 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
         width: 70%;
     }
     .item-icon_cub {
-        top: -5px;
+        top: -4px;
+    }
+    .item-icon_single{
+        top:1px;
     }
     .all_single {
         margin-top: -4px;
