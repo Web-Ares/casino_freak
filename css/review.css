@@ -208,6 +208,11 @@
 /*------/play-now-------*/
 
 /* --------------- comments --------------- */
+.text-cut{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 63px;
+}
 .show-all_none{
     display: none;
 }
@@ -328,23 +333,25 @@
 
 /* --------------- @media (min-width:768px) --------------- */
 @media (min-width:768px) {
-
+    .text-cut {
+       max-height: 100%;
+    }
     /* --------------- comments --------------- */
     .comments:before {
         width: 60px;
         height: 60px;
-        left: -73px;
-        top: 31px;
+        left: -70px;
+        top: -1px;
     }
     .comments:after {
         width: 56px;
         height: 56px;
-        left: -70px;
-        top: 34px;
+        left: -67px;
+        top: 2px;
     }
     .medal_comments {
-        left: -56px;
-        top: 45px;
+        left: -54px;
+        top: 14px;
     }
     .comments {
         margin-left: 80px;
