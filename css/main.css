@@ -1652,10 +1652,12 @@ input.aside__subscribe:hover{
         padding: 12px 14px 0;
         line-height: 20px;
         padding-bottom: 25px;
+        text-align: left;
     }
     .aside__item-subscribe p{
-        font-size: 14px;
+        margin-right: 5px;
         margin-bottom: 15px;
+        font-size: 14px;
     }
     input.aside__subscribe-email{
         display: inline-block;
