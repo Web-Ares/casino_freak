@@ -211,7 +211,7 @@
 .text-cut{
     text-overflow: ellipsis;
     overflow: hidden;
-    max-height: 63px;
+    max-height: 60px;
 }
 .show-all_none{
     display: none;
