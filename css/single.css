@@ -302,7 +302,7 @@ input[type="radio"]:checked + label > .add-your__rating-checked {
     }
     .latest .add-your {
         margin-top: 31px;
-        margin-left: 10px;
+        margin-left: 4px;
     }
     .majestic{
         margin-bottom: 15px;
