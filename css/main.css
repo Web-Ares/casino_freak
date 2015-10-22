@@ -586,6 +586,7 @@ button img{
 .show-all a{
     color: #e500a7;
 }
+
 .show-all a:hover{
     text-decoration: underline;
 }
@@ -1493,6 +1494,7 @@ input.aside__subscribe:hover{
         line-height: 40px;
         padding-right: 18px;
     }
+
     .item_blog p{
         margin-bottom: 12px;
         padding: 0 11px;
@@ -1742,6 +1744,12 @@ input.aside__subscribe:hover{
         top: -6px;
         right: 9px;
     }
+    .show-game{
+        display: inline-block;
+        position: absolute;
+        right: 13px;
+        top: -9px;
+    }
     /* --------show-blog-------- */
 
     /* --------item-blog-------- */
@@ -1772,7 +1780,6 @@ input.aside__subscribe:hover{
         border: none;
         margin-bottom: 17px;
         padding-bottom: 0;
-
     }
     .blog-list{
         margin-top: 10px;
