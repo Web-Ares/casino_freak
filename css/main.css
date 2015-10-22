@@ -555,6 +555,10 @@ button img{
     background: url('../img/icon-freak.png') no-repeat center;
     background-size: contain;
 }
+.item-icon_new{
+    background: url('../img/iconnew.png') no-repeat center;
+    background-size: contain;
+}
 .item-icon__comments{
     position: absolute;
     left: 1px;
@@ -1487,7 +1491,7 @@ input.aside__subscribe:hover{
     .show-all a{
         font-size: 14px;
         line-height: 34px;
-    }
+            }
     .show-all {
         float: right;
         line-height: 40px;
